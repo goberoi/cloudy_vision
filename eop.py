@@ -45,7 +45,7 @@ def call_vendors_for_all_images():
 
                     log_status(filepath, vendor, "success, storing result in %s" % output_json_path)
                     with open(output_json_path, 'w') as outfile:
-                        json.dump(api_result, outfile)
+                        outfile.write(api_result)
 
                     time.sleep(1)
 

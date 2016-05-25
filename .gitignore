@@ -1,6 +1,6 @@
 *~
 *.DS_Store
 client_keys.json
-input_images
+input_images*
 __pycache__
 output
