@@ -6,12 +6,14 @@ import requests
 def _convert_image_to_base64(image_filename):
     with open(image_filename, 'rb') as image_file:
         encoded_string = base64.b64encode(image_file.read()).decode()
+
     return encoded_string
 
 def call_vision_api(image_filename, api_keys):
+    api_key = api_keys['google']
+    post_url = "https://vision.googleapis.com/v1/images:annotate?key=" + api_key
+
     base64_image = _convert_image_to_base64(image_filename)
-    google_api_key = api_keys['google']
-    post_url = "https://vision.googleapis.com/v1/images:annotate?key=" + google_api_key
 
     post_payload = {
       "requests": [
