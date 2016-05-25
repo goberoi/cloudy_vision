@@ -1,3 +1,5 @@
-input-images
 *~
 *.DS_Store
+client_keys.json
+input_images
+__pycache__
