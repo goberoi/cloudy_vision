@@ -25,9 +25,9 @@ with open('api_keys.json') as data_file: api_keys = json.load(data_file)
 
 def log_status(filepath, vendor, msg):
     filename = os.path.basename(filepath)
-    print("%s -> %s" % ((filename + ", " + get_vendor_name(vendor)).ljust(40), msg))
+    print("%s -> %s" % ((filename + ", " + vendor_name(vendor)).ljust(40), msg))
 
-def get_vendor_name(vendor_package_name):
+def vendor_name(vendor_package_name):
     return vendor_package_name.__name__.split(".")[1]
 
 def call_vendors_for_all_images():
@@ -35,7 +35,7 @@ def call_vendors_for_all_images():
         filepath = os.path.join(input_images_dir, filename)
         if filepath.endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp')):
             for vendor in vendor_list:
-                output_json_path = os.path.join(output_dir, os.path.splitext(filename)[0] + "." + get_vendor_name(vendor) + ".json")
+                output_json_path = os.path.join(output_dir, filename + "." + vendor_name(vendor) + ".json")
 
                 if os.path.isfile(output_json_path):
                     log_status(filepath, vendor, "skipping, already cached")
