@@ -1,6 +1,6 @@
 
 import base64
-import simplejson as json
+import json
 import requests
 
 def _convert_image_to_base64(image_filename):
@@ -52,3 +52,12 @@ def call_vision_api(image_filename, api_keys):
 
     return result.text
 
+# Return array of dicts, each with keys 'name' and 'score'.
+def get_tags_from_api_result(api_result):
+    tags = []
+    for annotation in api_result['responses'][0]['labelAnnotations']:
+      tags.append({ 
+        'name' : annotation['description'],
+        'score' : annotation['score']
+        })
+    return tags

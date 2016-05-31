@@ -1,6 +1,6 @@
 
 import base64
-import simplejson as json
+import json
 import requests
 
 def call_vision_api(image_filename, api_keys):
@@ -13,3 +13,11 @@ def call_vision_api(image_filename, api_keys):
 
     return result.text
 
+def get_tags_from_api_result(api_result):
+    tags = []
+    for tag_data in api_result['tags']:
+        tags.append({ 
+            'name' : tag_data['name'],
+          'score' : tag_data['confidence']
+        })
+    return tags
