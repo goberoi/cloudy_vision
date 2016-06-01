@@ -1,0 +1,29 @@
+<html>
+
+<body>
+
+{% for image_result in image_results %}
+  <div class='image_result'>
+
+    <div class='image'>
+      <img src='{{ image_result['output_image_filepath'] }}'>
+    </div>
+
+    {% for vendor in image_result['vendors'] %}
+      <div class='vendor_name'>
+        {{ vendor['vendor_name'] }}
+      </div>
+
+      <ul class='tags'>
+      {% for tag in vendor['tags'] %}
+        <li>{{ tag['name'] }} ({{ '%0.2f' % tag['score'] }})</li>
+      {% endfor %}      
+      </ul>
+    {% endfor %}
+
+  </div>
+{% endfor %}
+
+</body>
+
+</html>
