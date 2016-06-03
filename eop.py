@@ -3,6 +3,7 @@ from jinja2 import FileSystemLoader, Environment
 import json
 import numpy
 import os
+import shutil
 import time
 import vendors.google
 import vendors.microsoft
@@ -21,7 +22,8 @@ def settings(name):
             'api_keys_filepath' : './api_keys.json',
             'input_images_dir' : 'input_images',
             'output_dir' : 'output',
-            'output_image_height' : 100,
+            'static_dir' : 'static',
+            'output_image_height' : 200,
             'vendors' : {
                 'google' : vendors.google,
                 'microsoft' : vendors.microsoft
@@ -129,12 +131,18 @@ def process_all_images():
 
 
     # Render HTML file with all results.
-    output_html = render_from_template('.', 'template.html', image_results=image_results)
+    output_html = render_from_template('.', os.path.join(settings('static_dir'), 'template.html'), image_results=image_results)
     
-    # Write output.
+    # Write HTML output.
     output_html_filepath = os.path.join(settings('output_dir'), 'output.html')
     with open(output_html_filepath, 'w') as output_html_file:
         output_html_file.write(output_html)
+
+    # Copy over CSS file.
+    shutil.copyfile(os.path.join(settings('static_dir'), 'pure-min.css'),
+                    os.path.join(settings('output_dir'), 'pure-min.css'))
+
+    print(cv2.__version__)
        
 if __name__ == "__main__":
     process_all_images()
