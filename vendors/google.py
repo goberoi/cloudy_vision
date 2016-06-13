@@ -61,3 +61,21 @@ def get_tags_from_api_result(api_result):
         'score' : annotation['score']
         })
     return tags
+
+
+def get_standardized_result(api_result):
+    output = {
+        'tags' : {},
+    }
+
+    api_result = api_result['responses'][0]
+
+    for tag in api_result['labelAnnotations']:
+        output['tags'][tag['description']] = tag['score']
+
+    if 'logoAnnotations' in api_result:
+        output['logo_annotations'] = {}
+        for annotation in api_result['logoAnnotations']:
+            output['logo_annotations'][annotation['description']] = annotation['score']
+
+    return output

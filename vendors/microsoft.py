@@ -13,6 +13,7 @@ def call_vision_api(image_filename, api_keys):
 
     return result.text
 
+
 def get_tags_from_api_result(api_result):
     tags = []
     for tag_data in api_result['tags']:
@@ -21,3 +22,32 @@ def get_tags_from_api_result(api_result):
           'score' : tag_data['confidence']
         })
     return tags
+
+
+def get_standardized_result(api_result):
+    output = {
+        'tags' : {},
+        'categories' : {},
+        'adult' : {},
+        'captions' : {},
+        'image_types' : {}
+#        'tags_without_score' : {}
+    }
+
+    for tag_data in api_result['tags']:
+        output['tags'][tag_data['name']] = tag_data['confidence']
+
+    for category in api_result['categories']:
+        output['categories'][category['name']] = category['score']
+
+    output['adult'] = api_result['adult']
+
+    for caption in api_result['description']['captions']:
+        output['captions'][caption['text']] = caption['confidence']
+
+#    for tag in api_result['description']['tags']:
+#        output['tags_without_score'][tag] = 'n/a'
+
+    output['image_types'] = api_result['imageType']
+
+    return output

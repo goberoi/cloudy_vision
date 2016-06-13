@@ -3,6 +3,7 @@ from jinja2 import FileSystemLoader, Environment
 import json
 import numpy
 import os
+import pprint
 import shutil
 import time
 import vendors.google
@@ -123,10 +124,11 @@ def process_all_images():
             output_image_filepath = os.path.join(settings('output_dir'), filename)
             resize_and_save(filepath, output_image_filepath)
             
+            standardized_result = vendor_module.get_standardized_result(api_result)
             image_result['vendors'].append({
                 'api_result' : api_result,
                 'vendor_name' : vendor_name,
-                'tags' : vendor_module.get_tags_from_api_result(api_result)
+                'standardized_result' : standardized_result
             })
 
 
@@ -142,7 +144,6 @@ def process_all_images():
     shutil.copyfile(os.path.join(settings('static_dir'), 'pure-min.css'),
                     os.path.join(settings('output_dir'), 'pure-min.css'))
 
-    print(cv2.__version__)
        
 if __name__ == "__main__":
     process_all_images()

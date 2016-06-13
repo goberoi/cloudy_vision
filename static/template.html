@@ -9,28 +9,40 @@
 </head>
 <body>
 
+<div class="pure-g">
 {% for image_result in image_results %}
-  <div class='image_result'>
+<div class="pure-u-1-4 image-result">
 
-    <div class='image'>
+    <div class="image">
       <img src='{{ image_result['output_image_filepath'] }}'>
     </div>
 
     {% for vendor in image_result['vendors'] %}
+
       <div class='vendor_name'>
         {{ vendor['vendor_name'] }}
       </div>
 
-      <ul class='tags'>
-      {% for tag in vendor['tags'] %}
-        <li>{{ tag['name'] }} ({{ '%0.2f' % tag['score'] }})</li>
-      {% endfor %}      
-      </ul>
+      {% for feature_name, feature_dict in vendor['standardized_result'].iteritems() %}
+
+      <div class='feature_name'>
+        {{ feature_name }}
+      </div>
+        <ul class='feature'>
+        {% for key, value in feature_dict.iteritems() %}
+          <li>{{ key }} ({{ value }})</li>
+        {% endfor %}      
+        </ul>
+
+      {% endfor %}
+
     {% endfor %}
 
   </div>
 {% endfor %}
+</div>
 
 </body>
 
 </html>
+
