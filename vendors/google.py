@@ -60,8 +60,11 @@ def get_standardized_result(api_result):
 
     api_result = api_result['responses'][0]
 
-    for tag in api_result['labelAnnotations']:
-        output['tags'].append((tag['description'], tag['score']))
+    if 'labelAnnotations' in api_result:
+        for tag in api_result['labelAnnotations']:
+            output['tags'].append((tag['description'], tag['score']))
+    else:
+        output['tags'].append(('none found', None))
 
     if 'logoAnnotations' in api_result:
         output['logo_tags'] = []

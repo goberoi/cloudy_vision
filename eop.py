@@ -51,12 +51,12 @@ def resize_and_save(input_image_filepath, output_image_filepath):
     width = image.shape[1]
     aspect_ratio = float(width) / float(height)
 
-    print("%s : width %i, height %i, aspect_ratio %f" % (input_image_filepath, width, height, aspect_ratio))
+#    print("%s : width %i, height %i, aspect_ratio %f" % (input_image_filepath, width, height, aspect_ratio))
     
     new_height = settings('output_image_height')
     new_width = int(aspect_ratio * new_height)
 
-    print("%s : new_width %i, new_height %i" % (input_image_filepath, new_width, new_height))
+#    print("%s : new_width %i, new_height %i" % (input_image_filepath, new_width, new_height))
 
     output_image = cv2.resize(image, (new_width, new_height))
     cv2.imwrite(output_image_filepath, output_image)
@@ -72,6 +72,10 @@ def render_from_template(directory, template_name, **kwargs):
 def process_all_images():
 
     image_results = []
+
+    # Create the output directory
+    if not os.path.exists(settings('output_dir')):
+        os.makedirs(settings('output_dir'))
 
     # Loop through all input images.
     for filename in os.listdir(settings('input_images_dir')):
@@ -97,6 +101,9 @@ def process_all_images():
             # Figure out filename to store and retrive cached JSON results.
             output_json_path = os.path.join(settings('output_dir'), filename + "." + vendor_name + ".json")
 
+            # And where to store the output image
+            output_image_filepath = os.path.join(settings('output_dir'), filename)
+
             # Check if the call is already cached.
             if os.path.isfile(output_json_path):
 
@@ -116,15 +123,16 @@ def process_all_images():
                 with open(output_json_path, 'w') as outfile:
                     outfile.write(raw_api_result)
 
+                # Resize the original image and write to an output filename
+                log_status(filepath, vendor_name, "writing output image in %s" % output_image_filepath)
+                resize_and_save(filepath, output_image_filepath)
+
                 # Sleep so we avoid hitting throttling limits
                 time.sleep(1)
 
             # Parse the JSON result we fetched (via API call or from cache)
             api_result = json.loads(raw_api_result)
 
-            output_image_filepath = os.path.join(settings('output_dir'), filename)
-            resize_and_save(filepath, output_image_filepath)
-            
             standardized_result = vendor_module.get_standardized_result(api_result)
             image_result['vendors'].append({
                 'api_result' : api_result,
