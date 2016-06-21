@@ -1,48 +1,58 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Test the image tagging capabilities of different computer vision API vendors.">
-    <title>Eye of Providence Output</title>
-    <link rel="stylesheet" href="./pure-min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Test the image tagging capabilities of different computer vision API vendors.">
+  <title>Eye of Providence Output</title>
+  <link rel="stylesheet" href="../static/normalize.css">
+  <link rel="stylesheet" href="../static/skeleton.css">
+  <link rel="stylesheet" href="../static/site.css">
 </head>
+
 <body>
+  <div class="container">
 
-<div class="pure-g">
-{% for image_result in image_results %}
-<div class="pure-u-1-4 image-result">
+    {% for image_result in image_results %}
+    <div class="row">
 
-    <div class="image">
-      <img src='{{ image_result['output_image_filepath'] }}'>
+      <div class="three columns image">
+        <img class="u-max-full-width" src='{{ image_result['output_image_filepath'] }}'>
+      </div>
+
+      <div class="eight columns result">
+
+        <table class="u-full-width">
+        {% for vendor in image_result['vendors'] %}
+          {% for feature_name, feature_results in vendor['standardized_result'].iteritems() %}    
+          <tr>
+            <td class="result_name">
+              {{ vendor['vendor_name'] }}_{{ feature_name }}
+            </td>
+            <td class="result_values">
+              {% for result in feature_results %}
+                {{ result[0] }}
+                {% if result[1] is not none %}
+                  <span class="score">({{ ("%.2f" % result[1]).lstrip('0') }})</span>
+                {% endif %}
+                {% if not loop.last %}
+                  ,
+                {% endif %}
+              {% endfor %}
+            </td>
+          </tr>
+          {% endfor %}
+        {% endfor %}
+        </table>
+
+      </div>
+
     </div>
 
-    {% for vendor in image_result['vendors'] %}
-
-      <div class='vendor_name'>
-        {{ vendor['vendor_name'] }}
-      </div>
-
-      {% for feature_name, feature_dict in vendor['standardized_result'].iteritems() %}
-
-      <div class='feature_name'>
-        {{ feature_name }}
-      </div>
-        <ul class='feature'>
-        {% for key, value in feature_dict.iteritems() %}
-          <li>{{ key }} ({{ value }})</li>
-        {% endfor %}      
-        </ul>
-
-      {% endfor %}
-
+    <hr>
     {% endfor %}
 
   </div>
-{% endfor %}
-</div>
-
 </body>
 
 </html>
-

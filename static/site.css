@@ -1,0 +1,27 @@
+
+
+.container {
+    max-width: 1600px;
+}
+
+.score {
+    font-size: 70%;
+    color: #777777;
+}
+
+.result_name {
+    font-weight: bold;
+}
+
+table {
+    margin-bottom: 0;
+}
+
+td {
+    border: 0;
+    vertical-align: top;
+}
+
+hr {
+    margin: 10px;
+}

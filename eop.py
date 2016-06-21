@@ -8,6 +8,7 @@ import shutil
 import time
 import vendors.google
 import vendors.microsoft
+import vendors.clarifai_
 
 
 SETTINGS = None
@@ -27,7 +28,8 @@ def settings(name):
             'output_image_height' : 200,
             'vendors' : {
                 'google' : vendors.google,
-                'microsoft' : vendors.microsoft
+                'msft' : vendors.microsoft,
+                'clarifai' : vendors.clarifai_
             }
         }
 
@@ -119,7 +121,6 @@ def process_all_images():
 
             # Parse the JSON result we fetched (via API call or from cache)
             api_result = json.loads(raw_api_result)
-            log_status(filepath, vendor_name, "extracted tags %s" % vendor_module.get_tags_from_api_result(api_result))
 
             output_image_filepath = os.path.join(settings('output_dir'), filename)
             resize_and_save(filepath, output_image_filepath)
@@ -141,9 +142,11 @@ def process_all_images():
         output_html_file.write(output_html)
 
     # Copy over CSS file.
-    shutil.copyfile(os.path.join(settings('static_dir'), 'pure-min.css'),
-                    os.path.join(settings('output_dir'), 'pure-min.css'))
+#    shutil.copyfile(os.path.join(settings('static_dir'), 'pure-min.css'),
+#                    os.path.join(settings('output_dir'), 'pure-min.css'))
 
        
 if __name__ == "__main__":
     process_all_images()
+#    print vendors.clarifai_.get_acces_token(settings('api_keys'))
+

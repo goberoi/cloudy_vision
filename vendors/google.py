@@ -1,4 +1,3 @@
-
 import base64
 import json
 import requests
@@ -52,30 +51,21 @@ def call_vision_api(image_filename, api_keys):
 
     return result.text
 
-# Return array of dicts, each with keys 'name' and 'score'.
-def get_tags_from_api_result(api_result):
-    tags = []
-    for annotation in api_result['responses'][0]['labelAnnotations']:
-      tags.append({ 
-        'name' : annotation['description'],
-        'score' : annotation['score']
-        })
-    return tags
 
-
+# See this function in microsoft.py for docs.
 def get_standardized_result(api_result):
     output = {
-        'tags' : {},
+        'tags' : [],
     }
 
     api_result = api_result['responses'][0]
 
     for tag in api_result['labelAnnotations']:
-        output['tags'][tag['description']] = tag['score']
+        output['tags'].append((tag['description'], tag['score']))
 
     if 'logoAnnotations' in api_result:
-        output['logo_annotations'] = {}
+        output['logo_tags'] = []
         for annotation in api_result['logoAnnotations']:
-            output['logo_annotations'][annotation['description']] = annotation['score']
+            output['logo_tags'].append((annotation['description'], annotation['score']))
 
     return output

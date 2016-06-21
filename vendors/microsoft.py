@@ -1,4 +1,3 @@
-
 import base64
 import json
 import requests
@@ -13,41 +12,45 @@ def call_vision_api(image_filename, api_keys):
 
     return result.text
 
-
-def get_tags_from_api_result(api_result):
-    tags = []
-    for tag_data in api_result['tags']:
-        tags.append({ 
-            'name' : tag_data['name'],
-          'score' : tag_data['confidence']
-        })
-    return tags
-
-
+# Return a dictionary of features to their scored values (represented as lists of tuples).
+# Scored values must be sorted in descending order.
+#
+# { 
+#    'feature_1' : [(element, score), ...],
+#    'feature_2' : ...
+# }
+#
+# E.g.,
+#
+# { 
+#    'tags' : [('throne', 0.95), ('swords', 0.84)],
+#    'description' : [('A throne made of pointy objects', 0.73)]
+# }
+#
 def get_standardized_result(api_result):
     output = {
-        'tags' : {},
-        'categories' : {},
-        'adult' : {},
-        'captions' : {},
-        'image_types' : {}
+        'tags' : [],
+        'captions' : [],
+#        'categories' : [],
+#        'adult' : [],
+#        'image_types' : []
 #        'tags_without_score' : {}
     }
 
     for tag_data in api_result['tags']:
-        output['tags'][tag_data['name']] = tag_data['confidence']
-
-    for category in api_result['categories']:
-        output['categories'][category['name']] = category['score']
-
-    output['adult'] = api_result['adult']
+        output['tags'].append((tag_data['name'], tag_data['confidence']))
 
     for caption in api_result['description']['captions']:
-        output['captions'][caption['text']] = caption['confidence']
+        output['captions'].append((caption['text'], caption['confidence']))
+
+#    for category in api_result['categories']:
+#        output['categories'].append(([category['name'], category['score']))
+
+#    output['adult'] = api_result['adult']
 
 #    for tag in api_result['description']['tags']:
 #        output['tags_without_score'][tag] = 'n/a'
 
-    output['image_types'] = api_result['imageType']
+#    output['image_types'] = api_result['imageType']
 
     return output
