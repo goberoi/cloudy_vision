@@ -17,6 +17,7 @@
     <div class="row">
 
       <div class="three columns image">
+        <h2 class="image_name">{{ image_result['output_image_filepath'] }}</h2>
         <a href="../{{ image_result['input_image_filepath'] }}">
           <img class="u-max-full-width" src='{{ image_result['output_image_filepath'] }}'>
         </a>
@@ -26,6 +27,14 @@
 
         <table class="u-full-width">
         {% for vendor in image_result['vendors'] %}
+          <tr class="raw_json">
+            <td class="result_name">
+              {{ vendor['vendor_name'] }}
+            </td>
+            <td class="result_values">
+              <a class="view_json" href="#">View raw json</a>
+            </td>
+          </tr>
           {% for feature_name, feature_results in vendor['standardized_result'].iteritems() %}    
           <tr>
             <td class="result_name">

@@ -18,10 +18,29 @@ table {
 }
 
 td {
-    border: 0;
+    border-bottom: 0;
     vertical-align: top;
 }
 
-hr {
-    margin: 10px;
+tr.raw_json td {
+    border-top: solid 1px #e1e1e1;
 }
+
+tr:first-child td {
+    border-top: 0;
+}
+
+hr {
+    margin: 20px 0;
+    border-top: solid 1px #c1c1c1;
+}
+
+h2.image_name {
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+a.view_json {
+    font-size: 80%;
+}
+
