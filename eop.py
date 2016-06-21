@@ -99,7 +99,8 @@ def process_all_images():
         for vendor_name, vendor_module in settings('vendors').iteritems():
 
             # Figure out filename to store and retrive cached JSON results.
-            output_json_path = os.path.join(settings('output_dir'), filename + "." + vendor_name + ".json")
+            output_json_filename = filename + "." + vendor_name + ".json"
+            output_json_path = os.path.join(settings('output_dir'), output_json_filename)
 
             # And where to store the output image
             output_image_filepath = os.path.join(settings('output_dir'), filename)
@@ -137,7 +138,8 @@ def process_all_images():
             image_result['vendors'].append({
                 'api_result' : api_result,
                 'vendor_name' : vendor_name,
-                'standardized_result' : standardized_result
+                'standardized_result' : standardized_result,
+                'output_json_filename' : output_json_filename
             })
 
 

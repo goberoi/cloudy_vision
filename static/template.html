@@ -32,7 +32,7 @@
               {{ vendor['vendor_name'] }}
             </td>
             <td class="result_values">
-              <a class="view_json" href="#">View raw json</a>
+              <a class="view_json" href=" {{ vendor['output_json_filename'] }}">View raw json</a>
             </td>
           </tr>
           {% for feature_name, feature_results in vendor['standardized_result'].iteritems() %}    
