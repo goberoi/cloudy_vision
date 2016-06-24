@@ -42,13 +42,16 @@
             </td>
             <td class="result_values">
               {% for result in feature_results %}
+                {% set score = result[1] %}
+                <span class="result" style="opacity: {{ score }}">
                 {{ result[0] }}
-                {% if result[1] is not none %}
-                  <span class="score">({{ ("%.2f" % result[1]).lstrip('0') }})</span>
+                {% if score is not none %}
+                  <span class="score">({{ ("%.2f" % score).lstrip('0') }})</span>
                 {% endif %}
                 {% if not loop.last %}
                   ,
                 {% endif %}
+                </span>  
               {% endfor %}
             </td>
           </tr>
