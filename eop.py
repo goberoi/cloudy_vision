@@ -9,6 +9,7 @@ import time
 import vendors.google
 import vendors.microsoft
 import vendors.clarifai_
+import vendors.ibm
 
 
 SETTINGS = None
@@ -29,7 +30,8 @@ def settings(name):
             'vendors' : {
                 'google' : vendors.google,
                 'msft' : vendors.microsoft,
-                'clarifai' : vendors.clarifai_
+                'clarifai' : vendors.clarifai_,
+                'ibm' : vendors.ibm
             }
         }
 
