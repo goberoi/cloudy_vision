@@ -1,0 +1,13 @@
+{
+    "google" : "YOUR KEY HERE",
+    "microsoft" : "YOUR KEY HERE",
+    "clarifai" : {
+        "client_id" : "YOUR CLIENT ID HERE", 
+        "client_secret" : "YOUR CLIENT SECRET HERE"
+    },
+    "ibm" : "YOUR KEY HERE",
+    "cloudsight" : {
+        "api_key" : "YOUR KEY HERE",
+        "api_secret" : "YOUR SECRET HERE"
+    }
+}
