@@ -10,6 +10,7 @@ import vendors.google
 import vendors.microsoft
 import vendors.clarifai_
 import vendors.ibm
+import vendors.cloudsight_
 
 
 SETTINGS = None
@@ -31,7 +32,8 @@ def settings(name):
                 'google' : vendors.google,
                 'msft' : vendors.microsoft,
                 'clarifai' : vendors.clarifai_,
-                'ibm' : vendors.ibm
+                'ibm' : vendors.ibm,
+                'cloudsight' : vendors.cloudsight_
             }
         }
 
@@ -53,12 +55,8 @@ def resize_and_save(input_image_filepath, output_image_filepath):
     width = image.shape[1]
     aspect_ratio = float(width) / float(height)
 
-#    print("%s : width %i, height %i, aspect_ratio %f" % (input_image_filepath, width, height, aspect_ratio))
-    
     new_height = settings('output_image_height')
     new_width = int(aspect_ratio * new_height)
-
-#    print("%s : new_width %i, new_height %i" % (input_image_filepath, new_width, new_height))
 
     output_image = cv2.resize(image, (new_width, new_height))
     cv2.imwrite(output_image_filepath, output_image)

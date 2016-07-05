@@ -2,7 +2,7 @@ import base64
 import json
 import requests
 from watson_developer_cloud import VisualRecognitionV3
-
+# pip install --upgrade watson-developer-cloud
 
 def call_vision_api(image_filename, api_keys):
     api_key = api_keys['ibm']
