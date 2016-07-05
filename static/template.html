@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Test the image tagging capabilities of different computer vision API vendors.">
-  <title>Eye of Providence Output</title>
+  <title>Cloudy Vision</title>
   <link rel="stylesheet" href="../static/normalize.css">
   <link rel="stylesheet" href="../static/skeleton.css">
   <link rel="stylesheet" href="../static/site.css">
@@ -12,6 +12,35 @@
 
 <body>
   <div class="container">
+
+    <div class="row">
+      <div class="twelve columns">
+
+        <h2>Cloudy Vision Output</h2>
+
+        {% set num_images = image_results|length %}
+        {% set num_vendors = image_results[0]['vendors']|length %}
+        {% set vendor_names = image_results[0]['vendors']|map(attribute='vendor_name')|join(', ') %}
+
+        <h4>Summary</h4>
+        <p>
+            {{ num_images }} images were processed across {{ num_vendors }} vendors: {{ vendor_names }}.
+        </p>
+
+        <h4>How to Read the Output Below</h4>
+        <p>
+          <ol>
+            <li>For each image, we display a scaled down version of the image, its name, and results from all vendors.</li>
+            <li>The focus is on tagging, so only tags and captions along with confidence scores are displayed.</li>
+            <li>Raw output from each vendor is available by clicking to view the raw JSON.</li>
+            <li>Images are scaled down for readability. To see the original that was sent to vendor APIs, click on the image.</li>
+          </ol>
+        </p>
+
+      </div>
+    </div>
+
+    <hr>
 
     {% for image_result in image_results %}
     <div class="row">

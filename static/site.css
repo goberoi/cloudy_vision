@@ -44,3 +44,7 @@ a.view_json {
     font-size: 80%;
 }
 
+ul li, ol li {
+    margin-left: 30px;
+    list-style-position: outside;
+}
