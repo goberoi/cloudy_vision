@@ -1,0 +1,64 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0199g",
+          "description": "bicycle",
+          "score": 0.98419929
+        },
+        {
+          "mid": "/m/03hrb5",
+          "description": "racing bicycle",
+          "score": 0.94237047
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "vehicle",
+          "score": 0.93936241
+        },
+        {
+          "mid": "/m/03hs6w",
+          "description": "cyclo cross bicycle",
+          "score": 0.84688973
+        },
+        {
+          "mid": "/m/05y5lj",
+          "description": "sports equipment",
+          "score": 0.8098945
+        },
+        {
+          "mid": "/m/09rgp",
+          "description": "road bicycle",
+          "score": 0.77724689
+        },
+        {
+          "mid": "/m/03hrn8",
+          "description": "cyclo cross",
+          "score": 0.7536636
+        },
+        {
+          "mid": "/m/01prls",
+          "description": "land vehicle",
+          "score": 0.71875
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "mode of transport",
+          "score": 0.70430708
+        },
+        {
+          "mid": "/m/0_mjp",
+          "description": "mountain bike",
+          "score": 0.69973981
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

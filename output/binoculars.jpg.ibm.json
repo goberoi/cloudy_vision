@@ -1,0 +1,1 @@
+{"images": [{"image": "input_images/binoculars.jpg", "classifiers": [{"classes": [{"score": 0.995033, "class": "vegetation"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}

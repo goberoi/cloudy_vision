@@ -1,0 +1,19 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/017_cz",
+          "description": "major appliance",
+          "score": 0.57400292
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

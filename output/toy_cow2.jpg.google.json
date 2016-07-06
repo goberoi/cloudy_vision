@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01c34b",
+          "description": "flooring",
+          "score": 0.84846759
+        },
+        {
+          "mid": "/m/0l7_8",
+          "description": "floor",
+          "score": 0.74096823
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "furniture",
+          "score": 0.5941748
+        },
+        {
+          "mid": "/m/099fz",
+          "description": "sand",
+          "score": 0.53771347
+        },
+        {
+          "mid": "/m/01n5cy",
+          "description": "carpet",
+          "score": 0.52366024
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "toy",
+          "score": 0.50836688
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

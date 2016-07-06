@@ -1,0 +1,34 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0541p",
+          "description": "multimedia",
+          "score": 0.70093346
+        },
+        {
+          "mid": "/m/07zm1k",
+          "description": "gear shift",
+          "score": 0.66164273
+        },
+        {
+          "mid": "/m/019dx1",
+          "description": "home appliance",
+          "score": 0.60573405
+        },
+        {
+          "mid": "/m/02dwgb",
+          "description": "input device",
+          "score": 0.53834039
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

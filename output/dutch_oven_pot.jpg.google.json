@@ -1,0 +1,24 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/04bcr3",
+          "description": "table",
+          "score": 0.61604804
+        },
+        {
+          "mid": "/m/0270h",
+          "description": "dessert",
+          "score": 0.59946448
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

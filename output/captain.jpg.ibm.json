@@ -1,0 +1,1 @@
+{"images": [{"image": "input_images/captain.jpg", "classifiers": [{"classes": [{"score": 0.999986, "class": "person", "type_hierarchy": "/people"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}

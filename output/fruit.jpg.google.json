@@ -1,0 +1,64 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/036qh8",
+          "description": "produce",
+          "score": 0.96662748
+        },
+        {
+          "mid": "/m/05s2s",
+          "description": "plant",
+          "score": 0.93534911
+        },
+        {
+          "mid": "/m/05qdh",
+          "description": "painting",
+          "score": 0.91984385
+        },
+        {
+          "mid": "/m/02xwb",
+          "description": "fruit",
+          "score": 0.90269786
+        },
+        {
+          "mid": "/m/02wbm",
+          "description": "food",
+          "score": 0.85727096
+        },
+        {
+          "mid": "/m/088fh",
+          "description": "yellow",
+          "score": 0.85259908
+        },
+        {
+          "mid": "/m/04sjm",
+          "description": "flowering plant",
+          "score": 0.8
+        },
+        {
+          "mid": "/m/01spzs",
+          "description": "still life",
+          "score": 0.76122683
+        },
+        {
+          "mid": "/m/02pmq73",
+          "description": "winter squash",
+          "score": 0.72671825
+        },
+        {
+          "mid": "/m/0f4s2w",
+          "description": "vegetable",
+          "score": 0.53932333
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "UNLIKELY",
+        "medical": "UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

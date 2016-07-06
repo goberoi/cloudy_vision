@@ -1,0 +1,59 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068hy",
+          "description": "pet",
+          "score": 0.97641712
+        },
+        {
+          "mid": "/m/0bt9lr",
+          "description": "dog",
+          "score": 0.96146578
+        },
+        {
+          "mid": "/m/01p3d7",
+          "description": "alaskan malamute",
+          "score": 0.93333334
+        },
+        {
+          "mid": "/m/04rky",
+          "description": "mammal",
+          "score": 0.93177325
+        },
+        {
+          "mid": "/m/0jbk",
+          "description": "animal",
+          "score": 0.90696764
+        },
+        {
+          "mid": "/m/09686",
+          "description": "vertebrate",
+          "score": 0.8626557
+        },
+        {
+          "mid": "/m/08t9c_",
+          "description": "grass",
+          "score": 0.82060844
+        },
+        {
+          "mid": "/m/01lrl",
+          "description": "carnivoran",
+          "score": 0.73160708
+        },
+        {
+          "mid": "/m/0d7s3w",
+          "description": "puppy",
+          "score": 0.52271533
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

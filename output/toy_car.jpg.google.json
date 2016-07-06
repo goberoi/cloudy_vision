@@ -1,0 +1,49 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01sdr",
+          "description": "color",
+          "score": 0.95480835
+        },
+        {
+          "mid": "/m/04f6rz",
+          "description": "turquoise",
+          "score": 0.85264218
+        },
+        {
+          "mid": "/m/03xr7y",
+          "description": "lavender",
+          "score": 0.81452143
+        },
+        {
+          "mid": "/m/0404d",
+          "description": "jewellery",
+          "score": 0.77043384
+        },
+        {
+          "mid": "/m/02_n6y",
+          "description": "goggles",
+          "score": 0.76292843
+        },
+        {
+          "mid": "/m/01443y",
+          "description": "headgear",
+          "score": 0.5553062
+        },
+        {
+          "mid": "/m/0c9ph5",
+          "description": "flower",
+          "score": 0.53893983
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

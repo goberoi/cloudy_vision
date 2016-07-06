@@ -1,0 +1,59 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0k4j",
+          "description": "automobile",
+          "score": 0.89755774
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "vehicle",
+          "score": 0.890234
+        },
+        {
+          "mid": "/m/0lyw6",
+          "description": "model car",
+          "score": 0.72039157
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "toy",
+          "score": 0.6951347
+        },
+        {
+          "mid": "/m/083wq",
+          "description": "wheel",
+          "score": 0.6155529
+        },
+        {
+          "mid": "/m/0h8lhhb",
+          "description": "play vehicle",
+          "score": 0.59588629
+        },
+        {
+          "mid": "/m/0h2r6",
+          "description": "van",
+          "score": 0.54690009
+        },
+        {
+          "mid": "/m/012mq4",
+          "description": "sports car",
+          "score": 0.54565591
+        },
+        {
+          "mid": "/m/0ncqpsr",
+          "description": "race car",
+          "score": 0.50620067
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

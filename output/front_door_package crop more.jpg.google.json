@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/025dyy",
+          "description": "box",
+          "score": 0.85099751
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "furniture",
+          "score": 0.76500034
+        },
+        {
+          "mid": "/m/01jwgf",
+          "description": "product",
+          "score": 0.76007408
+        },
+        {
+          "mid": "/m/033rv2",
+          "description": "carton",
+          "score": 0.60198194
+        },
+        {
+          "mid": "/m/0fd6q",
+          "description": "cash",
+          "score": 0.59263629
+        },
+        {
+          "mid": "/m/03w7y7",
+          "description": "baggage",
+          "score": 0.54886258
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

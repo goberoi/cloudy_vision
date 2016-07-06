@@ -1,0 +1,633 @@
+{
+  "responses": [
+    {
+      "faceAnnotations": [
+        {
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 175,
+                "y": 76
+              },
+              {
+                "x": 401,
+                "y": 76
+              },
+              {
+                "x": 401,
+                "y": 338
+              },
+              {
+                "x": 175,
+                "y": 338
+              }
+            ]
+          },
+          "fdBoundingPoly": {
+            "vertices": [
+              {
+                "x": 196,
+                "y": 158
+              },
+              {
+                "x": 358,
+                "y": 158
+              },
+              {
+                "x": 358,
+                "y": 320
+              },
+              {
+                "x": 196,
+                "y": 320
+              }
+            ]
+          },
+          "landmarks": [
+            {
+              "type": "LEFT_EYE",
+              "position": {
+                "x": 243.33463,
+                "y": 208.50063,
+                "z": -0.00094949931
+              }
+            },
+            {
+              "type": "RIGHT_EYE",
+              "position": {
+                "x": 303.32834,
+                "y": 208.70389,
+                "z": -17.368208
+              }
+            },
+            {
+              "type": "LEFT_OF_LEFT_EYEBROW",
+              "position": {
+                "x": 217.2934,
+                "y": 189.17282,
+                "z": 9.2390413
+              }
+            },
+            {
+              "type": "RIGHT_OF_LEFT_EYEBROW",
+              "position": {
+                "x": 251.33208,
+                "y": 196.14182,
+                "z": -19.980988
+              }
+            },
+            {
+              "type": "LEFT_OF_RIGHT_EYEBROW",
+              "position": {
+                "x": 283.35095,
+                "y": 197.79155,
+                "z": -28.830013
+              }
+            },
+            {
+              "type": "RIGHT_OF_RIGHT_EYEBROW",
+              "position": {
+                "x": 327.87119,
+                "y": 195.92493,
+                "z": -21.032833
+              }
+            },
+            {
+              "type": "MIDPOINT_BETWEEN_EYES",
+              "position": {
+                "x": 266.07864,
+                "y": 209.40372,
+                "z": -22.237055
+              }
+            },
+            {
+              "type": "NOSE_TIP",
+              "position": {
+                "x": 261.96649,
+                "y": 254.86517,
+                "z": -31.362925
+              }
+            },
+            {
+              "type": "UPPER_LIP",
+              "position": {
+                "x": 266.197,
+                "y": 275.63135,
+                "z": -10.248356
+              }
+            },
+            {
+              "type": "LOWER_LIP",
+              "position": {
+                "x": 268.0329,
+                "y": 294.58139,
+                "z": -0.54530972
+              }
+            },
+            {
+              "type": "MOUTH_LEFT",
+              "position": {
+                "x": 247.89034,
+                "y": 279.51895,
+                "z": 15.693316
+              }
+            },
+            {
+              "type": "MOUTH_RIGHT",
+              "position": {
+                "x": 295.6467,
+                "y": 279.88885,
+                "z": 1.8075265
+              }
+            },
+            {
+              "type": "MOUTH_CENTER",
+              "position": {
+                "x": 267.91763,
+                "y": 284.35791,
+                "z": -2.9086168
+              }
+            },
+            {
+              "type": "NOSE_BOTTOM_RIGHT",
+              "position": {
+                "x": 284.90692,
+                "y": 258.22748,
+                "z": -9.9850321
+              }
+            },
+            {
+              "type": "NOSE_BOTTOM_LEFT",
+              "position": {
+                "x": 251.35867,
+                "y": 254.2825,
+                "z": -0.31982887
+              }
+            },
+            {
+              "type": "NOSE_BOTTOM_CENTER",
+              "position": {
+                "x": 265.55414,
+                "y": 265.23718,
+                "z": -13.488453
+              }
+            },
+            {
+              "type": "LEFT_EYE_TOP_BOUNDARY",
+              "position": {
+                "x": 236.74225,
+                "y": 204.19548,
+                "z": -4.2770557
+              }
+            },
+            {
+              "type": "LEFT_EYE_RIGHT_CORNER",
+              "position": {
+                "x": 252.56506,
+                "y": 210.11086,
+                "z": -2.19085
+              }
+            },
+            {
+              "type": "LEFT_EYE_BOTTOM_BOUNDARY",
+              "position": {
+                "x": 240.44095,
+                "y": 212.85512,
+                "z": 1.5025409
+              }
+            },
+            {
+              "type": "LEFT_EYE_LEFT_CORNER",
+              "position": {
+                "x": 226.5827,
+                "y": 205.7915,
+                "z": 10.652066
+              }
+            },
+            {
+              "type": "LEFT_EYE_PUPIL",
+              "position": {
+                "x": 236.44531,
+                "y": 208.17355,
+                "z": -0.043177
+              }
+            },
+            {
+              "type": "RIGHT_EYE_TOP_BOUNDARY",
+              "position": {
+                "x": 302.87958,
+                "y": 208.13933,
+                "z": -22.386503
+              }
+            },
+            {
+              "type": "RIGHT_EYE_RIGHT_CORNER",
+              "position": {
+                "x": 318.94513,
+                "y": 211.2753,
+                "z": -14.658516
+              }
+            },
+            {
+              "type": "RIGHT_EYE_BOTTOM_BOUNDARY",
+              "position": {
+                "x": 303.43448,
+                "y": 214.4827,
+                "z": -16.615646
+              }
+            },
+            {
+              "type": "RIGHT_EYE_LEFT_CORNER",
+              "position": {
+                "x": 289.24622,
+                "y": 210.20419,
+                "z": -13.014117
+              }
+            },
+            {
+              "type": "RIGHT_EYE_PUPIL",
+              "position": {
+                "x": 304.31381,
+                "y": 212.19987,
+                "z": -18.763229
+              }
+            },
+            {
+              "type": "LEFT_EYEBROW_UPPER_MIDPOINT",
+              "position": {
+                "x": 232.69009,
+                "y": 185.48528,
+                "z": -11.51351
+              }
+            },
+            {
+              "type": "RIGHT_EYEBROW_UPPER_MIDPOINT",
+              "position": {
+                "x": 304.55472,
+                "y": 189.8354,
+                "z": -31.167086
+              }
+            },
+            {
+              "type": "LEFT_EAR_TRAGION",
+              "position": {
+                "x": 218.87521,
+                "y": 218.69513,
+                "z": 99.925247
+              }
+            },
+            {
+              "type": "RIGHT_EAR_TRAGION",
+              "position": {
+                "x": 369.2084,
+                "y": 227.79211,
+                "z": 58.6911
+              }
+            },
+            {
+              "type": "FOREHEAD_GLABELLA",
+              "position": {
+                "x": 266.4765,
+                "y": 196.67239,
+                "z": -26.993427
+              }
+            },
+            {
+              "type": "CHIN_GNATHION",
+              "position": {
+                "x": 269.17212,
+                "y": 321.86316,
+                "z": 15.897161
+              }
+            },
+            {
+              "type": "CHIN_LEFT_GONION",
+              "position": {
+                "x": 218.74467,
+                "y": 268.56598,
+                "z": 82.21376
+              }
+            },
+            {
+              "type": "CHIN_RIGHT_GONION",
+              "position": {
+                "x": 354.72928,
+                "y": 276.8316,
+                "z": 44.945961
+              }
+            }
+          ],
+          "rollAngle": -0.3599036,
+          "panAngle": -15.755983,
+          "tiltAngle": -13.67834,
+          "detectionConfidence": 0.99833173,
+          "landmarkingConfidence": 0.4687973,
+          "joyLikelihood": "VERY_UNLIKELY",
+          "sorrowLikelihood": "VERY_UNLIKELY",
+          "angerLikelihood": "VERY_UNLIKELY",
+          "surpriseLikelihood": "VERY_UNLIKELY",
+          "underExposedLikelihood": "VERY_UNLIKELY",
+          "blurredLikelihood": "VERY_UNLIKELY",
+          "headwearLikelihood": "VERY_UNLIKELY"
+        }
+      ],
+      "logoAnnotations": [
+        {
+          "mid": "/m/0jbg2",
+          "description": "Mona Lisa",
+          "score": 0.81156451,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 64,
+                "y": 130
+              },
+              {
+                "x": 564,
+                "y": 130
+              },
+              {
+                "x": 564,
+                "y": 797
+              },
+              {
+                "x": 64,
+                "y": 797
+              }
+            ]
+          }
+        },
+        {
+          "description": "Mona Lisa, 1503-1506",
+          "score": 0.79907304,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 73,
+                "y": 84
+              },
+              {
+                "x": 564,
+                "y": 84
+              },
+              {
+                "x": 564,
+                "y": 825
+              },
+              {
+                "x": 73,
+                "y": 825
+              }
+            ]
+          }
+        },
+        {
+          "description": "Leonardo da Vinci Mona Lisa Art Print Poster",
+          "score": 0.78906465,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 91,
+                "y": 119
+              },
+              {
+                "x": 571,
+                "y": 119
+              },
+              {
+                "x": 571,
+                "y": 797
+              },
+              {
+                "x": 91,
+                "y": 797
+              }
+            ]
+          }
+        },
+        {
+          "mid": "/m/0jbg2",
+          "description": "Mona Lisa",
+          "score": 0.73155272,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 78,
+                "y": 167
+              },
+              {
+                "x": 571,
+                "y": 167
+              },
+              {
+                "x": 571,
+                "y": 797
+              },
+              {
+                "x": 78,
+                "y": 797
+              }
+            ]
+          }
+        },
+        {
+          "description": "Mona Lisa, c.1507",
+          "score": 0.72698152,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 91,
+                "y": 84
+              },
+              {
+                "x": 565,
+                "y": 84
+              },
+              {
+                "x": 565,
+                "y": 759
+              },
+              {
+                "x": 91,
+                "y": 759
+              }
+            ]
+          }
+        },
+        {
+          "description": "The Mona Lisa or La Gioconda",
+          "score": 0.6923756,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 91,
+                "y": 194
+              },
+              {
+                "x": 537,
+                "y": 194
+              },
+              {
+                "x": 537,
+                "y": 797
+              },
+              {
+                "x": 91,
+                "y": 797
+              }
+            ]
+          }
+        },
+        {
+          "description": "DA VINCI, LEONARDO",
+          "score": 0.6914553,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 64,
+                "y": 84
+              },
+              {
+                "x": 548,
+                "y": 84
+              },
+              {
+                "x": 548,
+                "y": 797
+              },
+              {
+                "x": 64,
+                "y": 797
+              }
+            ]
+          }
+        },
+        {
+          "description": "Mona Lisa, La Gioconda",
+          "score": 0.68778574,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 91,
+                "y": 117
+              },
+              {
+                "x": 548,
+                "y": 117
+              },
+              {
+                "x": 548,
+                "y": 785
+              },
+              {
+                "x": 91,
+                "y": 785
+              }
+            ]
+          }
+        },
+        {
+          "description": "Mona Lisa Smile",
+          "score": 0.68024349,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 64,
+                "y": 130
+              },
+              {
+                "x": 424,
+                "y": 130
+              },
+              {
+                "x": 424,
+                "y": 740
+              },
+              {
+                "x": 64,
+                "y": 740
+              }
+            ]
+          }
+        },
+        {
+          "description": "DA VINCI, LEONARDO",
+          "score": 0.665595,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 64,
+                "y": 107
+              },
+              {
+                "x": 335,
+                "y": 107
+              },
+              {
+                "x": 335,
+                "y": 775
+              },
+              {
+                "x": 64,
+                "y": 775
+              }
+            ]
+          }
+        }
+      ],
+      "labelAnnotations": [
+        {
+          "mid": "/m/05qdh",
+          "description": "painting",
+          "score": 0.94708806
+        },
+        {
+          "mid": "/m/01g317",
+          "description": "person",
+          "score": 0.91735649
+        },
+        {
+          "mid": "/m/05wkw",
+          "description": "photography",
+          "score": 0.90728104
+        },
+        {
+          "mid": "/m/068jd",
+          "description": "photograph",
+          "score": 0.90178573
+        },
+        {
+          "mid": "/m/01dv4h",
+          "description": "portrait",
+          "score": 0.85138708
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "art",
+          "score": 0.82904184
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "tourism",
+          "score": 0.6797384
+        },
+        {
+          "mid": "/m/02pkb8",
+          "description": "lady",
+          "score": 0.64959872
+        },
+        {
+          "mid": "/m/015r61",
+          "description": "modern art",
+          "score": 0.58280307
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "responses": [
+    {
+      "logoAnnotations": [
+        {
+          "mid": "/m/050jzx",
+          "description": "Ticket to Ride",
+          "score": 0.24735592,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 896,
+                "y": 2595
+              },
+              {
+                "x": 1001,
+                "y": 2595
+              },
+              {
+                "x": 1001,
+                "y": 2742
+              },
+              {
+                "x": 896,
+                "y": 2742
+              }
+            ]
+          }
+        }
+      ],
+      "labelAnnotations": [
+        {
+          "mid": "/m/07bxq",
+          "description": "tourism",
+          "score": 0.6797381
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "furniture",
+          "score": 0.53513551
+        },
+        {
+          "mid": "/m/0d4v4",
+          "description": "window",
+          "score": 0.52788621
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

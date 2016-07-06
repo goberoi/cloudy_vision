@@ -1,0 +1,64 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/068hy",
+          "description": "pet",
+          "score": 0.963992
+        },
+        {
+          "mid": "/m/0bt9lr",
+          "description": "dog",
+          "score": 0.93322963
+        },
+        {
+          "mid": "/m/0jbk",
+          "description": "animal",
+          "score": 0.9118104
+        },
+        {
+          "mid": "/m/04rky",
+          "description": "mammal",
+          "score": 0.89758688
+        },
+        {
+          "mid": "/m/09686",
+          "description": "vertebrate",
+          "score": 0.855516
+        },
+        {
+          "mid": "/m/05bkt9",
+          "description": "german spitz",
+          "score": 0.84615386
+        },
+        {
+          "mid": "/m/06wtgq",
+          "description": "play",
+          "score": 0.76794714
+        },
+        {
+          "mid": "/m/01lrl",
+          "description": "carnivoran",
+          "score": 0.72498679
+        },
+        {
+          "mid": "/m/036hyn",
+          "description": "toy dog",
+          "score": 0.7
+        },
+        {
+          "mid": "/m/077hh",
+          "description": "shiba inu",
+          "score": 0.68540263
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "POSSIBLE",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

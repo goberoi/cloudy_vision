@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/088fh",
+          "description": "yellow",
+          "score": 0.81804913
+        },
+        {
+          "mid": "/m/06wtgq",
+          "description": "play",
+          "score": 0.79537475
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "toy",
+          "score": 0.69177866
+        },
+        {
+          "mid": "/m/01wt5r",
+          "description": "water park",
+          "score": 0.63952607
+        },
+        {
+          "mid": "/m/01r2fb",
+          "description": "inflatable",
+          "score": 0.61947262
+        },
+        {
+          "mid": "/m/010jjr",
+          "description": "amusement park",
+          "score": 0.54384112
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

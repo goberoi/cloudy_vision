@@ -1,0 +1,49 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06fvc",
+          "description": "red",
+          "score": 0.94516873
+        },
+        {
+          "mid": "/m/0215n",
+          "description": "cartoon",
+          "score": 0.88497841
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "vehicle",
+          "score": 0.82570815
+        },
+        {
+          "mid": "/m/0lyw6",
+          "description": "model car",
+          "score": 0.69288814
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "toy",
+          "score": 0.66269964
+        },
+        {
+          "mid": "/m/083wq",
+          "description": "wheel",
+          "score": 0.61381292
+        },
+        {
+          "mid": "/m/01443y",
+          "description": "headgear",
+          "score": 0.5553062
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

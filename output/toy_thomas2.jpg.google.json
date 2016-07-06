@@ -1,0 +1,34 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/07yv9",
+          "description": "vehicle",
+          "score": 0.71083921
+        },
+        {
+          "mid": "/m/0lyw6",
+          "description": "model car",
+          "score": 0.6738292
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "toy",
+          "score": 0.61423421
+        },
+        {
+          "mid": "/m/0ncqpsr",
+          "description": "race car",
+          "score": 0.56582958
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

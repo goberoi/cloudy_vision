@@ -1,0 +1,64 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/09j2d",
+          "description": "clothing",
+          "score": 0.97777414
+        },
+        {
+          "mid": "/m/06fvc",
+          "description": "red",
+          "score": 0.94420046
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "automobile",
+          "score": 0.93795407
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "vehicle",
+          "score": 0.90674734
+        },
+        {
+          "mid": "/m/0ltv",
+          "description": "auto racing",
+          "score": 0.78244394
+        },
+        {
+          "mid": "/m/012mq4",
+          "description": "sports car",
+          "score": 0.74854857
+        },
+        {
+          "mid": "/m/0dfbw",
+          "description": "racing",
+          "score": 0.67219967
+        },
+        {
+          "mid": "/m/01r_pn",
+          "description": "race track",
+          "score": 0.66843182
+        },
+        {
+          "mid": "/m/083wq",
+          "description": "wheel",
+          "score": 0.65800518
+        },
+        {
+          "mid": "/m/0410tth",
+          "description": "motorsport",
+          "score": 0.62833518
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

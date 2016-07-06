@@ -1,0 +1,1 @@
+{"images": [{"image": "input_images/subway.jpg", "classifiers": [{"classes": [{"score": 0.598688, "class": "train"}, {"score": 0.574443, "class": "station", "type_hierarchy": "/places/landmarks/station"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}

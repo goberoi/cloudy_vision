@@ -1,0 +1,29 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/07yv9",
+          "description": "vehicle",
+          "score": 0.73025417
+        },
+        {
+          "mid": "/m/01443y",
+          "description": "headgear",
+          "score": 0.5553062
+        },
+        {
+          "mid": "/m/03w7y7",
+          "description": "baggage",
+          "score": 0.54886258
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

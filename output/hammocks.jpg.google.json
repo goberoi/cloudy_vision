@@ -1,0 +1,54 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0c_jw",
+          "description": "furniture",
+          "score": 0.78517359
+        },
+        {
+          "mid": "/m/04szw",
+          "description": "musical instrument",
+          "score": 0.75071514
+        },
+        {
+          "mid": "/m/011_f4",
+          "description": "string instrument",
+          "score": 0.71949488
+        },
+        {
+          "mid": "/m/06msq",
+          "description": "sculpture",
+          "score": 0.65772915
+        },
+        {
+          "mid": "/m/01q8_b",
+          "description": "hammock",
+          "score": 0.61572009
+        },
+        {
+          "mid": "/m/03m5k",
+          "description": "harp",
+          "score": 0.55932289
+        },
+        {
+          "mid": "/m/083vt",
+          "description": "wood",
+          "score": 0.52054173
+        },
+        {
+          "mid": "/m/07sx2n",
+          "description": "natural material",
+          "score": 0.51423639
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

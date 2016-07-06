@@ -1,0 +1,59 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/04f6rz",
+          "description": "turquoise",
+          "score": 0.84202939
+        },
+        {
+          "mid": "/m/0n5v01m",
+          "description": "bag",
+          "score": 0.72831547
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "vehicle",
+          "score": 0.71032107
+        },
+        {
+          "mid": "/m/080hkjn",
+          "description": "handbag",
+          "score": 0.69953012
+        },
+        {
+          "mid": "/m/0lyw6",
+          "description": "model car",
+          "score": 0.62197167
+        },
+        {
+          "mid": "/m/0ncqpsr",
+          "description": "race car",
+          "score": 0.56313187
+        },
+        {
+          "mid": "/m/01443y",
+          "description": "headgear",
+          "score": 0.5553062
+        },
+        {
+          "mid": "/m/030swj",
+          "description": "mobile device",
+          "score": 0.55439228
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "toy",
+          "score": 0.51257336
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

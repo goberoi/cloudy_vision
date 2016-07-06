@@ -1,0 +1,64 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/03vcw7",
+          "description": "dairy cow",
+          "score": 0.97637612
+        },
+        {
+          "mid": "/m/04rky",
+          "description": "mammal",
+          "score": 0.94157177
+        },
+        {
+          "mid": "/m/0jbk",
+          "description": "animal",
+          "score": 0.93231887
+        },
+        {
+          "mid": "/m/01xq0k1",
+          "description": "cattle",
+          "score": 0.91856551
+        },
+        {
+          "mid": "/m/01gd91",
+          "description": "pasture",
+          "score": 0.90518665
+        },
+        {
+          "mid": "/m/09686",
+          "description": "vertebrate",
+          "score": 0.86544275
+        },
+        {
+          "mid": "/m/03hh2k",
+          "description": "grazing",
+          "score": 0.85004878
+        },
+        {
+          "mid": "/m/0cnyhnx",
+          "description": "bull",
+          "score": 0.82735854
+        },
+        {
+          "mid": "/m/0jzz1",
+          "description": "cattle like mammal",
+          "score": 0.7
+        },
+        {
+          "mid": "/m/09w5r",
+          "description": "human leg",
+          "score": 0.66838324
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "UNLIKELY"
+      }
+    }
+  ]
+}

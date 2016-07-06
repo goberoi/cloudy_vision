@@ -1,0 +1,34 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0c_jw",
+          "description": "furniture",
+          "score": 0.88174963
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "room",
+          "score": 0.82790881
+        },
+        {
+          "mid": "/m/01mzpv",
+          "description": "chair",
+          "score": 0.589989
+        },
+        {
+          "mid": "/m/02crq1",
+          "description": "couch",
+          "score": 0.57402951
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

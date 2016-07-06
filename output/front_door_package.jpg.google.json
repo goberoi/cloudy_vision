@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/01c34b",
+          "description": "flooring",
+          "score": 0.81262648
+        },
+        {
+          "mid": "/m/0l7_8",
+          "description": "floor",
+          "score": 0.73712009
+        },
+        {
+          "mid": "/m/0c_jw",
+          "description": "furniture",
+          "score": 0.69490761
+        },
+        {
+          "mid": "/m/01jm2n",
+          "description": "walkway",
+          "score": 0.62076014
+        },
+        {
+          "mid": "/m/021w6f",
+          "description": "tile",
+          "score": 0.59340316
+        },
+        {
+          "mid": "/m/01y8xw",
+          "description": "villa",
+          "score": 0.5862872
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

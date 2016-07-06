@@ -1,0 +1,24 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/017rnr",
+          "description": "amusement ride",
+          "score": 0.91666669
+        },
+        {
+          "mid": "/m/01kr8f",
+          "description": "illustration",
+          "score": 0.68430126
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "UNLIKELY"
+      }
+    }
+  ]
+}

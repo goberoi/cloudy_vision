@@ -1,0 +1,29 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0919rx",
+          "description": "line art",
+          "score": 0.86625272
+        },
+        {
+          "mid": "/m/0bt_c3",
+          "description": "book",
+          "score": 0.66422814
+        },
+        {
+          "mid": "/m/0dgsmq8",
+          "description": "artwork",
+          "score": 0.51823568
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "UNLIKELY",
+        "spoof": "POSSIBLE",
+        "medical": "VERY_UNLIKELY",
+        "violence": "UNLIKELY"
+      }
+    }
+  ]
+}

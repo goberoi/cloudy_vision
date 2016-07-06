@@ -1,0 +1,1 @@
+{"images": [{"image": "input_images/toy_cow1.jpg", "classifiers": [{"classes": [{"score": 0.999547, "class": "animal", "type_hierarchy": "/animals"}, {"score": 0.999176, "class": "mammal", "type_hierarchy": "/animals/mammal"}, {"score": 0.622459, "class": "dog", "type_hierarchy": "/animals/pets/dog"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
