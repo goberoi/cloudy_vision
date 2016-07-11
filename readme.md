@@ -1,19 +1,19 @@
 
-# Cloudy Vision: a tool for comparing computer vision APIs
+# Cloudy Vision: compare computer vision APIs
 
-Run a corpus of images through multiple computer vision API vendors. View image labeing results side by side. Supported vendors: Microsoft, IBM, Google, Cloudsight, and Clarifai.
+Run a corpus of images through multiple computer vision API vendors. View image labeing results side by side so that you can get a general feel for how well each vendor works for your use case. Supported vendors: Microsoft, IBM, Google, Cloudsight, and Clarifai.
 
-[View example output.](https://github.com/goberoi/cloudy_vision)
+[View example output.](https://goberoi.github.io/cloudy_vision/output/output.html)
 
 [Read this blog post for details.](#)
 
 ## How it works
 
-1. Cloudy Vision is a Python script, that given a directory of images, and a list of API vendors, will do the following for each image:
-1. Call each vendor API for that image (or skip it if the result is already cached), e.g. call Google Cloud Vision for dog_at_the_park.jpg.
-1. Store the results in a JSON file with the name in the following format: filename.vendor.json, e.g. dog_at_the_park.jpg.google.json.
+1. For a given directory of images, and list of vendors:
+1. Call each vendor API for that image (or skip it if cached), e.g. call Google for dog_at_the_park.jpg.
+1. Store results in a JSON file with the name: filename.vendor.json, e.g. dog_at_the_park.jpg.google.json.
 1. Create a scaled copy of the original image with height 200px.
-1. Generate an HTML page, output.html, that shows all the images and labeling results in an easy to consume manner.
+1. Generate output.html to show all the images and labeling results in an easy to consume manner.
 
 ## Usage
 
@@ -22,7 +22,7 @@ Run a corpus of images through multiple computer vision API vendors. View image 
 1. Place all your images in `./input_images`.
 1. Run the script: `python cloudy_vision.py`
 1. View `./output/output.html` to see results. 
-1. If you add more images later, simply re-run the script. Prior results are cached and so those API calls will not be made again.
+1. If you add more images, simply re-run the script. Prior results are cached.
 
 ## Installation
 
@@ -38,14 +38,11 @@ And OpenCV... which can be a pain. OpenCV is only used to resize the images for 
 
 ## Contributing
 
-If you make modifications that may help others, please fork and send me a pull request. Some ideas for contributions:
-1. Add new image recognition vendors.
-1. Expose more attributes per vendor, e.g. face detection.
-1. Bugs, requests, feedback.
+If you make modifications that may help others, please fork and send me a pull request. Some ideas for contributions: (a) add new image recognition vendors, (b) expose more attributes per vendor, e.g. face detection, (c) bugs, requests, feedback.
 
 ## Credits
 
-Authored by @goberoi.
+Authored by @goberoi
 
 ## License
 
