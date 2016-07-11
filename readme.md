@@ -1,36 +1,54 @@
 
-# Cloudy Vision: Computer Vision API Explorer
+# Cloudy Vision: a tool for comparing computer vision APIs
 
-Several companies offer APIs for image recognition, e.g., given an image of a day at the park, they will return tags indicating that the image contains a dog, park bench, frisbee, and even any detected faces, their ages, and genders. 
+Run a corpus of images through multiple computer vision API vendors. View image labeing results side by side. Supported vendors: Microsoft, IBM, Google, Cloudsight, and Clarifai.
 
-Cloudy Vision is a script that allows you to take a folder full of images, and see what results you get from a variety of these survices. The intended use is for anyone interested in these APIs, to be able to upload their corpus of images and get a *qualitative* feel for what the results look like across vendors. More details are available in this blog post.
+[View example output.](https://github.com/goberoi/cloudy_vision)
 
-TODO: Write a project description
+[Read this blog post for details.](#)
 
-## Installation
+## How it works
 
-TODO: Describe the installation process
+1. Cloudy Vision is a Python script, that given a directory of images, and a list of API vendors, will do the following for each image:
+1. Call each vendor API for that image (or skip it if the result is already cached), e.g. call Google Cloud Vision for dog_at_the_park.jpg.
+1. Store the results in a JSON file with the name in the following format: filename.vendor.json, e.g. dog_at_the_park.jpg.google.json.
+1. Create a scaled copy of the original image with height 200px.
+1. Generate an HTML page, output.html, that shows all the images and labeling results in an easy to consume manner.
 
 ## Usage
 
-TODO: Write usage instructions
+1. Get keys for each vendor, and put them in a file called api_keys.json (copy example_api_keys.json to get started).
+1. Install dependencies (see below).
+1. Place all your images in `./input_images`.
+1. Run the script: `python cloudy_vision.py`
+1. View `./output/output.html` to see results. 
+1. If you add more images later, simply re-run the script. Prior results are cached and so those API calls will not be made again.
+
+## Installation
+
+Install these dependencies:
+```
+pip install cloudsight
+pip install git+git://github.com/Clarifai/clarifai-python.git
+pip install --upgrade watson-developer-cloud
+pip install Jinja2
+```
+
+And OpenCV... which can be a pain. OpenCV is only used to resize the images for display. If you don't care about this, you can remove the dependencie, and remove the call to resize and copy images (or email me for help).
 
 ## Contributing
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## History
-
-TODO: Write history
+If you make modifications that may help others, please fork and send me a pull request. Some ideas for contributions:
+1. Add new image recognition vendors.
+1. Expose more attributes per vendor, e.g. face detection.
+1. Bugs, requests, feedback.
 
 ## Credits
 
-TODO: Write credits
+Authored by @goberoi.
 
 ## License
 
-TODO: Write license
+MIT License - Copyright (c) 2016 Gaurav Oberoi.
+
+
