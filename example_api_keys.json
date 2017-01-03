@@ -1,13 +1,19 @@
 {
-    "google" : "YOUR KEY HERE",
-    "microsoft" : "YOUR KEY HERE",
-    "clarifai" : {
-        "client_id" : "YOUR CLIENT ID HERE", 
-        "client_secret" : "YOUR CLIENT SECRET HERE"
+    "google": "YOUR KEY HERE",
+    "microsoft": "YOUR KEY HERE",
+    "clarifai": {
+        "client_id": "YOUR CLIENT ID HERE",
+        "client_secret": "YOUR CLIENT SECRET HERE"
     },
-    "ibm" : "YOUR KEY HERE",
-    "cloudsight" : {
-        "api_key" : "YOUR KEY HERE",
-        "api_secret" : "YOUR SECRET HERE"
+    "ibm": "YOUR KEY HERE",
+    "cloudsight": {
+        "api_key": "YOUR KEY HERE",
+        "api_secret": "YOUR SECRET HERE"
+    },
+    "rekognition": {
+        "client_id": "YOUR CLIENT ID HERE",
+        "client_secret": "YOUR CLIENT SECRET HERE",
+        "region": "YOUR AWS REGION HERE",
+        "endpoint_url": "YOUR AWS ENDPOINT HERE"
     }
 }
