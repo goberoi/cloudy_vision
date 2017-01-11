@@ -21,8 +21,12 @@ Run a corpus of images through multiple computer vision API vendors. View image 
 1. Install dependencies (see below).
 1. Place all your images in `./input_images`.
 1. Run the script: `python cloudy_vision.py`
-1. View `./output/output.html` to see results. 
+1. View `./output/output.html` to see results.
 1. If you add more images, simply re-run the script. Prior results are cached.
+
+### Note for rekognition
+
+The keys should not be placed in the api_keys.json file but in ~/.aws/credentials and ~/.aws/config. See http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-config-files
 
 ## Installation
 
@@ -32,6 +36,7 @@ pip install cloudsight
 pip install git+git://github.com/Clarifai/clarifai-python.git
 pip install --upgrade watson-developer-cloud
 pip install Jinja2
+pip install boto3
 ```
 
 And OpenCV... which can be a pain. OpenCV is only used to resize the images for display. If you don't care about this, you can remove the dependencie, and remove the call to resize and copy images (or email me for help).
@@ -47,5 +52,3 @@ Authored by @goberoi
 ## License
 
 MIT License - Copyright (c) 2016 Gaurav Oberoi.
-
-
