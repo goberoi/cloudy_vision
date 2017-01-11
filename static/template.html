@@ -73,6 +73,16 @@
 
       <div class="three columns image">
         <h2 class="image_name">{{ image_result['output_image_filepath'] }}</h2>
+        <h2 class="image_name">tags:
+        {% for tag in image_result['image_tags'] %}
+          <span class="result">
+          {{ tag }}
+          {% if not loop.last %}
+            ,
+          {% endif %}
+          </span>
+        {% endfor %}
+        </h2>
         <a href="../{{ image_result['input_image_filepath'] }}">
           <img class="u-max-full-width" src='{{ image_result['output_image_filepath'] }}'>
         </a>
@@ -119,6 +129,25 @@
             </td>
           </tr>
           {% endfor %}
+          <tr>
+            <td class="result_name">
+              {{ vendor['vendor_name'] }}_matching_tags
+            </td>
+            <td class="result_values">
+              {% for tag in vendor['matching_tags'] %}
+                {% set score = tag[1] %}
+                <span class="result" style="opacity: {{ score }}">
+                {{ tag[0] }}
+                {% if score is not none %}
+                  <span class="score">({{ ("%.2f" % score).lstrip('0') }})</span>
+                {% endif %}
+                {% if not loop.last %}
+                  ,
+                {% endif %}
+                </span>
+              {% endfor %}
+            </td>
+          </tr>
         {% endfor %}
         </table>
 

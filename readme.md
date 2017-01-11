@@ -1,7 +1,7 @@
 
 # Cloudy Vision: compare computer vision APIs
 
-Run a corpus of images through multiple computer vision API vendors. View image labeing results side by side so that you can get a general feel for how well each vendor works for your use case. Supported vendors: Microsoft, IBM, Google, Cloudsight, and Clarifai.
+Run a corpus of images through multiple computer vision API vendors. View image labeing results side by side so that you can get a general feel for how well each vendor works for your use case. Supported vendors: Microsoft, IBM, Google, Cloudsight, Amazon and Clarifai.
 
 [View example output.](https://goberoi.github.io/cloudy_vision/output/output.html)
 
@@ -27,6 +27,17 @@ Run a corpus of images through multiple computer vision API vendors. View image 
 ### Note for rekognition
 
 The keys should not be placed in the api_keys.json file but in ~/.aws/credentials and ~/.aws/config. See http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-config-files
+
+## Tagged images
+
+You can work with tagged images. Cloudy will inspect the tags returned by the different APIs and look
+for tags that match the image tags. From these matching tags, cloudy computes the following metrics:
+
+* matching_tags_count (average and standard deviation): number of api tags matching the image tags
+* matching confidence (average and standard deviation): confidence of the matching tags
+
+To work with tagged images, set the `tagged_images` setting to True and fill a tags.json file (copy example_tags.json to get started).
+This file contains a map `image_filename => tags`.
 
 ## Installation
 

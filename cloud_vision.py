@@ -6,6 +6,7 @@ import os
 import pprint
 import shutil
 import time
+import re
 import vendors.google
 import vendors.microsoft
 import vendors.clarifai_
@@ -41,7 +42,11 @@ def settings(name):
             'statistics': [
                 'response_time',
                 'tags_count',
+                'matching_tags_count',
+                'matching_confidence',
             ],
+            'tagged_images': False,
+            'tags_filepath': './tags.json',
         }
 
         # Load API keys
@@ -104,6 +109,17 @@ def vendor_statistics(image_results):
     return vendor_stats
 
 
+def find_matching_tags(tags, standardized_result):
+    matching_tags = set()
+    for tag in tags:
+        p = re.compile(tag, re.IGNORECASE)
+        for res_tag in standardized_result['tags']:
+            if p.match(res_tag[0]):
+                matching_tags.add(res_tag)
+
+    return list(matching_tags)
+
+
 def process_all_images():
 
     image_results = []
@@ -111,6 +127,11 @@ def process_all_images():
     # Create the output directory
     if not os.path.exists(settings('output_dir')):
         os.makedirs(settings('output_dir'))
+
+    # Read image labels
+    if settings('tagged_images'):
+        with(open(settings('tags_filepath'), 'r')) as tags_file:
+            tags = json.loads(tags_file.read())
 
     # Loop through all input images.
     for filename in os.listdir(settings('input_images_dir')):
@@ -122,11 +143,16 @@ def process_all_images():
         # Create a full path so we can read these files.
         filepath = os.path.join(settings('input_images_dir'), filename)
 
+        image_tags = []
+        if settings('tagged_images'):
+            image_tags = tags[filename]
+
         # Create an output object for the image
         image_result = {
             'input_image_filepath' : filepath,
             'output_image_filepath' : filename,
-            'vendors' : []
+            'vendors' : [],
+            'image_tags' : image_tags,
         }
         image_results.append(image_result)
 
@@ -174,9 +200,18 @@ def process_all_images():
 
             # Parse the JSON result we fetched (via API call or from cache)
             standardized_result = vendor_module.get_standardized_result(api_result)
+
             tags_count = 0
+            matching_tags = []
+            matching_confidence = 0
             if 'tags' in standardized_result:
                 tags_count = len(standardized_result['tags'])
+
+                if settings('tagged_images'):
+                    matching_tags = find_matching_tags(image_tags, standardized_result)
+
+                    if len(matching_tags) > 0:
+                        matching_confidence = sum([t[1] for t in matching_tags]) / len(matching_tags)
 
             image_result['vendors'].append({
                 'api_result' : api_result,
@@ -184,12 +219,16 @@ def process_all_images():
                 'standardized_result' : standardized_result,
                 'output_json_filename' : output_json_filename,
                 'response_time' : api_result['response_time'],
-                'tags_count' : tags_count
+                'tags_count' : tags_count,
+                'matching_tags' : matching_tags,
+                'matching_tags_count' : len(matching_tags),
+                'matching_confidence' : matching_confidence,
             })
 
+    # Compute global statistics for each vendor
+    vendor_stats = vendor_statistics(image_results)
 
     # Render HTML file with all results.
-    vendor_stats = vendor_statistics(image_results)
     output_html = render_from_template(
         '.',
         os.path.join(settings('static_dir'), 'template.html'),
