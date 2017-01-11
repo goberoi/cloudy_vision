@@ -38,6 +38,7 @@ def settings(name):
             'resize': False,
             'statistics': [
                 'response_time',
+                'tags_count',
             ],
         }
 
@@ -171,12 +172,17 @@ def process_all_images():
 
             # Parse the JSON result we fetched (via API call or from cache)
             standardized_result = vendor_module.get_standardized_result(api_result)
+            tags_count = 0
+            if 'tags' in standardized_result:
+                tags_count = len(standardized_result['tags'])
+
             image_result['vendors'].append({
                 'api_result' : api_result,
                 'vendor_name' : vendor_name,
                 'standardized_result' : standardized_result,
                 'output_json_filename' : output_json_filename,
                 'response_time' : api_result['response_time'],
+                'tags_count' : tags_count
             })
 
 
@@ -192,7 +198,7 @@ def process_all_images():
     # Write HTML output.
     output_html_filepath = os.path.join(settings('output_dir'), 'output.html')
     with open(output_html_filepath, 'w') as output_html_file:
-        output_html_file.write(output_html)
+        output_html_file.write(output_html.encode('utf-8'))
 
 
 if __name__ == "__main__":
