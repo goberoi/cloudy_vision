@@ -1,7 +1,7 @@
 from jinja2 import FileSystemLoader, Environment
 from shutil import copyfile
 import json
-import numpy
+import numpy as np
 import os
 import pprint
 import shutil
@@ -35,7 +35,10 @@ def settings(name):
                 'ibm' : vendors.ibm,
                 'cloudsight' : vendors.cloudsight_
             },
-            'resize': False
+            'resize': False,
+            'statistics': [
+                'response_time',
+            ],
         }
 
         # Load API keys
@@ -72,6 +75,30 @@ def render_from_template(directory, template_name, **kwargs):
     env = Environment(loader=loader)
     template = env.get_template(template_name)
     return template.render(**kwargs)
+
+
+def vendor_statistics(image_results):
+    vendor_stats = {}
+    for vendor in settings('vendors'):
+        vendor_results = []
+        for image_result in image_results:
+            for res in image_result['vendors']:
+                if res['vendor_name'] == vendor:
+                    vendor_results.append(res)
+
+        vendor_stats[vendor] = []
+        for stat_key in settings('statistics'):
+            values = np.array([vr[stat_key] for vr in vendor_results])
+            vendor_stats[vendor].append({
+                'name': 'average ' + stat_key,
+                'value': np.average(values)
+            })
+            vendor_stats[vendor].append({
+                'name': 'standard deviation ' + stat_key,
+                'value': np.std(values)
+            })
+
+    return vendor_stats
 
 
 def process_all_images():
@@ -154,7 +181,13 @@ def process_all_images():
 
 
     # Render HTML file with all results.
-    output_html = render_from_template('.', os.path.join(settings('static_dir'), 'template.html'), image_results=image_results)
+    vendor_stats = vendor_statistics(image_results)
+    output_html = render_from_template(
+        '.',
+        os.path.join(settings('static_dir'), 'template.html'),
+        image_results=image_results,
+        vendor_stats=vendor_stats
+    )
 
     # Write HTML output.
     output_html_filepath = os.path.join(settings('output_dir'), 'output.html')

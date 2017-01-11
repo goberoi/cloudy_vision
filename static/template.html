@@ -42,6 +42,32 @@
 
     <hr>
 
+    <div class="container">
+      <h4>Vendor Statistics</h4>
+      <div class="twelve columns result">
+        <table class="u-full-width">
+        {% for vendor, stats in vendor_stats.iteritems() %}
+          <tr class="raw_json">
+            <td class="result_name">
+              {{ vendor }}
+            </td>
+          </tr>
+          {% for stat in stats %}
+            <td class="result_name">
+              {{ stat['name'] }}
+            </td>
+            <td class="result_values">
+              {{ "%.2f" % stat['value'] }}
+            </td>
+          </tr>
+          {% endfor %}
+        {% endfor %}
+        </table>
+      </div>
+    </div>
+
+    <hr>
+
     {% for image_result in image_results %}
     <div class="row">
 
