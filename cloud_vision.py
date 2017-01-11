@@ -122,7 +122,9 @@ def process_all_images():
 
                 # If not, make the API call for this particular vendor.
                 log_status(filepath, vendor_name, "calling API")
+                api_call_start = time.time()
                 api_result = vendor_module.call_vision_api(filepath, settings('api_keys'))
+                api_result['response_time'] = time.time() - api_call_start
 
                 # And cache the result in a .json file
                 log_status(filepath, vendor_name, "success, storing result in %s" % output_json_path)
@@ -146,7 +148,8 @@ def process_all_images():
                 'api_result' : api_result,
                 'vendor_name' : vendor_name,
                 'standardized_result' : standardized_result,
-                'output_json_filename' : output_json_filename
+                'output_json_filename' : output_json_filename,
+                'response_time' : api_result['response_time'],
             })
 
 

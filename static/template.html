@@ -64,7 +64,15 @@
               <a class="view_json" href=" {{ vendor['output_json_filename'] }}">View raw json</a>
             </td>
           </tr>
-          {% for feature_name, feature_results in vendor['standardized_result'].iteritems() %}    
+          <tr>
+            <td class="result_name">
+              {{ vendor['vendor_name'] }}_response_time (s)
+            </td>
+            <td class="result_values">
+              {{ ("%.2f" % vendor['response_time']).lstrip('0') }}
+            </td>
+          </tr>
+          {% for feature_name, feature_results in vendor['standardized_result'].iteritems() %}
           <tr>
             <td class="result_name">
               {{ vendor['vendor_name'] }}_{{ feature_name }}
@@ -80,7 +88,7 @@
                 {% if not loop.last %}
                   ,
                 {% endif %}
-                </span>  
+                </span>
               {% endfor %}
             </td>
           </tr>
