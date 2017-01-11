@@ -1,5 +1,5 @@
-import cv2
 from jinja2 import FileSystemLoader, Environment
+from shutil import copyfile
 import json
 import numpy
 import os
@@ -18,7 +18,7 @@ def settings(name):
     """Fetch a settings parameter."""
 
     # Initialize settings if necessary.
-    global SETTINGS 
+    global SETTINGS
     if SETTINGS is None:
 
         # Change this dict to suit your taste.
@@ -34,15 +34,20 @@ def settings(name):
                 'clarifai' : vendors.clarifai_,
                 'ibm' : vendors.ibm,
                 'cloudsight' : vendors.cloudsight_
-            }
+            },
+            'resize': False
         }
 
         # Load API keys
-        with open(SETTINGS['api_keys_filepath']) as data_file: 
+        with open(SETTINGS['api_keys_filepath']) as data_file:
             SETTINGS['api_keys'] = json.load(data_file)
 
     return SETTINGS[name]
-        
+
+
+if settings('resize'):
+    import cv2
+
 
 def log_status(filepath, vendor_name, msg):
     filename = os.path.basename(filepath)
@@ -60,7 +65,7 @@ def resize_and_save(input_image_filepath, output_image_filepath):
 
     output_image = cv2.resize(image, (new_width, new_height))
     cv2.imwrite(output_image_filepath, output_image)
-    
+
 
 def render_from_template(directory, template_name, **kwargs):
     loader = FileSystemLoader(directory)
@@ -126,7 +131,11 @@ def process_all_images():
 
                 # Resize the original image and write to an output filename
                 log_status(filepath, vendor_name, "writing output image in %s" % output_image_filepath)
-                resize_and_save(filepath, output_image_filepath)
+                if settings('resize'):
+                    resize_and_save(filepath, output_image_filepath)
+                else:
+                    copyfile(filepath, output_image_filepath)
+
 
                 # Sleep so we avoid hitting throttling limits
                 time.sleep(1)
@@ -145,14 +154,12 @@ def process_all_images():
 
     # Render HTML file with all results.
     output_html = render_from_template('.', os.path.join(settings('static_dir'), 'template.html'), image_results=image_results)
-    
+
     # Write HTML output.
     output_html_filepath = os.path.join(settings('output_dir'), 'output.html')
     with open(output_html_filepath, 'w') as output_html_file:
         output_html_file.write(output_html)
 
-       
+
 if __name__ == "__main__":
     process_all_images()
-#    print vendors.clarifai_.get_acces_token(settings('api_keys'))
-
