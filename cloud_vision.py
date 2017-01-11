@@ -116,18 +116,18 @@ def process_all_images():
                 # If so, read the result from the .json file stored in the output dir.
                 log_status(filepath, vendor_name, "skipping API call, already cached")
                 with open(output_json_path, 'r') as infile:
-                    raw_api_result = infile.read()
+                    api_result = json.loads(infile.read())
 
             else:
 
                 # If not, make the API call for this particular vendor.
                 log_status(filepath, vendor_name, "calling API")
-                raw_api_result = vendor_module.call_vision_api(filepath, settings('api_keys'))
+                api_result = vendor_module.call_vision_api(filepath, settings('api_keys'))
 
                 # And cache the result in a .json file
                 log_status(filepath, vendor_name, "success, storing result in %s" % output_json_path)
                 with open(output_json_path, 'w') as outfile:
-                    outfile.write(raw_api_result)
+                    outfile.write(json.dumps(api_result))
 
                 # Resize the original image and write to an output filename
                 log_status(filepath, vendor_name, "writing output image in %s" % output_image_filepath)
@@ -141,8 +141,6 @@ def process_all_images():
                 time.sleep(1)
 
             # Parse the JSON result we fetched (via API call or from cache)
-            api_result = json.loads(raw_api_result)
-
             standardized_result = vendor_module.get_standardized_result(api_result)
             image_result['vendors'].append({
                 'api_result' : api_result,
