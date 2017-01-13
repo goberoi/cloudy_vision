@@ -42,8 +42,8 @@ def settings(name):
             'statistics': [
                 'response_time',
                 'tags_count',
-                'matching_tags_count',
-                'matching_confidence',
+                # 'matching_tags_count',
+                # 'matching_confidence',
             ],
             'tagged_images': False,
             'tags_filepath': './tags.json',
@@ -87,6 +87,10 @@ def render_from_template(directory, template_name, **kwargs):
 
 def vendor_statistics(image_results):
     vendor_stats = {}
+
+    if len(settings('statistics')) == 0:
+        return vendor_stats
+
     for vendor in settings('vendors'):
         vendor_results = []
         for image_result in image_results:
@@ -114,7 +118,7 @@ def find_matching_tags(tags, standardized_result):
     for tag in tags:
         p = re.compile(tag, re.IGNORECASE)
         for res_tag in standardized_result['tags']:
-            if p.match(res_tag[0]):
+            if p.search(res_tag[0]):
                 matching_tags.add(res_tag)
 
     return list(matching_tags)

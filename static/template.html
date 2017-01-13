@@ -42,6 +42,7 @@
 
     <hr>
 
+    {% if vendor_stats|length > 0 %}
     <div class="container">
       <h4>Vendor Statistics</h4>
       <div class="twelve columns result">
@@ -67,12 +68,15 @@
     </div>
 
     <hr>
+    {% endif %}
+
 
     {% for image_result in image_results %}
     <div class="row">
 
       <div class="three columns image">
         <h2 class="image_name">{{ image_result['output_image_filepath'] }}</h2>
+        {% if image_result['image_tags']|length > 0 %}
         <h2 class="image_name">tags:
         {% for tag in image_result['image_tags'] %}
           <span class="result">
@@ -83,6 +87,7 @@
           </span>
         {% endfor %}
         </h2>
+        {% endif %}
         <a href="../{{ image_result['input_image_filepath'] }}">
           <img class="u-max-full-width" src='{{ image_result['output_image_filepath'] }}'>
         </a>
@@ -130,6 +135,7 @@
           </tr>
           {% endfor %}
           <tr>
+            {% if image_result['image_tags']|length > 0 %}
             <td class="result_name">
               {{ vendor['vendor_name'] }}_matching_tags
             </td>
@@ -147,6 +153,7 @@
                 </span>
               {% endfor %}
             </td>
+            {% endif %}
           </tr>
         {% endfor %}
         </table>
