@@ -1,21 +1,16 @@
-import base64
-import json
-import requests
 from watson_developer_cloud import VisualRecognitionV3
-# pip install --upgrade watson-developer-cloud
 
 def call_vision_api(image_filename, api_keys):
     api_key = api_keys['ibm']
 
-    # Via example found here: 
+    # Via example found here:
     # https://github.com/watson-developer-cloud/python-sdk/blob/master/examples/visual_recognition_v3.py
     visual_recognition = VisualRecognitionV3('2016-05-20', api_key=api_key)
 
     with open(image_filename, 'rb') as image_file:
         result = visual_recognition.classify(images_file=image_file)
 
-    text_result = json.dumps(result)
-    return text_result
+    return result
 
 
 def get_standardized_result(api_result):

@@ -1,13 +1,10 @@
-import json
 import cloudsight
-# pip install cloudsight
-
 
 def call_vision_api(image_filename, api_keys):
     api_key = api_keys['cloudsight']['api_key']
     api_secret = api_keys['cloudsight']['api_secret']
 
-    # Via example found here: 
+    # Via example found here:
     # https://github.com/cloudsight/cloudsight-python
 
     auth = cloudsight.SimpleAuth(api_key)
@@ -17,9 +14,8 @@ def call_vision_api(image_filename, api_keys):
         response = api.image_request(image_file, image_filename)
 
     response = api.wait(response['token'], timeout=60)
-    text_result = json.dumps(response)
     
-    return text_result
+    return response
 
 
 def get_standardized_result(api_result):
@@ -32,6 +28,6 @@ def get_standardized_result(api_result):
     elif api_result['status'] == 'skipped':
         output['captions'].append(("error_skipped_because_" + api_result["reason"], None))
     else:
-        output['captions'].append(("error_" + api_result["status"], None))        
-        
+        output['captions'].append(("error_" + api_result["status"], None))
+
     return output

@@ -42,11 +42,52 @@
 
     <hr>
 
+    {% if vendor_stats|length > 0 %}
+    <div class="container">
+      <h4>Vendor Statistics</h4>
+      <div class="twelve columns result">
+        <table class="u-full-width">
+        {% for vendor, stats in vendor_stats.iteritems() %}
+          <tr class="raw_json">
+            <td class="result_name">
+              {{ vendor }}
+            </td>
+          </tr>
+          {% for stat in stats %}
+            <td class="result_name">
+              {{ stat['name'] }}
+            </td>
+            <td class="result_values">
+              {{ "%.2f" % stat['value'] }}
+            </td>
+          </tr>
+          {% endfor %}
+        {% endfor %}
+        </table>
+      </div>
+    </div>
+
+    <hr>
+    {% endif %}
+
+
     {% for image_result in image_results %}
     <div class="row">
 
       <div class="three columns image">
         <h2 class="image_name">{{ image_result['output_image_filepath'] }}</h2>
+        {% if image_result['image_tags']|length > 0 %}
+        <h2 class="image_name">tags:
+        {% for tag in image_result['image_tags'] %}
+          <span class="result">
+          {{ tag }}
+          {% if not loop.last %}
+            ,
+          {% endif %}
+          </span>
+        {% endfor %}
+        </h2>
+        {% endif %}
         <a href="../{{ image_result['input_image_filepath'] }}">
           <img class="u-max-full-width" src='{{ image_result['output_image_filepath'] }}'>
         </a>
@@ -64,7 +105,15 @@
               <a class="view_json" href=" {{ vendor['output_json_filename'] }}">View raw json</a>
             </td>
           </tr>
-          {% for feature_name, feature_results in vendor['standardized_result'].iteritems() %}    
+          <tr>
+            <td class="result_name">
+              {{ vendor['vendor_name'] }}_response_time (s)
+            </td>
+            <td class="result_values">
+              {{ ("%.2f" % vendor['response_time']).lstrip('0') }}
+            </td>
+          </tr>
+          {% for feature_name, feature_results in vendor['standardized_result'].iteritems() %}
           <tr>
             <td class="result_name">
               {{ vendor['vendor_name'] }}_{{ feature_name }}
@@ -80,11 +129,32 @@
                 {% if not loop.last %}
                   ,
                 {% endif %}
-                </span>  
+                </span>
               {% endfor %}
             </td>
           </tr>
           {% endfor %}
+          <tr>
+            {% if image_result['image_tags']|length > 0 %}
+            <td class="result_name">
+              {{ vendor['vendor_name'] }}_matching_tags
+            </td>
+            <td class="result_values">
+              {% for tag in vendor['matching_tags'] %}
+                {% set score = tag[1] %}
+                <span class="result" style="opacity: {{ score }}">
+                {{ tag[0] }}
+                {% if score is not none %}
+                  <span class="score">({{ ("%.2f" % score).lstrip('0') }})</span>
+                {% endif %}
+                {% if not loop.last %}
+                  ,
+                {% endif %}
+                </span>
+              {% endfor %}
+            </td>
+            {% endif %}
+          </tr>
         {% endfor %}
         </table>
 

@@ -1,4 +1,3 @@
-import base64
 import json
 import requests
 
@@ -10,19 +9,19 @@ def call_vision_api(image_filename, api_keys):
     result = requests.post(post_url, data=image_data, headers={'Content-Type': 'application/octet-stream'})
     result.raise_for_status()
 
-    return result.text
+    return json.loads(result.text)
 
 # Return a dictionary of features to their scored values (represented as lists of tuples).
 # Scored values must be sorted in descending order.
 #
-# { 
+# {
 #    'feature_1' : [(element, score), ...],
 #    'feature_2' : ...
 # }
 #
 # E.g.,
 #
-# { 
+# {
 #    'tags' : [('throne', 0.95), ('swords', 0.84)],
 #    'description' : [('A throne made of pointy objects', 0.73)]
 # }

@@ -32,7 +32,7 @@ def call_vision_api(image_filename, api_keys):
             {
               "type": "LANDMARK_DETECTION",
               "maxResults": 10
-            },      
+            },
             {
               "type": "LOGO_DETECTION",
               "maxResults": 10
@@ -40,7 +40,7 @@ def call_vision_api(image_filename, api_keys):
             {
               "type": "SAFE_SEARCH_DETECTION",
               "maxResults": 10
-            },          
+            },
           ]
         }
       ]
@@ -49,7 +49,7 @@ def call_vision_api(image_filename, api_keys):
     result = requests.post(post_url, json=post_payload)
     result.raise_for_status()
 
-    return result.text
+    return json.loads(result.text)
 
 
 # See this function in microsoft.py for docs.
