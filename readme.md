@@ -56,6 +56,7 @@ This file contains a map `image_filename => tags`.
 
 Install these dependencies:
 ```
+pip install numpy
 pip install cloudsight
 pip install git+git://github.com/Clarifai/clarifai-python.git
 pip install --upgrade watson-developer-cloud
