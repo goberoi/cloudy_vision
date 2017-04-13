@@ -42,12 +42,16 @@ def settings(name):
             'statistics': [
                 'response_time',
                 'tags_count',
-                # 'matching_tags_count',
-                # 'matching_confidence',
             ],
             'tagged_images': False,
             'tags_filepath': './tags.json',
         }
+
+        if SETTINGS['tagged_images']:
+            SETTINGS['statistics'] += [
+                'matching_tags_count',
+                'matching_confidence'
+            ]
 
         # Load API keys
         with open(SETTINGS['api_keys_filepath']) as data_file:
@@ -102,11 +106,11 @@ def vendor_statistics(image_results):
         for stat_key in settings('statistics'):
             values = np.array([vr[stat_key] for vr in vendor_results])
             vendor_stats[vendor].append({
-                'name': 'average ' + stat_key,
+                'name': 'mean_' + stat_key,
                 'value': np.average(values)
             })
             vendor_stats[vendor].append({
-                'name': 'standard deviation ' + stat_key,
+                'name': 'stdev_' + stat_key,
                 'value': np.std(values)
             })
 
@@ -149,7 +153,7 @@ def process_all_images():
 
         image_tags = []
         if settings('tagged_images'):
-            image_tags = tags[filename]
+            image_tags = tags.get(filename, [])
 
         # Create an output object for the image
         image_result = {
@@ -205,6 +209,11 @@ def process_all_images():
             # Parse the JSON result we fetched (via API call or from cache)
             standardized_result = vendor_module.get_standardized_result(api_result)
 
+            # Sort tags if found
+            if 'tags' in standardized_result:
+                standardized_result['tags'].sort(key=lambda tup: tup[1], reverse=True)
+
+            # If expected tags are provided, calculate accuracy
             tags_count = 0
             matching_tags = []
             matching_confidence = 0

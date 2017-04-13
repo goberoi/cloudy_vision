@@ -1,3 +1,7 @@
+{% set num_images = image_results|length %}
+{% set num_vendors = image_results[0]['vendors']|length %}
+{% set vendor_names = image_results[0]['vendors']|map(attribute='vendor_name')|join(', ') %}
+
 <html>
 
 <head>
@@ -13,63 +17,26 @@
 <body>
   <div class="container">
 
-    <div class="row">
-      <div class="twelve columns">
+      <div class="row">
+        <div class="twelve columns">
 
         <h2>Cloudy Vision Output</h2>
+        <p>
+            Cloudy Vision is a tool to help compare computer vision API vendors. <a href="https://goberoi.com/comparing-the-top-five-computer-vision-apis-98e3e3d7c647">See this blog post</a> and the <a href="https://github.com/goberoi/cloudy_vision">Github page</a> for details.
+        </p>
 
-        {% set num_images = image_results|length %}
-        {% set num_vendors = image_results[0]['vendors']|length %}
-        {% set vendor_names = image_results[0]['vendors']|map(attribute='vendor_name')|join(', ') %}
-
-        <h4>Summary</h4>
+        <h4>Results Summary</h4>
         <p>
             {{ num_images }} images were processed across {{ num_vendors }} vendors: {{ vendor_names }}.
         </p>
-
-        <h4>How to Read the Output Below</h4>
         <p>
-          <ol>
-            <li>For each image, we display a scaled down version of the image, its name, and results from all vendors.</li>
-            <li>The focus is on tagging, so only tags and captions along with confidence scores are displayed.</li>
-            <li>Raw output from each vendor is available by clicking to view the raw JSON.</li>
-            <li>Images are scaled down for readability. To see the original that was sent to vendor APIs, click on the image.</li>
-          </ol>
+            Each image is displayed along with results from each computer vision classification API vendor: tags, confidence scores, response time in seconds, and a link to the raw JSON response.
+            <a href="#statistics">Statistics on response times</a> and more are at the bottom of the page.
         </p>
-
       </div>
     </div>
 
     <hr>
-
-    {% if vendor_stats|length > 0 %}
-    <div class="container">
-      <h4>Vendor Statistics</h4>
-      <div class="twelve columns result">
-        <table class="u-full-width">
-        {% for vendor, stats in vendor_stats.iteritems() %}
-          <tr class="raw_json">
-            <td class="result_name">
-              {{ vendor }}
-            </td>
-          </tr>
-          {% for stat in stats %}
-            <td class="result_name">
-              {{ stat['name'] }}
-            </td>
-            <td class="result_values">
-              {{ "%.2f" % stat['value'] }}
-            </td>
-          </tr>
-          {% endfor %}
-        {% endfor %}
-        </table>
-      </div>
-    </div>
-
-    <hr>
-    {% endif %}
-
 
     {% for image_result in image_results %}
     <div class="row">
@@ -77,15 +44,15 @@
       <div class="three columns image">
         <h2 class="image_name">{{ image_result['output_image_filepath'] }}</h2>
         {% if image_result['image_tags']|length > 0 %}
-        <h2 class="image_name">tags:
-        {% for tag in image_result['image_tags'] %}
-          <span class="result">
-          {{ tag }}
-          {% if not loop.last %}
-            ,
-          {% endif %}
-          </span>
-        {% endfor %}
+        <h2 class="image_name">desired_tags:
+            {% for tag in image_result['image_tags'] %}
+            <span class="result">
+                {{ tag }}
+                {% if not loop.last %}
+                ,
+                {% endif %}
+            </span>
+            {% endfor %}
         </h2>
         {% endif %}
         <a href="../{{ image_result['input_image_filepath'] }}">
@@ -102,68 +69,95 @@
               {{ vendor['vendor_name'] }}
             </td>
             <td class="result_values">
-              <a class="view_json" href=" {{ vendor['output_json_filename'] }}">View raw json</a>
-            </td>
-          </tr>
-          <tr>
-            <td class="result_name">
-              {{ vendor['vendor_name'] }}_response_time (s)
-            </td>
-            <td class="result_values">
-              {{ ("%.2f" % vendor['response_time']).lstrip('0') }}
+                <a class="small" href=" {{ vendor['output_json_filename'] }}">View raw json</a>
+                <span class="small">
+                    ({{ ("%.2f" % vendor['response_time']).lstrip('0') }}s)
+                </span>
             </td>
           </tr>
           {% for feature_name, feature_results in vendor['standardized_result'].iteritems() %}
           <tr>
-            <td class="result_name">
-              {{ vendor['vendor_name'] }}_{{ feature_name }}
-            </td>
-            <td class="result_values">
-              {% for result in feature_results %}
-                {% set score = result[1] %}
-                <span class="result" style="opacity: {{ score }}">
-                {{ result[0] }}
-                {% if score is not none %}
-                  <span class="score">({{ ("%.2f" % score).lstrip('0') }})</span>
-                {% endif %}
-                {% if not loop.last %}
-                  ,
-                {% endif %}
-                </span>
-              {% endfor %}
-            </td>
+              <td class="result_name">
+                  {{ vendor['vendor_name'] }}_{{ feature_name }}
+              </td>
+              <td class="result_values">
+                  {% for result in feature_results %}
+                  {% set score = result[1] %}
+                  <span class="result" style="opacity: {{ score }}">
+                      {{ result[0] }}
+                      {% if score is not none %}
+                      <span class="score">({{ ("%.2f" % score).lstrip('0') }})</span>
+                      {% endif %}
+                      {% if not loop.last %}
+                      ,
+                      {% endif %}
+                  </span>
+                  {% endfor %}
+              </td>
           </tr>
           {% endfor %}
+          {% if image_result['image_tags']|length > 0 %}
           <tr>
-            {% if image_result['image_tags']|length > 0 %}
-            <td class="result_name">
-              {{ vendor['vendor_name'] }}_matching_tags
-            </td>
-            <td class="result_values">
-              {% for tag in vendor['matching_tags'] %}
-                {% set score = tag[1] %}
-                <span class="result" style="opacity: {{ score }}">
-                {{ tag[0] }}
-                {% if score is not none %}
-                  <span class="score">({{ ("%.2f" % score).lstrip('0') }})</span>
-                {% endif %}
-                {% if not loop.last %}
-                  ,
-                {% endif %}
-                </span>
-              {% endfor %}
-            </td>
-            {% endif %}
+              <td class="result_name">
+                  {{ vendor['vendor_name'] }}_matching_tags
+              </td>
+              <td class="result_values">
+                  {% for tag in vendor['matching_tags'] %}
+                  {% set score = tag[1] %}
+                  <span class="result" style="opacity: {{ score }}">
+                      {{ tag[0] }}
+                      {% if score is not none %}
+                      <span class="score">({{ ("%.2f" % score).lstrip('0') }})</span>
+                      {% endif %}
+                      {% if not loop.last %}
+                      ,
+                      {% endif %}
+                  </span>
+                  {% endfor %}
+              </td>
           </tr>
+          {% endif %}
         {% endfor %}
         </table>
-
       </div>
 
     </div>
 
     <hr>
     {% endfor %}
+
+    {% if vendor_stats|length > 0 %}
+    <div class="row" id="statistics">    
+        <div class="twelve columns result">
+            <h4>Stats</h4>
+            <p>
+                On time taken, and number of tags returned. Note that Cloudsight returns captions, not a list of tags, so those counts appear as zero.
+            </p>
+            <table class="u-full-width">
+                {% for vendor, stats in vendor_stats.iteritems() %}
+                {% if loop.first %}
+                <tr class="raw_json">
+                    <td class="result_name">Vendor</td>
+                    {% for stat in stats %}
+                    <td class="result_name">{{ stat['name'] }}</td>
+                    {% endfor %}
+                </tr>
+                {% endif %}
+                <tr class="raw_json">
+                    <td class="result_name">
+                        {{ vendor }}
+                    </td>
+                    {% for stat in stats %}
+                    <td class="result_values">
+                        {{ "%.2f" % stat['value'] }}
+                    </td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+    {% endif %}
 
   </div>
 </body>
