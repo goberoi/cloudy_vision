@@ -38,7 +38,7 @@ def settings(name):
                 'cloudsight' : vendors.cloudsight_,
                 'rekognition' : vendors.rekognition,
             },
-            'resize': False,
+            'resize': True,
             'statistics': [
                 'response_time',
                 'tags_count',
@@ -61,7 +61,7 @@ def settings(name):
 
 
 if settings('resize'):
-    import cv2
+    from PIL import Image
 
 
 def log_status(filepath, vendor_name, msg):
@@ -70,16 +70,16 @@ def log_status(filepath, vendor_name, msg):
 
 
 def resize_and_save(input_image_filepath, output_image_filepath):
-    image = cv2.imread(input_image_filepath)
-    height = image.shape[0]
-    width = image.shape[1]
+    image = Image.open(input_image_filepath)
+    height = image.size[0]
+    width = image.size[1]
     aspect_ratio = float(width) / float(height)
 
     new_height = settings('output_image_height')
     new_width = int(aspect_ratio * new_height)
 
-    output_image = cv2.resize(image, (new_width, new_height))
-    cv2.imwrite(output_image_filepath, output_image)
+    image.thumbnail((new_width, new_height))
+    image.save(output_image_filepath)
 
 
 def render_from_template(directory, template_name, **kwargs):
@@ -151,6 +151,7 @@ def process_all_images():
         # Create a full path so we can read these files.
         filepath = os.path.join(settings('input_images_dir'), filename)
 
+        # Read desired tags to compare against if specified
         image_tags = []
         if settings('tagged_images'):
             image_tags = tags.get(filename, [])
@@ -164,15 +165,21 @@ def process_all_images():
         }
         image_results.append(image_result)
 
+        # If there's no output file, then resize or copy the input file over
+        output_image_filepath = os.path.join(settings('output_dir'), filename)
+        if not(os.path.isfile(output_image_filepath)):
+            log_status(filepath, "", "writing output image in %s" % output_image_filepath)
+            if settings('resize'):
+                resize_and_save(filepath, output_image_filepath)
+            else:
+                copyfile(filepath, output_image_filepath)
+
         # Walk through all vendor APIs to call.
         for vendor_name, vendor_module in sorted(settings('vendors').iteritems(), reverse=True):
 
             # Figure out filename to store and retrive cached JSON results.
             output_json_filename = filename + "." + vendor_name + ".json"
             output_json_path = os.path.join(settings('output_dir'), output_json_filename)
-
-            # And where to store the output image
-            output_image_filepath = os.path.join(settings('output_dir'), filename)
 
             # Check if the call is already cached.
             if os.path.isfile(output_json_path):
@@ -194,14 +201,6 @@ def process_all_images():
                 log_status(filepath, vendor_name, "success, storing result in %s" % output_json_path)
                 with open(output_json_path, 'w') as outfile:
                     outfile.write(json.dumps(api_result))
-
-                # Resize the original image and write to an output filename
-                log_status(filepath, vendor_name, "writing output image in %s" % output_image_filepath)
-                if settings('resize'):
-                    resize_and_save(filepath, output_image_filepath)
-                else:
-                    copyfile(filepath, output_image_filepath)
-
 
                 # Sleep so we avoid hitting throttling limits
                 time.sleep(1)
