@@ -42,14 +42,16 @@ To work with tagged images, set the `tagged_images` setting to True and fill a t
 
 Install these dependencies:
 ```
-pip install Pillow
 pip install numpy
 pip install cloudsight
 pip install git+git://github.com/Clarifai/clarifai-python.git
 pip install --upgrade watson-developer-cloud
 pip install Jinja2
 pip install boto3
+pip install Pillow
 ```
+
+Note that installing Pillow can be dropped if you set settings['resize']=False.
 
 ## Contributing
 
