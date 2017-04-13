@@ -1,5 +1,6 @@
 from jinja2 import FileSystemLoader, Environment
 from shutil import copyfile
+import datetime
 import json
 import numpy as np
 import os
@@ -200,7 +201,8 @@ def process_all_images():
                 # And cache the result in a .json file
                 log_status(filepath, vendor_name, "success, storing result in %s" % output_json_path)
                 with open(output_json_path, 'w') as outfile:
-                    outfile.write(json.dumps(api_result))
+                    api_result_str = json.dumps(api_result, sort_keys=True, indent=4, separators=(',', ': '))
+                    outfile.write(api_result_str)
 
                 # Sleep so we avoid hitting throttling limits
                 time.sleep(1)
@@ -245,7 +247,8 @@ def process_all_images():
         '.',
         os.path.join(settings('static_dir'), 'template.html'),
         image_results=image_results,
-        vendor_stats=vendor_stats
+        vendor_stats=vendor_stats,
+        process_date=datetime.datetime.today()
     )
 
     # Write HTML output.

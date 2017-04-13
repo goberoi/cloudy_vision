@@ -27,10 +27,11 @@
 
         <h4>Results Summary</h4>
         <p>
-            <b>{{ num_images }} images were processed across {{ num_vendors }} vendors</b>: {{ vendor_names }}.
+            <b>On {{ process_date.strftime('%b %d, %Y') }}, {{ num_images }} images were processed across {{ num_vendors }} vendors</b>: {{ vendor_names }}.
         </p>
         <p>
             A thumbnail of each image is displayed (click to see it fullsize) along with results from each computer vision API vendor.
+            <br>
             <a href="#statistics">Statistics on response times</a> and more are at the bottom of the page.
         </p>
       </div>
