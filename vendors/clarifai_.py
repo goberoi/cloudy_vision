@@ -1,20 +1,28 @@
-from clarifai.client import ClarifaiApi
+from clarifai.rest import ClarifaiApp
+from clarifai.rest import Image as ClImage
+
 
 def call_vision_api(image_filename, api_keys):
-    clarifai_api = ClarifaiApi(app_id = api_keys['clarifai']['client_id'],
-                               app_secret = api_keys['clarifai']['client_secret'])
-    result = clarifai_api.tag_images(open(image_filename, 'rb'))
+    app = ClarifaiApp()
+    model = app.models.get('general-v1.3')
+    image = ClImage(file_obj=open(image_filename, 'rb'))
+    result = model.predict([image])
     return result
+
 
 def get_standardized_result(api_result):
     output = {
-        'tags' : []
+        'tags': []
     }
 
-    api_result = api_result['results'][0]
+    concepts = api_result['outputs'][0]['data']['concepts']
+    tag_names = []
+    tag_scores = []
 
-    tag_names = api_result['result']['tag']['classes']
-    tag_scores = api_result['result']['tag']['probs']
+    for concept in concepts:
+        tag_names.append(concept['name'])
+        tag_scores.append(concept['value'])
+
     output['tags'] = zip(tag_names, tag_scores)
 
     return output
