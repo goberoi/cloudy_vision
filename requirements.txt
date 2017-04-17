@@ -1,0 +1,7 @@
+numpy==1.12.1
+cloudsight==0.9.2
+clarifai==2.0.21
+watson-developer-cloud==0.25.2
+Jinja2==2.9.6
+boto3==1.4.4
+Pillow==2.9.0

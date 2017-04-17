@@ -30,6 +30,10 @@ Run a corpus of images through multiple computer vision API vendors. View image 
 
 The keys should not be placed in the api_keys.json file but in ~/.aws/credentials and ~/.aws/config. See http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-config-files
 
+### Note for Clarifai
+
+The keys should not be placed in the api_keys.json file but in ~/.clarifai/config. See https://github.com/Clarifai/clarifai-python#setup
+
 ## Desired Tags
 
 You can specify tags that you hope to get, and see whether results from each vendor match. We'll compute these additional stats:
@@ -42,13 +46,9 @@ To work with tagged images, set the `tagged_images` setting to True and fill a t
 
 Install these dependencies:
 ```
-pip install numpy
-pip install cloudsight
-pip install git+git://github.com/Clarifai/clarifai-python.git
-pip install --upgrade watson-developer-cloud
-pip install Jinja2
-pip install boto3
-pip install Pillow
+virtualenv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 Note that installing Pillow can be dropped if you set settings['resize']=False.
