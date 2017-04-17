@@ -1,0 +1,26 @@
+{
+    "Labels": [
+        {
+            "Confidence": 98.80182647705078,
+            "Name": "Box"
+        },
+        {
+            "Confidence": 98.80182647705078,
+            "Name": "Cardboard"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "145",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 20:00:43 GMT",
+            "x-amzn-requestid": "89385ea1-23a8-11e7-bae3-f180e185015c"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "89385ea1-23a8-11e7-bae3-f180e185015c",
+        "RetryAttempts": 0
+    },
+    "response_time": 1.9217429161071777
+}

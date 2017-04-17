@@ -1,1 +1,174 @@
-{"status_code": "OK", "status_msg": "All images in request have completed successfully. ", "meta": {"tag": {"timestamp": 1466475863.340521, "model": "general-v1.3", "config": "34fb1111b4d5f67cf1b8665ebc603704"}}, "results": [{"docid": 304309693439009550193450740811942556154, "status_code": "OK", "status_msg": "OK", "local_id": "", "result": {"tag": {"classes": ["wheel", "bike", "no person", "transportation system", "vehicle", "spoke", "old", "cyclist", "leisure", "recreation", "outdoors", "bicycle", "tire", "saddle", "brake", "road", "wheel", "chain", "vintage", "travel"], "concept_ids": ["ai_gRZHdRD7", "ai_32LpvRQ0", "ai_786Zr311", "ai_Xxjc3MhT", "ai_WTrlNkqM", "ai_tKDsn1X2", "ai_S0rvLGPz", "ai_QwfPt5x7", "ai_V1FjkFXr", "ai_8Qw6PFLZ", "ai_Zmhsv0Ch", "ai_h91j6nGL", "ai_TsSR8Rx5", "ai_GdP98gQp", "ai_f5hHWj1N", "ai_TZ3C79C6", "ai_TW9GpHcz", "ai_RHl9Dqmk", "ai_gJm9b4ts", "ai_VRmbGVWh"], "probs": [0.9993735551834106, 0.9965481758117676, 0.9920750260353088, 0.9344311952590942, 0.9116556644439697, 0.9078173637390137, 0.899563729763031, 0.8981986045837402, 0.8977015018463135, 0.8957836031913757, 0.8955634236335754, 0.8870551586151123, 0.8826351165771484, 0.8657400608062744, 0.861738920211792, 0.8580211400985718, 0.8462600708007812, 0.8320962190628052, 0.8232932686805725, 0.8215707540512085]}}, "docid_str": "e4efea43bdbffc923a7f5cec9cbf71fa"}]}
+{
+    "outputs": [
+        {
+            "created_at": "2017-04-17T20:00:01.112309Z",
+            "data": {
+                "concepts": [
+                    {
+                        "app_id": null,
+                        "id": "ai_gRZHdRD7",
+                        "name": "wheel",
+                        "value": 0.99937356
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_32LpvRQ0",
+                        "name": "bike",
+                        "value": 0.9965482
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_786Zr311",
+                        "name": "no person",
+                        "value": 0.992075
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Xxjc3MhT",
+                        "name": "transportation system",
+                        "value": 0.9344312
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_WTrlNkqM",
+                        "name": "vehicle",
+                        "value": 0.91165566
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_tKDsn1X2",
+                        "name": "spoke",
+                        "value": 0.90781736
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_S0rvLGPz",
+                        "name": "old",
+                        "value": 0.8995637
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_QwfPt5x7",
+                        "name": "cyclist",
+                        "value": 0.8981986
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_V1FjkFXr",
+                        "name": "leisure",
+                        "value": 0.8977015
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_8Qw6PFLZ",
+                        "name": "recreation",
+                        "value": 0.8957836
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Zmhsv0Ch",
+                        "name": "outdoors",
+                        "value": 0.8955634
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_h91j6nGL",
+                        "name": "bicycle",
+                        "value": 0.88705516
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_TsSR8Rx5",
+                        "name": "tire",
+                        "value": 0.8826351
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_GdP98gQp",
+                        "name": "saddle",
+                        "value": 0.86574006
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_f5hHWj1N",
+                        "name": "brake",
+                        "value": 0.8617389
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_TZ3C79C6",
+                        "name": "road",
+                        "value": 0.85802114
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_TW9GpHcz",
+                        "name": "roll along",
+                        "value": 0.8462601
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_RHl9Dqmk",
+                        "name": "chain",
+                        "value": 0.8320962
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_gJm9b4ts",
+                        "name": "vintage",
+                        "value": 0.82329327
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_VRmbGVWh",
+                        "name": "travel",
+                        "value": 0.82157075
+                    }
+                ]
+            },
+            "id": "ce570234a5884e33a07851440a9ed8fd",
+            "input": {
+                "data": {
+                    "image": {
+                        "url": "https://s3.amazonaws.com/clarifai-api/img/prod/fd575814cd924ce384de96d58a0656a4/bc8ad97091d64d9394e1bc987f112917.jpeg"
+                    }
+                },
+                "id": "c3ed3e6d2d8b499a91b2ba603eb5a50f"
+            },
+            "model": {
+                "app_id": null,
+                "created_at": "2016-03-09T17:11:39.608845Z",
+                "id": "aaa03c23b3724a16a56b629203edc62c",
+                "model_version": {
+                    "active_concept_count": 9171,
+                    "created_at": "2016-07-13T01:19:12.147644Z",
+                    "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                    "metrics_status": {
+                        "code": 21302,
+                        "description": "Model is not yet evaluated."
+                    },
+                    "multiclass_metrics": {},
+                    "status": {
+                        "code": 21100,
+                        "description": "Model trained successfully"
+                    }
+                },
+                "name": "general-v1.3",
+                "output_info": {
+                    "message": "Show output_info with: GET /models/{model_id}/output_info",
+                    "type": "concept",
+                    "type_ext": "concept"
+                }
+            },
+            "status": {
+                "code": 10000,
+                "description": "Ok"
+            }
+        }
+    ],
+    "response_time": 2.408039093017578,
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    }
+}

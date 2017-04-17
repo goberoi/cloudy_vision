@@ -1,1 +1,31 @@
-{"images": [{"image": "input_images/binoculars.jpg", "classifiers": [{"classes": [{"score": 0.995033, "class": "vegetation"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "binoculars",
+                            "score": 0.877,
+                            "type_hierarchy": "/device/binoculars"
+                        },
+                        {
+                            "class": "device",
+                            "score": 0.877
+                        },
+                        {
+                            "class": "coal black color",
+                            "score": 0.989
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/binoculars.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 2.798879861831665
+}

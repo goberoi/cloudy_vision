@@ -1,0 +1,74 @@
+{
+    "Labels": [
+        {
+            "Confidence": 99.1629409790039,
+            "Name": "People"
+        },
+        {
+            "Confidence": 99.1629409790039,
+            "Name": "Person"
+        },
+        {
+            "Confidence": 99.1456298828125,
+            "Name": "Human"
+        },
+        {
+            "Confidence": 80.79206848144531,
+            "Name": "Coffee Table"
+        },
+        {
+            "Confidence": 80.79206848144531,
+            "Name": "Furniture"
+        },
+        {
+            "Confidence": 80.79206848144531,
+            "Name": "Table"
+        },
+        {
+            "Confidence": 70.58028411865234,
+            "Name": "Hardwood"
+        },
+        {
+            "Confidence": 70.58028411865234,
+            "Name": "Wood"
+        },
+        {
+            "Confidence": 52.61902618408203,
+            "Name": "Indoors"
+        },
+        {
+            "Confidence": 52.61902618408203,
+            "Name": "Interior Design"
+        },
+        {
+            "Confidence": 52.61902618408203,
+            "Name": "Room"
+        },
+        {
+            "Confidence": 51.8477783203125,
+            "Name": "Cushion"
+        },
+        {
+            "Confidence": 51.8477783203125,
+            "Name": "Home Decor"
+        },
+        {
+            "Confidence": 51.8477783203125,
+            "Name": "Pillow"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "747",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 20:03:16 GMT",
+            "x-amzn-requestid": "e437f60d-23a8-11e7-90e2-e720ebb2846a"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "e437f60d-23a8-11e7-90e2-e720ebb2846a",
+        "RetryAttempts": 0
+    },
+    "response_time": 1.360992193222046
+}

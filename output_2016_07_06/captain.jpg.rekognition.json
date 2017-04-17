@@ -1,0 +1,42 @@
+{
+    "Labels": [
+        {
+            "Confidence": 99.30775451660156,
+            "Name": "Human"
+        },
+        {
+            "Confidence": 99.30970001220703,
+            "Name": "People"
+        },
+        {
+            "Confidence": 99.30970001220703,
+            "Name": "Person"
+        },
+        {
+            "Confidence": 52.99347686767578,
+            "Name": "Performer"
+        },
+        {
+            "Confidence": 51.35946273803711,
+            "Name": "Portrait"
+        },
+        {
+            "Confidence": 51.35946273803711,
+            "Name": "Selfie"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "345",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 20:02:07 GMT",
+            "x-amzn-requestid": "bb2c9b39-23a8-11e7-9c47-53f293b1ab45"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "bb2c9b39-23a8-11e7-9c47-53f293b1ab45",
+        "RetryAttempts": 0
+    },
+    "response_time": 1.9189848899841309
+}

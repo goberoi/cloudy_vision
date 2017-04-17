@@ -1,54 +1,40 @@
 {
-  "responses": [
-    {
-      "labelAnnotations": [
+    "response_time": 1.6298589706420898,
+    "responses": [
         {
-          "mid": "/m/02wbm",
-          "description": "food",
-          "score": 0.941232
-        },
-        {
-          "mid": "/m/02q08p0",
-          "description": "dish",
-          "score": 0.91276288
-        },
-        {
-          "mid": "/m/036qh8",
-          "description": "produce",
-          "score": 0.91061932
-        },
-        {
-          "mid": "/m/0f4s2w",
-          "description": "vegetable",
-          "score": 0.67963505
-        },
-        {
-          "mid": "/m/0270h",
-          "description": "dessert",
-          "score": 0.61694044
-        },
-        {
-          "mid": "/m/0263lr1",
-          "description": "crop",
-          "score": 0.56105995
-        },
-        {
-          "mid": "/m/0pqdc",
-          "description": "hors d oeuvre",
-          "score": 0.54184365
-        },
-        {
-          "mid": "/m/044dt_",
-          "description": "challah",
-          "score": 0.51659924
+            "labelAnnotations": [
+                {
+                    "description": "food",
+                    "mid": "/m/02wbm",
+                    "score": 0.8472941
+                },
+                {
+                    "description": "yellow",
+                    "mid": "/m/088fh",
+                    "score": 0.82170194
+                },
+                {
+                    "description": "produce",
+                    "mid": "/m/036qh8",
+                    "score": 0.69325703
+                },
+                {
+                    "description": "lighting",
+                    "mid": "/m/019sc6",
+                    "score": 0.6337795
+                },
+                {
+                    "description": "flowering plant",
+                    "mid": "/m/04sjm",
+                    "score": 0.506239
+                }
+            ],
+            "safeSearchAnnotation": {
+                "adult": "VERY_UNLIKELY",
+                "medical": "VERY_UNLIKELY",
+                "spoof": "VERY_UNLIKELY",
+                "violence": "VERY_UNLIKELY"
+            }
         }
-      ],
-      "safeSearchAnnotation": {
-        "adult": "VERY_UNLIKELY",
-        "spoof": "VERY_UNLIKELY",
-        "medical": "VERY_UNLIKELY",
-        "violence": "VERY_UNLIKELY"
-      }
-    }
-  ]
+    ]
 }

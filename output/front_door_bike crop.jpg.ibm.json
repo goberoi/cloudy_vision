@@ -1,1 +1,78 @@
-{"images": [{"image": "input_images/front_door_bike crop.jpg", "classifiers": [{"classes": [{"score": 0.999989, "class": "vehicle", "type_hierarchy": "/vehicles"}, {"score": 0.99959, "class": "bicycle", "type_hierarchy": "/vehicles/bicycle"}, {"score": 0.802184, "class": "bike", "type_hierarchy": "/vehicles/bike"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "bicycle seat",
+                            "score": 0.591,
+                            "type_hierarchy": "/device/support/bicycle seat"
+                        },
+                        {
+                            "class": "seat",
+                            "score": 0.591
+                        },
+                        {
+                            "class": "support",
+                            "score": 0.591
+                        },
+                        {
+                            "class": "device",
+                            "score": 0.591
+                        },
+                        {
+                            "class": "push-bike",
+                            "score": 0.573,
+                            "type_hierarchy": "/vehicle/bicycle/push-bike"
+                        },
+                        {
+                            "class": "bicycle",
+                            "score": 0.82
+                        },
+                        {
+                            "class": "vehicle",
+                            "score": 0.82
+                        },
+                        {
+                            "class": "bicycle rack",
+                            "score": 0.573,
+                            "type_hierarchy": "/framework/bicycle rack"
+                        },
+                        {
+                            "class": "rack",
+                            "score": 0.592
+                        },
+                        {
+                            "class": "framework",
+                            "score": 0.593
+                        },
+                        {
+                            "class": "mountain bike",
+                            "score": 0.544,
+                            "type_hierarchy": "/vehicle/bicycle/mountain bike"
+                        },
+                        {
+                            "class": "handlebar",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "Indian red color",
+                            "score": 0.84
+                        },
+                        {
+                            "class": "maroon color",
+                            "score": 0.711
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/front_door_bike crop.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 1.2685019969940186
+}

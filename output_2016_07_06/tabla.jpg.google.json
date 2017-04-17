@@ -1,0 +1,34 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/04szw",
+          "description": "musical instrument",
+          "score": 0.95940095
+        },
+        {
+          "mid": "/m/011_dp",
+          "description": "skin head percussion instrument",
+          "score": 0.92307693
+        },
+        {
+          "mid": "/m/01p970",
+          "description": "tabla",
+          "score": 0.83333331
+        },
+        {
+          "mid": "/m/02_n6y",
+          "description": "goggles",
+          "score": 0.72822708
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

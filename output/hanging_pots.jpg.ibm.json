@@ -1,1 +1,42 @@
-{"images": [{"image": "input_images/hanging_pots.jpg", "classifiers": [{"classes": [], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "ladle",
+                            "score": 0.759
+                        },
+                        {
+                            "class": "cooking utensil",
+                            "score": 0.546
+                        },
+                        {
+                            "class": "utensil",
+                            "score": 0.754
+                        },
+                        {
+                            "class": "kitchen utensil",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "chestnut color",
+                            "score": 0.891
+                        },
+                        {
+                            "class": "reddish brown color",
+                            "score": 0.611
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/hanging_pots.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 3.4872920513153076
+}

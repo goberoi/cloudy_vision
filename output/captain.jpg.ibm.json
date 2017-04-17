@@ -1,1 +1,92 @@
-{"images": [{"image": "input_images/captain.jpg", "classifiers": [{"classes": [{"score": 0.999986, "class": "person", "type_hierarchy": "/people"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "worker",
+                            "score": 0.586,
+                            "type_hierarchy": "/person/worker"
+                        },
+                        {
+                            "class": "person",
+                            "score": 0.78
+                        },
+                        {
+                            "class": "commuter",
+                            "score": 0.558,
+                            "type_hierarchy": "/person/traveler/commuter"
+                        },
+                        {
+                            "class": "traveler",
+                            "score": 0.558
+                        },
+                        {
+                            "class": "sailor cap",
+                            "score": 0.543,
+                            "type_hierarchy": "/headdress/sailor cap"
+                        },
+                        {
+                            "class": "cap",
+                            "score": 0.546
+                        },
+                        {
+                            "class": "headdress",
+                            "score": 0.546
+                        },
+                        {
+                            "class": "pitching coach (baseball)",
+                            "score": 0.541,
+                            "type_hierarchy": "/person/pitching coach (baseball)"
+                        },
+                        {
+                            "class": "baseball",
+                            "score": 0.533,
+                            "type_hierarchy": "/person/contestant/athlete/baseball player/baseball"
+                        },
+                        {
+                            "class": "baseball player",
+                            "score": 0.543
+                        },
+                        {
+                            "class": "athlete",
+                            "score": 0.543
+                        },
+                        {
+                            "class": "contestant",
+                            "score": 0.543
+                        },
+                        {
+                            "class": "captain",
+                            "score": 0.53,
+                            "type_hierarchy": "/person/serviceman/commissioned military officer/captain"
+                        },
+                        {
+                            "class": "commissioned military officer",
+                            "score": 0.531
+                        },
+                        {
+                            "class": "serviceman",
+                            "score": 0.532
+                        },
+                        {
+                            "class": "Indian red color",
+                            "score": 0.84
+                        },
+                        {
+                            "class": "reddish brown color",
+                            "score": 0.822
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/captain.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 0.9150171279907227
+}

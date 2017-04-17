@@ -1,0 +1,46 @@
+{
+    "Labels": [
+        {
+            "Confidence": 85.64643096923828,
+            "Name": "Animal"
+        },
+        {
+            "Confidence": 85.64643096923828,
+            "Name": "Cattle"
+        },
+        {
+            "Confidence": 85.64643096923828,
+            "Name": "Cow"
+        },
+        {
+            "Confidence": 85.64643096923828,
+            "Name": "Dairy Cow"
+        },
+        {
+            "Confidence": 85.64643096923828,
+            "Name": "Mammal"
+        },
+        {
+            "Confidence": 52.53445053100586,
+            "Name": "Figurine"
+        },
+        {
+            "Confidence": 52.34047317504883,
+            "Name": "Accessories"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "397",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:49:13 GMT",
+            "x-amzn-requestid": "ed244599-23a6-11e7-ab37-55115860e09a"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "ed244599-23a6-11e7-ab37-55115860e09a",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.4592649936676025
+}

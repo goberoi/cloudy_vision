@@ -1,0 +1,91 @@
+{
+  "responses": [
+    {
+      "logoAnnotations": [
+        {
+          "mid": "/g/1q66547rv",
+          "description": "Lasertag Darmstadt",
+          "score": 0.14674397,
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 837,
+                "y": 2688
+              },
+              {
+                "x": 1587,
+                "y": 2688
+              },
+              {
+                "x": 1587,
+                "y": 3122
+              },
+              {
+                "x": 837,
+                "y": 3122
+              }
+            ]
+          }
+        }
+      ],
+      "labelAnnotations": [
+        {
+          "mid": "/m/07yv9",
+          "description": "vehicle",
+          "score": 0.92903847
+        },
+        {
+          "mid": "/m/0k4j",
+          "description": "automobile",
+          "score": 0.90772778
+        },
+        {
+          "mid": "/m/088fh",
+          "description": "yellow",
+          "score": 0.90043294
+        },
+        {
+          "mid": "/m/01bjv",
+          "description": "bus",
+          "score": 0.79559904
+        },
+        {
+          "mid": "/m/01prls",
+          "description": "land vehicle",
+          "score": 0.71875
+        },
+        {
+          "mid": "/m/079bkr",
+          "description": "mode of transport",
+          "score": 0.70408648
+        },
+        {
+          "mid": "/m/0lyw6",
+          "description": "model car",
+          "score": 0.69847649
+        },
+        {
+          "mid": "/m/02yvhj",
+          "description": "school bus",
+          "score": 0.67314154
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "toy",
+          "score": 0.67122507
+        },
+        {
+          "mid": "/m/04n12jn",
+          "description": "samba",
+          "score": 0.64926612
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

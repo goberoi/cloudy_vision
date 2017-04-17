@@ -1,0 +1,39 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/02q08p0",
+          "description": "dish",
+          "score": 0.93579549
+        },
+        {
+          "mid": "/m/02wbm",
+          "description": "food",
+          "score": 0.92606264
+        },
+        {
+          "mid": "/m/036qh8",
+          "description": "produce",
+          "score": 0.796398
+        },
+        {
+          "mid": "/m/0krfg",
+          "description": "meal",
+          "score": 0.66841847
+        },
+        {
+          "mid": "/m/0f4s2w",
+          "description": "vegetable",
+          "score": 0.53323233
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "UNLIKELY",
+        "spoof": "UNLIKELY",
+        "medical": "UNLIKELY",
+        "violence": "UNLIKELY"
+      }
+    }
+  ]
+}

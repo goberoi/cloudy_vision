@@ -1,1 +1,174 @@
-{"status_code": "OK", "status_msg": "All images in request have completed successfully. ", "meta": {"tag": {"timestamp": 1466476238.623482, "model": "general-v1.3", "config": "34fb1111b4d5f67cf1b8665ebc603704"}}, "results": [{"docid": 175289260799129800798907156136386667841, "status_code": "OK", "status_msg": "OK", "local_id": "", "result": {"tag": {"classes": ["box", "container", "no person", "cardboard", "one", "packaging", "paper", "bundle", "carton", "crate", "pack", "people", "storage", "post", "gift", "indoors", "home", "delivery", "business", "shopping"], "concept_ids": ["ai_4qGdfcML", "ai_TkWkj1sX", "ai_786Zr311", "ai_9fDJDKC9", "ai_SVshtN54", "ai_BMDDzdlx", "ai_9bHlLt8r", "ai_bVthx4vT", "ai_4WZjrJxG", "ai_HkpV3GRT", "ai_C70jgNQX", "ai_l8TKp2h5", "ai_bd5c1lFz", "ai_RSQn1mZW", "ai_FFnZGCxD", "ai_Pf2b7clG", "ai_x3vjxJsW", "ai_JDr9jBQq", "ai_6lhccv44", "ai_btvp5RXz"], "probs": [0.9992386102676392, 0.9981745481491089, 0.9939820766448975, 0.98854660987854, 0.9515749216079712, 0.948287844657898, 0.9440841674804688, 0.9310847520828247, 0.9303122758865356, 0.9286072254180908, 0.90831458568573, 0.8894166946411133, 0.8741141557693481, 0.8543620109558105, 0.8529787063598633, 0.8368260860443115, 0.8274267911911011, 0.8154011964797974, 0.8141916394233704, 0.7932792901992798]}}, "docid_str": "83df7bcf313f9c2a66001207d7dca541"}]}
+{
+    "outputs": [
+        {
+            "created_at": "2017-04-17T20:00:40.86333Z",
+            "data": {
+                "concepts": [
+                    {
+                        "app_id": null,
+                        "id": "ai_4qGdfcML",
+                        "name": "box",
+                        "value": 0.9992386
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_TkWkj1sX",
+                        "name": "container",
+                        "value": 0.99817455
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_786Zr311",
+                        "name": "no person",
+                        "value": 0.9939821
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_9fDJDKC9",
+                        "name": "cardboard",
+                        "value": 0.9885466
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_SVshtN54",
+                        "name": "one",
+                        "value": 0.9515749
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_BMDDzdlx",
+                        "name": "packaging",
+                        "value": 0.94828784
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_9bHlLt8r",
+                        "name": "paper",
+                        "value": 0.94408417
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_bVthx4vT",
+                        "name": "bundle",
+                        "value": 0.93108475
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_4WZjrJxG",
+                        "name": "carton",
+                        "value": 0.9303123
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_HkpV3GRT",
+                        "name": "crate",
+                        "value": 0.9286072
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_C70jgNQX",
+                        "name": "pack",
+                        "value": 0.9083146
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_l8TKp2h5",
+                        "name": "people",
+                        "value": 0.8894167
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_bd5c1lFz",
+                        "name": "storage",
+                        "value": 0.87411416
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_RSQn1mZW",
+                        "name": "post",
+                        "value": 0.854362
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_FFnZGCxD",
+                        "name": "gift",
+                        "value": 0.8529787
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Pf2b7clG",
+                        "name": "indoors",
+                        "value": 0.8368261
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_x3vjxJsW",
+                        "name": "home",
+                        "value": 0.8274268
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_JDr9jBQq",
+                        "name": "delivery",
+                        "value": 0.8154012
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_6lhccv44",
+                        "name": "business",
+                        "value": 0.81419164
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_btvp5RXz",
+                        "name": "shopping",
+                        "value": 0.7932793
+                    }
+                ]
+            },
+            "id": "e303340c4a60462a9be65e3be14a170a",
+            "input": {
+                "data": {
+                    "image": {
+                        "url": "https://s3.amazonaws.com/clarifai-api/img/prod/fd575814cd924ce384de96d58a0656a4/eee168706e614e94aef1d5eefeb30cbf.jpeg"
+                    }
+                },
+                "id": "bf305deff766499fa4468bc65d310083"
+            },
+            "model": {
+                "app_id": null,
+                "created_at": "2016-03-09T17:11:39.608845Z",
+                "id": "aaa03c23b3724a16a56b629203edc62c",
+                "model_version": {
+                    "active_concept_count": 9171,
+                    "created_at": "2016-07-13T01:19:12.147644Z",
+                    "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                    "metrics_status": {
+                        "code": 21302,
+                        "description": "Model is not yet evaluated."
+                    },
+                    "multiclass_metrics": {},
+                    "status": {
+                        "code": 21100,
+                        "description": "Model trained successfully"
+                    }
+                },
+                "name": "general-v1.3",
+                "output_info": {
+                    "message": "Show output_info with: GET /models/{model_id}/output_info",
+                    "type": "concept",
+                    "type_ext": "concept"
+                }
+            },
+            "status": {
+                "code": 10000,
+                "description": "Ok"
+            }
+        }
+    ],
+    "response_time": 2.166245937347412,
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    }
+}

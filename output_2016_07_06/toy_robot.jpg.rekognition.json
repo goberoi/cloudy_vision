@@ -1,0 +1,26 @@
+{
+    "Labels": [
+        {
+            "Confidence": 86.46192169189453,
+            "Name": "Toy"
+        },
+        {
+            "Confidence": 68.5138168334961,
+            "Name": "Paper"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "140",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:56:29 GMT",
+            "x-amzn-requestid": "f0c321a0-23a7-11e7-816b-b73b467487fc"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "f0c321a0-23a7-11e7-816b-b73b467487fc",
+        "RetryAttempts": 0
+    },
+    "response_time": 3.0077240467071533
+}

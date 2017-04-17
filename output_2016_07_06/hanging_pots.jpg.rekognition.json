@@ -1,0 +1,30 @@
+{
+    "Labels": [
+        {
+            "Confidence": 70.6719741821289,
+            "Name": "Pot"
+        },
+        {
+            "Confidence": 70.6719741821289,
+            "Name": "Pottery"
+        },
+        {
+            "Confidence": 66.20881652832031,
+            "Name": "Scale"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "189",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:57:45 GMT",
+            "x-amzn-requestid": "1ec1bb13-23a8-11e7-bb94-6bee98ee2315"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "1ec1bb13-23a8-11e7-bb94-6bee98ee2315",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.4111380577087402
+}

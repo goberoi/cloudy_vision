@@ -1,1 +1,60 @@
-{"categories":[{"name":"others_","score":0.9765625}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.012950114905834198,"racyScore":0.015469812788069248},"tags":[{"name":"device","confidence":0.50585848093032837},{"name":"orange","confidence":0.46637299656867981}],"description":{"tags":["thing","red","orange","clock","white"],"captions":[{"text":"a red clock","confidence":0.1935441741685788}]},"requestId":"1b315e09-bc5d-4f78-af2b-b280585e52be","metadata":{"width":2448,"height":3264,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Black","dominantColorBackground":"Red","dominantColors":["Red"],"accentColor":"AA3321","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.012950114905834198,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.015469812788069248
+    },
+    "categories": [
+        {
+            "name": "others_",
+            "score": 0.9765625
+        }
+    ],
+    "color": {
+        "accentColor": "AA3321",
+        "dominantColorBackground": "Red",
+        "dominantColorForeground": "Black",
+        "dominantColors": [
+            "Red"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.19354415120995777,
+                "text": "a red clock"
+            }
+        ],
+        "tags": [
+            "thing",
+            "red",
+            "orange",
+            "clock",
+            "white"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 3264,
+        "width": 2448
+    },
+    "requestId": "e047cf3d-35ea-4369-b6dd-0aece26b8ae7",
+    "response_time": 3.364480972290039,
+    "tags": [
+        {
+            "confidence": 0.5058587193489075,
+            "name": "device"
+        },
+        {
+            "confidence": 0.466373085975647,
+            "name": "orange"
+        }
+    ]
+}

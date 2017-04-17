@@ -1,0 +1,1 @@
+{"images": [{"image": "input_images/cheering_my_popinlaw.jpg", "classifiers": [{"classes": [{"score": 0.598688, "class": "people", "type_hierarchy": "/people"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}

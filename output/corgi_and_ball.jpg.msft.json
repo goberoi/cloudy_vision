@@ -1,1 +1,94 @@
-{"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.016679715365171432,"racyScore":0.098391704261302948},"tags":[{"name":"floor","confidence":0.99992763996124268},{"name":"dog","confidence":0.999835729598999},{"name":"indoor","confidence":0.99485212564468384},{"name":"building","confidence":0.82528752088546753},{"name":"wood","confidence":0.49789896607398987},{"name":"hard","confidence":0.3834836483001709}],"description":{"tags":["floor","dog","indoor","building","brown","standing","wooden","wood","room","game","table","hard","small","orange","mouth","white","toy","rug","black","front","green","living","large","yellow","top","frisbee","holding","playing","kitchen"],"captions":[{"text":"a dog standing on a wooden floor","confidence":0.81365271744346357}]},"requestId":"c37b31c7-9bb8-4bfb-a85b-8388794e7273","metadata":{"width":2448,"height":3264,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Brown","dominantColorBackground":"Brown","dominantColors":["Brown"],"accentColor":"899437","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.016679715365171432,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.09839170426130295
+    },
+    "color": {
+        "accentColor": "899437",
+        "dominantColorBackground": "Brown",
+        "dominantColorForeground": "Brown",
+        "dominantColors": [
+            "Brown"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.8136526704586599,
+                "text": "a dog standing on a wooden floor"
+            }
+        ],
+        "tags": [
+            "floor",
+            "dog",
+            "indoor",
+            "building",
+            "brown",
+            "standing",
+            "wooden",
+            "wood",
+            "room",
+            "game",
+            "table",
+            "hard",
+            "small",
+            "orange",
+            "mouth",
+            "white",
+            "toy",
+            "rug",
+            "black",
+            "front",
+            "green",
+            "living",
+            "large",
+            "yellow",
+            "top",
+            "frisbee",
+            "holding",
+            "playing",
+            "kitchen"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 3264,
+        "width": 2448
+    },
+    "requestId": "456193b5-2f32-425d-8681-7157e99e7c2e",
+    "response_time": 3.996121883392334,
+    "tags": [
+        {
+            "confidence": 0.9999276399612427,
+            "name": "floor"
+        },
+        {
+            "confidence": 0.999835729598999,
+            "name": "dog"
+        },
+        {
+            "confidence": 0.9948521256446838,
+            "name": "indoor"
+        },
+        {
+            "confidence": 0.825287401676178,
+            "name": "building"
+        },
+        {
+            "confidence": 0.4978989362716675,
+            "name": "wood"
+        },
+        {
+            "confidence": 0.3834836184978485,
+            "name": "hard"
+        }
+    ]
+}

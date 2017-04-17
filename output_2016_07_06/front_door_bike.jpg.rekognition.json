@@ -1,0 +1,86 @@
+{
+    "Labels": [
+        {
+            "Confidence": 97.48172760009766,
+            "Name": "Bicycle"
+        },
+        {
+            "Confidence": 97.48172760009766,
+            "Name": "Bike"
+        },
+        {
+            "Confidence": 97.48172760009766,
+            "Name": "Vehicle"
+        },
+        {
+            "Confidence": 87.51675415039062,
+            "Name": "Pebble"
+        },
+        {
+            "Confidence": 77.66156005859375,
+            "Name": "Light Fixture"
+        },
+        {
+            "Confidence": 59.56890106201172,
+            "Name": "Cobblestone"
+        },
+        {
+            "Confidence": 59.56890106201172,
+            "Name": "Pavement"
+        },
+        {
+            "Confidence": 59.56890106201172,
+            "Name": "Walkway"
+        },
+        {
+            "Confidence": 58.066497802734375,
+            "Name": "Flagstone"
+        },
+        {
+            "Confidence": 52.96508026123047,
+            "Name": "Apartment"
+        },
+        {
+            "Confidence": 52.96508026123047,
+            "Name": "Housing"
+        },
+        {
+            "Confidence": 52.96508026123047,
+            "Name": "Indoors"
+        },
+        {
+            "Confidence": 52.96508026123047,
+            "Name": "Room"
+        },
+        {
+            "Confidence": 52.45988845825195,
+            "Name": "Interior Design"
+        },
+        {
+            "Confidence": 51.01781463623047,
+            "Name": "Basement"
+        },
+        {
+            "Confidence": 50.99477005004883,
+            "Name": "Dining Room"
+        },
+        {
+            "Confidence": 50.658817291259766,
+            "Name": "Furniture"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "922",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:58:12 GMT",
+            "x-amzn-requestid": "2e66db90-23a8-11e7-b5ef-799a1b93e0f5"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "2e66db90-23a8-11e7-b5ef-799a1b93e0f5",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.640084981918335
+}

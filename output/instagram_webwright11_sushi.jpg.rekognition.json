@@ -1,0 +1,82 @@
+{
+    "Labels": [
+        {
+            "Confidence": 97.56876373291016,
+            "Name": "Food"
+        },
+        {
+            "Confidence": 97.56876373291016,
+            "Name": "Meatball"
+        },
+        {
+            "Confidence": 85.49422454833984,
+            "Name": "Sushi"
+        },
+        {
+            "Confidence": 77.13555908203125,
+            "Name": "Squash"
+        },
+        {
+            "Confidence": 77.13555908203125,
+            "Name": "Vegetable"
+        },
+        {
+            "Confidence": 59.51951599121094,
+            "Name": "Seafood"
+        },
+        {
+            "Confidence": 56.880062103271484,
+            "Name": "Bowl"
+        },
+        {
+            "Confidence": 56.880062103271484,
+            "Name": "Meal"
+        },
+        {
+            "Confidence": 56.50422668457031,
+            "Name": "Nebula"
+        },
+        {
+            "Confidence": 56.50422668457031,
+            "Name": "Outer Space"
+        },
+        {
+            "Confidence": 56.50422668457031,
+            "Name": "Space"
+        },
+        {
+            "Confidence": 56.50422668457031,
+            "Name": "Universe"
+        },
+        {
+            "Confidence": 54.1827392578125,
+            "Name": "Dessert"
+        },
+        {
+            "Confidence": 53.53250503540039,
+            "Name": "Produce"
+        },
+        {
+            "Confidence": 50.8878173828125,
+            "Name": "Dinner"
+        },
+        {
+            "Confidence": 50.8878173828125,
+            "Name": "Supper"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "837",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:59:23 GMT",
+            "x-amzn-requestid": "5971613a-23a8-11e7-84d1-51ff959d4ad9"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "5971613a-23a8-11e7-84d1-51ff959d4ad9",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.1035518646240234
+}

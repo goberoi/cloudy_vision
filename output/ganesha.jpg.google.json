@@ -1,49 +1,60 @@
 {
-  "responses": [
-    {
-      "labelAnnotations": [
+    "response_time": 1.3229341506958008,
+    "responses": [
         {
-          "mid": "/m/02wtjj",
-          "description": "stone carving",
-          "score": 0.9859733
-        },
-        {
-          "mid": "/m/013_1c",
-          "description": "statue",
-          "score": 0.92419422
-        },
-        {
-          "mid": "/m/06msq",
-          "description": "sculpture",
-          "score": 0.89339185
-        },
-        {
-          "mid": "/m/0jwzhtg",
-          "description": "carving",
-          "score": 0.88788956
-        },
-        {
-          "mid": "/m/0jjw",
-          "description": "art",
-          "score": 0.82721561
-        },
-        {
-          "mid": "/m/02ljgl",
-          "description": "monument",
-          "score": 0.71589363
-        },
-        {
-          "mid": "/m/07bxq",
-          "description": "tourism",
-          "score": 0.67973816
+            "labelAnnotations": [
+                {
+                    "description": "sculpture",
+                    "mid": "/m/06msq",
+                    "score": 0.9369885
+                },
+                {
+                    "description": "statue",
+                    "mid": "/m/013_1c",
+                    "score": 0.8480687
+                },
+                {
+                    "description": "carving",
+                    "mid": "/m/0jwzhtg",
+                    "score": 0.82065547
+                },
+                {
+                    "description": "stone carving",
+                    "mid": "/m/02wtjj",
+                    "score": 0.8112333
+                },
+                {
+                    "description": "art",
+                    "mid": "/m/0jjw",
+                    "score": 0.7842606
+                },
+                {
+                    "description": "monument",
+                    "mid": "/m/02ljgl",
+                    "score": 0.685624
+                },
+                {
+                    "description": "wood",
+                    "mid": "/m/083vt",
+                    "score": 0.61542284
+                },
+                {
+                    "description": "temple",
+                    "mid": "/m/08g_yr",
+                    "score": 0.582754
+                },
+                {
+                    "description": "ancient history",
+                    "mid": "/m/0djmp",
+                    "score": 0.5585254
+                }
+            ],
+            "safeSearchAnnotation": {
+                "adult": "UNLIKELY",
+                "medical": "UNLIKELY",
+                "spoof": "VERY_UNLIKELY",
+                "violence": "VERY_UNLIKELY"
+            }
         }
-      ],
-      "safeSearchAnnotation": {
-        "adult": "UNLIKELY",
-        "spoof": "VERY_UNLIKELY",
-        "medical": "UNLIKELY",
-        "violence": "VERY_UNLIKELY"
-      }
-    }
-  ]
+    ]
 }

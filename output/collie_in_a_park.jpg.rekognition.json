@@ -1,0 +1,42 @@
+{
+    "Labels": [
+        {
+            "Confidence": 97.41439819335938,
+            "Name": "Animal"
+        },
+        {
+            "Confidence": 97.41439819335938,
+            "Name": "Canine"
+        },
+        {
+            "Confidence": 97.41439819335938,
+            "Name": "Collie"
+        },
+        {
+            "Confidence": 97.41439819335938,
+            "Name": "Dog"
+        },
+        {
+            "Confidence": 97.41439819335938,
+            "Name": "Mammal"
+        },
+        {
+            "Confidence": 97.41439819335938,
+            "Name": "Pet"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "335",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:55:41 GMT",
+            "x-amzn-requestid": "d51c6db1-23a7-11e7-a93b-773eb23210cb"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "d51c6db1-23a7-11e7-a93b-773eb23210cb",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.125555992126465
+}

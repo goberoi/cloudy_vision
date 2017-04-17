@@ -1,0 +1,78 @@
+{
+    "Labels": [
+        {
+            "Confidence": 98.79727172851562,
+            "Name": "People"
+        },
+        {
+            "Confidence": 98.79730987548828,
+            "Name": "Person"
+        },
+        {
+            "Confidence": 98.73117065429688,
+            "Name": "Human"
+        },
+        {
+            "Confidence": 97.88577270507812,
+            "Name": "Factory"
+        },
+        {
+            "Confidence": 95.63098907470703,
+            "Name": "Subway"
+        },
+        {
+            "Confidence": 95.63098907470703,
+            "Name": "Train"
+        },
+        {
+            "Confidence": 95.63098907470703,
+            "Name": "Train Station"
+        },
+        {
+            "Confidence": 95.63098907470703,
+            "Name": "Vehicle"
+        },
+        {
+            "Confidence": 55.21424865722656,
+            "Name": "Apparel"
+        },
+        {
+            "Confidence": 55.21424865722656,
+            "Name": "Clothing"
+        },
+        {
+            "Confidence": 51.15428161621094,
+            "Name": "Alley"
+        },
+        {
+            "Confidence": 51.15428161621094,
+            "Name": "Alleyway"
+        },
+        {
+            "Confidence": 51.15428161621094,
+            "Name": "Road"
+        },
+        {
+            "Confidence": 51.15428161621094,
+            "Name": "Street"
+        },
+        {
+            "Confidence": 51.15428161621094,
+            "Name": "Town"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "789",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:58:35 GMT",
+            "x-amzn-requestid": "3c9317c9-23a8-11e7-8999-2389b691abc3"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "3c9317c9-23a8-11e7-8999-2389b691abc3",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.0546648502349854
+}

@@ -1,1 +1,76 @@
-{"categories":[{"name":"abstract_net","score":0.3203125},{"name":"others_","score":0.0078125},{"name":"outdoor_","score":0.00390625},{"name":"text_","score":0.421875}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.018898537382483482,"racyScore":0.014106304384768009},"tags":[{"name":"building","confidence":0.99352794885635376},{"name":"toy","confidence":0.76170152425765991}],"description":{"tags":["building","thing","toy","laying","remote","board","yellow","blue"],"captions":[{"text":"a toy model of a building","confidence":0.069053906840390436}]},"requestId":"4ccbf5cd-7ec4-490c-8fc7-e00957840627","metadata":{"width":2448,"height":3264,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Blue","dominantColorBackground":"White","dominantColors":["Grey","White"],"accentColor":"B6B515","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.018898537382483482,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.01410630438476801
+    },
+    "categories": [
+        {
+            "name": "abstract_net",
+            "score": 0.3203125
+        },
+        {
+            "name": "others_",
+            "score": 0.0078125
+        },
+        {
+            "name": "outdoor_",
+            "score": 0.00390625
+        },
+        {
+            "name": "text_",
+            "score": 0.421875
+        }
+    ],
+    "color": {
+        "accentColor": "B6B515",
+        "dominantColorBackground": "White",
+        "dominantColorForeground": "Blue",
+        "dominantColors": [
+            "Grey",
+            "White"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.06905392761142266,
+                "text": "a toy model of a building"
+            }
+        ],
+        "tags": [
+            "building",
+            "thing",
+            "toy",
+            "laying",
+            "remote",
+            "board",
+            "yellow",
+            "blue"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 3264,
+        "width": 2448
+    },
+    "requestId": "661855ed-50ea-40c3-9552-b34ca37e6441",
+    "response_time": 3.7049601078033447,
+    "tags": [
+        {
+            "confidence": 0.9935279488563538,
+            "name": "building"
+        },
+        {
+            "confidence": 0.7617014646530151,
+            "name": "toy"
+        }
+    ]
+}

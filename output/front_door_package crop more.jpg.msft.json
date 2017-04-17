@@ -1,1 +1,82 @@
-{"categories":[{"name":"others_","score":0.4296875}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.048622790724039078,"racyScore":0.045438919216394424},"tags":[{"name":"floor","confidence":0.95969372987747192},{"name":"box","confidence":0.89584851264953613},{"name":"blue","confidence":0.55095094442367554}],"description":{"tags":["box","sitting","table","blue","refrigerator","suitcase","front","top","small","room","standing","old","wooden","case","bench","luggage","young","toilet","man","pizza","street","kitchen","laying"],"captions":[{"text":"a suitcase sitting in a box","confidence":0.31894211124534277}]},"requestId":"8277a6ab-3bcd-435d-8b66-40e871b865f0","metadata":{"width":394,"height":363,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Grey","dominantColorBackground":"Black","dominantColors":["Black"],"accentColor":"2384A8","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.04862279072403908,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.045438919216394424
+    },
+    "categories": [
+        {
+            "name": "others_",
+            "score": 0.4296875
+        }
+    ],
+    "color": {
+        "accentColor": "2384A8",
+        "dominantColorBackground": "Black",
+        "dominantColorForeground": "Grey",
+        "dominantColors": [
+            "Black"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.3189419957307634,
+                "text": "a suitcase sitting in a box"
+            }
+        ],
+        "tags": [
+            "box",
+            "sitting",
+            "table",
+            "blue",
+            "refrigerator",
+            "suitcase",
+            "front",
+            "top",
+            "small",
+            "room",
+            "standing",
+            "old",
+            "wooden",
+            "case",
+            "bench",
+            "luggage",
+            "young",
+            "toilet",
+            "man",
+            "pizza",
+            "street",
+            "kitchen",
+            "laying"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 363,
+        "width": 394
+    },
+    "requestId": "374a6d47-4f2e-4e0b-9eb5-faed07a12b12",
+    "response_time": 1.1342809200286865,
+    "tags": [
+        {
+            "confidence": 0.9596937298774719,
+            "name": "floor"
+        },
+        {
+            "confidence": 0.8958483934402466,
+            "name": "box"
+        },
+        {
+            "confidence": 0.5509511232376099,
+            "name": "blue"
+        }
+    ]
+}

@@ -1,1 +1,43 @@
-{"images": [{"image": "input_images/ship_and_board_games.jpg", "classifiers": [{"classes": [], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "book",
+                            "score": 0.839
+                        },
+                        {
+                            "class": "bookshelf",
+                            "score": 0.53,
+                            "type_hierarchy": "/device/support/bookshelf"
+                        },
+                        {
+                            "class": "support",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "device",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "maroon color",
+                            "score": 0.731
+                        },
+                        {
+                            "class": "reddish brown color",
+                            "score": 0.694
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/ship_and_board_games.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 3.155501127243042
+}

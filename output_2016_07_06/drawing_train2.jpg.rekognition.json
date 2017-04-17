@@ -1,0 +1,74 @@
+{
+    "Labels": [
+        {
+            "Confidence": 78.59493255615234,
+            "Name": "Chair"
+        },
+        {
+            "Confidence": 78.59493255615234,
+            "Name": "Furniture"
+        },
+        {
+            "Confidence": 54.825096130371094,
+            "Name": "Bulldozer"
+        },
+        {
+            "Confidence": 54.825096130371094,
+            "Name": "Tractor"
+        },
+        {
+            "Confidence": 54.825096130371094,
+            "Name": "Vehicle"
+        },
+        {
+            "Confidence": 53.330101013183594,
+            "Name": "Plumbing"
+        },
+        {
+            "Confidence": 53.315860748291016,
+            "Name": "Collage"
+        },
+        {
+            "Confidence": 53.315860748291016,
+            "Name": "Poster"
+        },
+        {
+            "Confidence": 50.66579055786133,
+            "Name": "Cushion"
+        },
+        {
+            "Confidence": 50.66579055786133,
+            "Name": "Home Decor"
+        },
+        {
+            "Confidence": 50.66579055786133,
+            "Name": "Pillow"
+        },
+        {
+            "Confidence": 50.619232177734375,
+            "Name": "Engine"
+        },
+        {
+            "Confidence": 50.619232177734375,
+            "Name": "Machine"
+        },
+        {
+            "Confidence": 50.619232177734375,
+            "Name": "Motor"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "757",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:49:38 GMT",
+            "x-amzn-requestid": "fc702254-23a6-11e7-abe3-8dd629ec7cdb"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "fc702254-23a6-11e7-abe3-8dd629ec7cdb",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.6682300567626953
+}

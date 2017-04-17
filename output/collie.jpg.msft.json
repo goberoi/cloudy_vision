@@ -1,1 +1,101 @@
-{"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.068454638123512268,"racyScore":0.035653285682201385},"tags":[{"name":"grass","confidence":0.99999630451202393},{"name":"outdoor","confidence":0.99933809041976929},{"name":"dog","confidence":0.99920207262039185},{"name":"tree","confidence":0.99596869945526123},{"name":"frisbee","confidence":0.99433326721191406},{"name":"field","confidence":0.78491353988647461},{"name":"green","confidence":0.63472604751586914},{"name":"grassy","confidence":0.44039386510849},{"name":"lush","confidence":0.12961123883724213}],"description":{"tags":["grass","outdoor","dog","frisbee","field","green","playing","grassy","mouth","brown","park","catching","holding","game","catch","large","black","white","standing","yellow","red","man","air"],"captions":[{"text":"a dog catching a frisbee in a grassy field","confidence":0.81308546493730394}]},"requestId":"40e1063f-81fc-47dc-981b-32018268fe62","metadata":{"width":1200,"height":1600,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Green","dominantColorBackground":"Green","dominantColors":["Green","White"],"accentColor":"466719","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.06845463812351227,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.035653285682201385
+    },
+    "color": {
+        "accentColor": "466719",
+        "dominantColorBackground": "Green",
+        "dominantColorForeground": "Green",
+        "dominantColors": [
+            "Green",
+            "White"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.8130854008985796,
+                "text": "a dog catching a frisbee in a grassy field"
+            }
+        ],
+        "tags": [
+            "grass",
+            "outdoor",
+            "dog",
+            "frisbee",
+            "field",
+            "green",
+            "playing",
+            "grassy",
+            "mouth",
+            "brown",
+            "park",
+            "catching",
+            "holding",
+            "game",
+            "catch",
+            "large",
+            "black",
+            "white",
+            "standing",
+            "yellow",
+            "red",
+            "man",
+            "air"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 1600,
+        "width": 1200
+    },
+    "requestId": "ece996c4-132e-4250-a139-38724f6d9b6e",
+    "response_time": 2.7155239582061768,
+    "tags": [
+        {
+            "confidence": 0.9999963045120239,
+            "name": "grass"
+        },
+        {
+            "confidence": 0.9993380904197693,
+            "name": "outdoor"
+        },
+        {
+            "confidence": 0.9992020726203918,
+            "name": "dog"
+        },
+        {
+            "confidence": 0.9959686994552612,
+            "name": "tree"
+        },
+        {
+            "confidence": 0.9943332672119141,
+            "name": "frisbee"
+        },
+        {
+            "confidence": 0.7849133610725403,
+            "name": "field"
+        },
+        {
+            "confidence": 0.6347261667251587,
+            "name": "green"
+        },
+        {
+            "confidence": 0.4403936564922333,
+            "name": "grassy"
+        },
+        {
+            "confidence": 0.12961120903491974,
+            "name": "lush"
+        }
+    ]
+}

@@ -1,19 +1,25 @@
 {
-  "responses": [
-    {
-      "labelAnnotations": [
+    "response_time": 1.6244280338287354,
+    "responses": [
         {
-          "mid": "/m/0c_jw",
-          "description": "furniture",
-          "score": 0.58245
+            "labelAnnotations": [
+                {
+                    "description": "man made object",
+                    "mid": "/m/0ch75fj",
+                    "score": 0.92124164
+                },
+                {
+                    "description": "furniture",
+                    "mid": "/m/0c_jw",
+                    "score": 0.5682148
+                }
+            ],
+            "safeSearchAnnotation": {
+                "adult": "VERY_UNLIKELY",
+                "medical": "VERY_UNLIKELY",
+                "spoof": "VERY_UNLIKELY",
+                "violence": "VERY_UNLIKELY"
+            }
         }
-      ],
-      "safeSearchAnnotation": {
-        "adult": "VERY_UNLIKELY",
-        "spoof": "VERY_UNLIKELY",
-        "medical": "VERY_UNLIKELY",
-        "violence": "VERY_UNLIKELY"
-      }
-    }
-  ]
+    ]
 }

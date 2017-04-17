@@ -1,0 +1,1 @@
+{"images": [{"image": "input_images/marathon.png", "classifiers": [{"classes": [{"score": 1.0, "class": "crowd", "type_hierarchy": "/people/crowd"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}

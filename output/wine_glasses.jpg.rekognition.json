@@ -1,0 +1,122 @@
+{
+    "Labels": [
+        {
+            "Confidence": 99.2693099975586,
+            "Name": "Glass"
+        },
+        {
+            "Confidence": 88.2796859741211,
+            "Name": "Goblet"
+        },
+        {
+            "Confidence": 87.98527526855469,
+            "Name": "Dining Room"
+        },
+        {
+            "Confidence": 87.98527526855469,
+            "Name": "Indoors"
+        },
+        {
+            "Confidence": 87.98527526855469,
+            "Name": "Room"
+        },
+        {
+            "Confidence": 76.29654693603516,
+            "Name": "Dining Table"
+        },
+        {
+            "Confidence": 76.29654693603516,
+            "Name": "Furniture"
+        },
+        {
+            "Confidence": 76.29654693603516,
+            "Name": "Table"
+        },
+        {
+            "Confidence": 67.03823852539062,
+            "Name": "Beverage"
+        },
+        {
+            "Confidence": 67.03823852539062,
+            "Name": "Drink"
+        },
+        {
+            "Confidence": 55.864654541015625,
+            "Name": "Herbal"
+        },
+        {
+            "Confidence": 55.864654541015625,
+            "Name": "Herbs"
+        },
+        {
+            "Confidence": 55.864654541015625,
+            "Name": "Plant"
+        },
+        {
+            "Confidence": 55.864654541015625,
+            "Name": "Planter"
+        },
+        {
+            "Confidence": 54.36503219604492,
+            "Name": "Vine"
+        },
+        {
+            "Confidence": 53.78453063964844,
+            "Name": "Wine"
+        },
+        {
+            "Confidence": 53.78453063964844,
+            "Name": "Wine Glass"
+        },
+        {
+            "Confidence": 52.851802825927734,
+            "Name": "Cabinet"
+        },
+        {
+            "Confidence": 52.851802825927734,
+            "Name": "China Cabinet"
+        },
+        {
+            "Confidence": 50.88651657104492,
+            "Name": "Blossom"
+        },
+        {
+            "Confidence": 50.88651657104492,
+            "Name": "Flora"
+        },
+        {
+            "Confidence": 50.88651657104492,
+            "Name": "Flower"
+        },
+        {
+            "Confidence": 50.58037185668945,
+            "Name": "Interior Design"
+        },
+        {
+            "Confidence": 50.533687591552734,
+            "Name": "Downtown"
+        },
+        {
+            "Confidence": 50.533687591552734,
+            "Name": "Neighborhood"
+        },
+        {
+            "Confidence": 50.533687591552734,
+            "Name": "Town"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "1362",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:51:18 GMT",
+            "x-amzn-requestid": "382b93ac-23a7-11e7-8a13-3b12b2775d0e"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "382b93ac-23a7-11e7-8a13-3b12b2775d0e",
+        "RetryAttempts": 0
+    },
+    "response_time": 1.6306240558624268
+}

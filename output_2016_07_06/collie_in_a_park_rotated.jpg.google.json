@@ -1,0 +1,64 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/05h0n",
+          "description": "nature",
+          "score": 0.98083961
+        },
+        {
+          "mid": "/m/01sdr",
+          "description": "color",
+          "score": 0.95749837
+        },
+        {
+          "mid": "/m/083jv",
+          "description": "white",
+          "score": 0.94727051
+        },
+        {
+          "mid": "/m/038hg",
+          "description": "green",
+          "score": 0.94195873
+        },
+        {
+          "mid": "/m/01280g",
+          "description": "wildlife",
+          "score": 0.9348408
+        },
+        {
+          "mid": "/m/0838f",
+          "description": "water",
+          "score": 0.90957445
+        },
+        {
+          "mid": "/m/0jbk",
+          "description": "animal",
+          "score": 0.8902595
+        },
+        {
+          "mid": "/m/09686",
+          "description": "vertebrate",
+          "score": 0.85942286
+        },
+        {
+          "mid": "/m/08t9c_",
+          "description": "grass",
+          "score": 0.82470804
+        },
+        {
+          "mid": "/m/068hy",
+          "description": "pet",
+          "score": 0.79992956
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

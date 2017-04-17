@@ -1,0 +1,46 @@
+{
+    "Labels": [
+        {
+            "Confidence": 78.58798217773438,
+            "Name": "Badge"
+        },
+        {
+            "Confidence": 78.58798217773438,
+            "Name": "Emblem"
+        },
+        {
+            "Confidence": 78.58798217773438,
+            "Name": "Logo"
+        },
+        {
+            "Confidence": 53.72721481323242,
+            "Name": "Cushion"
+        },
+        {
+            "Confidence": 53.72721481323242,
+            "Name": "Home Decor"
+        },
+        {
+            "Confidence": 53.72721481323242,
+            "Name": "Pillow"
+        },
+        {
+            "Confidence": 51.84497833251953,
+            "Name": "Accessories"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "397",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:54:59 GMT",
+            "x-amzn-requestid": "bba199e6-23a7-11e7-b652-116db4f93128"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "bba199e6-23a7-11e7-b652-116db4f93128",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.451965093612671
+}

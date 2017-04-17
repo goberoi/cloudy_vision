@@ -1,0 +1,42 @@
+{
+    "Labels": [
+        {
+            "Confidence": 97.88956451416016,
+            "Name": "Art"
+        },
+        {
+            "Confidence": 97.88956451416016,
+            "Name": "Drawing"
+        },
+        {
+            "Confidence": 63.58331298828125,
+            "Name": "Sketch"
+        },
+        {
+            "Confidence": 52.54902267456055,
+            "Name": "Person"
+        },
+        {
+            "Confidence": 52.54902267456055,
+            "Name": "Portrait"
+        },
+        {
+            "Confidence": 52.54902267456055,
+            "Name": "Selfie"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "341",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:55:21 GMT",
+            "x-amzn-requestid": "c934ca41-23a7-11e7-b8fc-d9253d1165d4"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "c934ca41-23a7-11e7-b8fc-d9253d1165d4",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.0099151134490967
+}

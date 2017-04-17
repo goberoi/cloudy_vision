@@ -1,1 +1,65 @@
-{"images": [{"image": "input_images/living_room.jpg", "classifiers": [{"classes": [{"score": 0.354344, "class": "kitchen", "type_hierarchy": "/products/services/facilities/rooms/kitchen"}, {"score": 0.268941, "class": "hotel", "type_hierarchy": "/products/services/accommodations/hotel"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "furnishing",
+                            "score": 0.646
+                        },
+                        {
+                            "class": "dormitory",
+                            "score": 0.554,
+                            "type_hierarchy": "/bedroom/dormitory"
+                        },
+                        {
+                            "class": "bedroom",
+                            "score": 0.604
+                        },
+                        {
+                            "class": "room",
+                            "score": 0.771
+                        },
+                        {
+                            "class": "hospital room",
+                            "score": 0.545
+                        },
+                        {
+                            "class": "chaise longue",
+                            "score": 0.543,
+                            "type_hierarchy": "/furniture/seat/chair/chaise longue"
+                        },
+                        {
+                            "class": "chair",
+                            "score": 0.558
+                        },
+                        {
+                            "class": "seat",
+                            "score": 0.584
+                        },
+                        {
+                            "class": "furniture",
+                            "score": 0.607
+                        },
+                        {
+                            "class": "study",
+                            "score": 0.53,
+                            "type_hierarchy": "/room/study"
+                        },
+                        {
+                            "class": "beige color",
+                            "score": 0.956
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/living_room.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 3.8183369636535645
+}

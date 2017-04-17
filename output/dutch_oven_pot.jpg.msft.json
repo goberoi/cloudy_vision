@@ -1,1 +1,99 @@
-{"categories":[{"name":"abstract_","score":0.00390625},{"name":"others_","score":0.24609375},{"name":"outdoor_","score":0.00390625}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.016883345320820808,"racyScore":0.074177511036396027},"tags":[{"name":"table","confidence":0.98905432224273682},{"name":"indoor","confidence":0.94652277231216431},{"name":"kitchenware","confidence":0.76464962959289551},{"name":"pot","confidence":0.41429978609085083},{"name":"dishware","confidence":0.21760006248950958}],"description":{"tags":["table","indoor","sitting","cup","top","coffee","computer","pot","keyboard","desk","laptop","plate","black","wooden","mouse","blue","bowl","cake","pan","glass","kitchen","white"],"captions":[{"text":"a pot that is sitting on a table","confidence":0.52389841982168306}]},"requestId":"fe89772f-fe98-47b9-b8ce-e5c9a8c098e7","metadata":{"width":2448,"height":3264,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Black","dominantColorBackground":"Black","dominantColors":["Black","Grey","White"],"accentColor":"91623A","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.01688334532082081,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.07417751103639603
+    },
+    "categories": [
+        {
+            "name": "abstract_",
+            "score": 0.00390625
+        },
+        {
+            "name": "others_",
+            "score": 0.24609375
+        },
+        {
+            "name": "outdoor_",
+            "score": 0.00390625
+        }
+    ],
+    "color": {
+        "accentColor": "91623A",
+        "dominantColorBackground": "Black",
+        "dominantColorForeground": "Black",
+        "dominantColors": [
+            "Black",
+            "Grey",
+            "White"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.5238984603999782,
+                "text": "a pot that is sitting on a table"
+            }
+        ],
+        "tags": [
+            "table",
+            "indoor",
+            "sitting",
+            "cup",
+            "top",
+            "coffee",
+            "computer",
+            "pot",
+            "keyboard",
+            "desk",
+            "laptop",
+            "plate",
+            "black",
+            "wooden",
+            "mouse",
+            "blue",
+            "bowl",
+            "cake",
+            "pan",
+            "glass",
+            "kitchen",
+            "white"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 3264,
+        "width": 2448
+    },
+    "requestId": "3ba18e67-fd5f-4d23-b776-535487d12578",
+    "response_time": 2.387294054031372,
+    "tags": [
+        {
+            "confidence": 0.9890543222427368,
+            "name": "table"
+        },
+        {
+            "confidence": 0.9465228319168091,
+            "name": "indoor"
+        },
+        {
+            "confidence": 0.7646498680114746,
+            "name": "kitchenware"
+        },
+        {
+            "confidence": 0.41429978609085083,
+            "name": "pot"
+        },
+        {
+            "confidence": 0.21760016679763794,
+            "name": "dishware"
+        }
+    ]
+}

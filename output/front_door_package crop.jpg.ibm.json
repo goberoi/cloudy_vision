@@ -1,1 +1,60 @@
-{"images": [{"image": "input_images/front_door_package crop.jpg", "classifiers": [{"classes": [], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "bin",
+                            "score": 0.581
+                        },
+                        {
+                            "class": "dustpan",
+                            "score": 0.546,
+                            "type_hierarchy": "/receptacle/dustpan"
+                        },
+                        {
+                            "class": "receptacle",
+                            "score": 0.546
+                        },
+                        {
+                            "class": "cooler",
+                            "score": 0.544,
+                            "type_hierarchy": "/appliance/refrigerator/cooler"
+                        },
+                        {
+                            "class": "refrigerator",
+                            "score": 0.555
+                        },
+                        {
+                            "class": "appliance",
+                            "score": 0.563
+                        },
+                        {
+                            "class": "box",
+                            "score": 0.541
+                        },
+                        {
+                            "class": "recycling bin",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "ultramarine color",
+                            "score": 0.861
+                        },
+                        {
+                            "class": "blue color",
+                            "score": 0.721
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/front_door_package crop.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 1.1288280487060547
+}

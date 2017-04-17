@@ -1,0 +1,54 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/02wbm",
+          "description": "food",
+          "score": 0.941232
+        },
+        {
+          "mid": "/m/02q08p0",
+          "description": "dish",
+          "score": 0.91276288
+        },
+        {
+          "mid": "/m/036qh8",
+          "description": "produce",
+          "score": 0.91061932
+        },
+        {
+          "mid": "/m/0f4s2w",
+          "description": "vegetable",
+          "score": 0.67963505
+        },
+        {
+          "mid": "/m/0270h",
+          "description": "dessert",
+          "score": 0.61694044
+        },
+        {
+          "mid": "/m/0263lr1",
+          "description": "crop",
+          "score": 0.56105995
+        },
+        {
+          "mid": "/m/0pqdc",
+          "description": "hors d oeuvre",
+          "score": 0.54184365
+        },
+        {
+          "mid": "/m/044dt_",
+          "description": "challah",
+          "score": 0.51659924
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

@@ -1,1 +1,76 @@
-{"categories":[{"name":"others_","score":0.0390625},{"name":"outdoor_","score":0.00390625}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.023111989721655846,"racyScore":0.020762158557772636},"tags":[{"name":"black","confidence":0.9389340877532959},{"name":"white","confidence":0.62888425588607788}],"description":{"tags":["black","sitting","indoor","looking","white","small","laying","top","standing","cow","dog","brown","lying","red","pink","room"],"captions":[{"text":"a red white and black cow sitting on the ground","confidence":0.39024391906321271}]},"requestId":"7f21ba77-01d7-4a2f-990e-f16ca18f4feb","metadata":{"width":2448,"height":3264,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Black","dominantColorBackground":"Grey","dominantColors":["Grey","White"],"accentColor":"864552","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.023111989721655846,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.020762158557772636
+    },
+    "categories": [
+        {
+            "name": "others_",
+            "score": 0.0390625
+        },
+        {
+            "name": "outdoor_",
+            "score": 0.00390625
+        }
+    ],
+    "color": {
+        "accentColor": "864552",
+        "dominantColorBackground": "Grey",
+        "dominantColorForeground": "Black",
+        "dominantColors": [
+            "Grey",
+            "White"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.39024384336561974,
+                "text": "a red white and black cow sitting on the ground"
+            }
+        ],
+        "tags": [
+            "black",
+            "sitting",
+            "indoor",
+            "looking",
+            "white",
+            "small",
+            "laying",
+            "top",
+            "standing",
+            "cow",
+            "dog",
+            "brown",
+            "lying",
+            "red",
+            "pink",
+            "room"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 3264,
+        "width": 2448
+    },
+    "requestId": "c1990e06-baea-48a7-bc7d-63a3d3362fc5",
+    "response_time": 2.7052178382873535,
+    "tags": [
+        {
+            "confidence": 0.9389339685440063,
+            "name": "black"
+        },
+        {
+            "confidence": 0.6288840770721436,
+            "name": "white"
+        }
+    ]
+}

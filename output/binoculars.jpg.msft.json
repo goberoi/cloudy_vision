@@ -1,1 +1,81 @@
-{"categories":[{"name":"others_","score":0.16796875}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.0314696729183197,"racyScore":0.041998166590929031},"tags":[{"name":"tree","confidence":0.99197405576705933},{"name":"indoor","confidence":0.94657796621322632},{"name":"window","confidence":0.92619782686233521}],"description":{"tags":["indoor","window","table","sitting","desk","front","computer","large","black","food","laptop","top","keyboard","vase","cat","standing","clock","red","white","phone"],"captions":[{"text":"a vase sitting on a desk","confidence":0.3850802902682926}]},"requestId":"42927edc-9dd7-4f00-8b37-334a9e2af9ff","metadata":{"width":3264,"height":2448,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Black","dominantColorBackground":"Grey","dominantColors":["Black","White","Grey"],"accentColor":"8EA823","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.0314696729183197,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.04199816659092903
+    },
+    "categories": [
+        {
+            "name": "others_",
+            "score": 0.16796875
+        }
+    ],
+    "color": {
+        "accentColor": "8EA823",
+        "dominantColorBackground": "Grey",
+        "dominantColorForeground": "Black",
+        "dominantColors": [
+            "Black",
+            "White",
+            "Grey"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.38508018111614745,
+                "text": "a vase sitting on a desk"
+            }
+        ],
+        "tags": [
+            "indoor",
+            "window",
+            "table",
+            "sitting",
+            "desk",
+            "front",
+            "computer",
+            "large",
+            "black",
+            "food",
+            "laptop",
+            "top",
+            "keyboard",
+            "vase",
+            "cat",
+            "standing",
+            "clock",
+            "red",
+            "white",
+            "phone"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 2448,
+        "width": 3264
+    },
+    "requestId": "1b01977f-efe9-408e-a3a9-b0c6c9bba6d2",
+    "response_time": 1.8064119815826416,
+    "tags": [
+        {
+            "confidence": 0.9919740557670593,
+            "name": "tree"
+        },
+        {
+            "confidence": 0.9465779662132263,
+            "name": "indoor"
+        },
+        {
+            "confidence": 0.9261978268623352,
+            "name": "window"
+        }
+    ]
+}

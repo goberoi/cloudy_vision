@@ -1,1 +1,174 @@
-{"status_code": "OK", "status_msg": "All images in request have completed successfully. ", "meta": {"tag": {"timestamp": 1466470088.304213, "model": "general-v1.3", "config": "34fb1111b4d5f67cf1b8665ebc603704"}}, "results": [{"docid": 50117723345126186107780868101800005263, "status_code": "OK", "status_msg": "OK", "local_id": "", "result": {"tag": {"classes": ["vehicle", "art", "no person", "illustration", "transportation system", "painting", "people", "graffiti", "fun", "color", "outdoors", "old", "man", "street", "travel", "daylight", "design", "adult", "retro", "action"], "concept_ids": ["ai_WTrlNkqM", "ai_JBPqff8z", "ai_786Zr311", "ai_Dm5GLXnB", "ai_Xxjc3MhT", "ai_QrcQWGwJ", "ai_l8TKp2h5", "ai_F1L75hRp", "ai_V2F286Wn", "ai_0JbWBDPd", "ai_Zmhsv0Ch", "ai_S0rvLGPz", "ai_dxSG2s86", "ai_GjVpxXrs", "ai_VRmbGVWh", "ai_ZrPNDjxN", "ai_cMfj16kJ", "ai_VPmHr5bm", "ai_1p2zMmqb", "ai_lrTHSPdB"], "probs": [0.9713244438171387, 0.965790867805481, 0.9657776951789856, 0.9501835703849792, 0.9359825849533081, 0.9265251755714417, 0.905573844909668, 0.9009242057800293, 0.9003906846046448, 0.885115385055542, 0.8807103037834167, 0.8533922433853149, 0.8530669808387756, 0.847950279712677, 0.83962482213974, 0.832085132598877, 0.8262439966201782, 0.8223029375076294, 0.8182950019836426, 0.7804182767868042]}}, "docid_str": "25b45289b0c0a762ed701a901d450e8f"}]}
+{
+    "outputs": [
+        {
+            "created_at": "2017-04-17T19:49:59.794752Z",
+            "data": {
+                "concepts": [
+                    {
+                        "app_id": null,
+                        "id": "ai_WTrlNkqM",
+                        "name": "vehicle",
+                        "value": 0.97132444
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_JBPqff8z",
+                        "name": "art",
+                        "value": 0.96579087
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_786Zr311",
+                        "name": "no person",
+                        "value": 0.9657777
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Dm5GLXnB",
+                        "name": "illustration",
+                        "value": 0.9501836
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Xxjc3MhT",
+                        "name": "transportation system",
+                        "value": 0.9359826
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_QrcQWGwJ",
+                        "name": "painting",
+                        "value": 0.9265252
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_l8TKp2h5",
+                        "name": "people",
+                        "value": 0.90557384
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_F1L75hRp",
+                        "name": "graffiti",
+                        "value": 0.9009242
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_V2F286Wn",
+                        "name": "fun",
+                        "value": 0.9003907
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_0JbWBDPd",
+                        "name": "color",
+                        "value": 0.8851154
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Zmhsv0Ch",
+                        "name": "outdoors",
+                        "value": 0.8807103
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_S0rvLGPz",
+                        "name": "old",
+                        "value": 0.85339224
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_dxSG2s86",
+                        "name": "man",
+                        "value": 0.853067
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_GjVpxXrs",
+                        "name": "street",
+                        "value": 0.8479503
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_VRmbGVWh",
+                        "name": "travel",
+                        "value": 0.8396248
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_ZrPNDjxN",
+                        "name": "daylight",
+                        "value": 0.83208513
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_cMfj16kJ",
+                        "name": "design",
+                        "value": 0.826244
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_VPmHr5bm",
+                        "name": "adult",
+                        "value": 0.82230294
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_1p2zMmqb",
+                        "name": "retro",
+                        "value": 0.818295
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_lrTHSPdB",
+                        "name": "action",
+                        "value": 0.7804183
+                    }
+                ]
+            },
+            "id": "aac07f98382f42d6a0bc249bf6fcc210",
+            "input": {
+                "data": {
+                    "image": {
+                        "url": "https://s3.amazonaws.com/clarifai-api/img/prod/fd575814cd924ce384de96d58a0656a4/e36537c1a9284f9fb43344dec3df9c01.jpeg"
+                    }
+                },
+                "id": "db32171c9d7c471fa4522f8fae8c0baf"
+            },
+            "model": {
+                "app_id": null,
+                "created_at": "2016-03-09T17:11:39.608845Z",
+                "id": "aaa03c23b3724a16a56b629203edc62c",
+                "model_version": {
+                    "active_concept_count": 9171,
+                    "created_at": "2016-07-13T01:19:12.147644Z",
+                    "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                    "metrics_status": {
+                        "code": 21302,
+                        "description": "Model is not yet evaluated."
+                    },
+                    "multiclass_metrics": {},
+                    "status": {
+                        "code": 21100,
+                        "description": "Model trained successfully"
+                    }
+                },
+                "name": "general-v1.3",
+                "output_info": {
+                    "message": "Show output_info with: GET /models/{model_id}/output_info",
+                    "type": "concept",
+                    "type_ext": "concept"
+                }
+            },
+            "status": {
+                "code": 10000,
+                "description": "Ok"
+            }
+        }
+    ],
+    "response_time": 3.0076558589935303,
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    }
+}

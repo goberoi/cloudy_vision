@@ -1,1 +1,53 @@
-{"images": [{"image": "input_images/vegetables.jpg", "classifiers": [{"classes": [{"score": 0.450166, "class": "food"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "winter squash",
+                            "score": 0.624,
+                            "type_hierarchy": "/vegetable/winter squash"
+                        },
+                        {
+                            "class": "squash",
+                            "score": 0.652
+                        },
+                        {
+                            "class": "vegetable",
+                            "score": 0.822
+                        },
+                        {
+                            "class": "Vidalia onion",
+                            "score": 0.594,
+                            "type_hierarchy": "/vegetable/Vidalia onion"
+                        },
+                        {
+                            "class": "onion",
+                            "score": 0.61
+                        },
+                        {
+                            "class": "rutabaga",
+                            "score": 0.53,
+                            "type_hierarchy": "/root vegetable/rutabaga"
+                        },
+                        {
+                            "class": "root vegetable",
+                            "score": 0.578
+                        },
+                        {
+                            "class": "chestnut color",
+                            "score": 1.0
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/vegetables.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 3.765308141708374
+}

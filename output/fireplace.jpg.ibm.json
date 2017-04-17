@@ -1,1 +1,52 @@
-{"images": [{"image": "input_images/fireplace.jpg", "classifiers": [{"classes": [{"score": 0.331812, "class": "building"}, {"score": 0.310026, "class": "door", "type_hierarchy": "/products/door"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "fire screen",
+                            "score": 0.864
+                        },
+                        {
+                            "class": "screen",
+                            "score": 0.864
+                        },
+                        {
+                            "class": "rabbit hutch",
+                            "score": 0.608,
+                            "type_hierarchy": "/enclosure/rabbit hutch"
+                        },
+                        {
+                            "class": "enclosure",
+                            "score": 0.61
+                        },
+                        {
+                            "class": "hearth",
+                            "score": 0.53,
+                            "type_hierarchy": "/housing/dwelling/hearth"
+                        },
+                        {
+                            "class": "dwelling",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "housing",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "brick red color",
+                            "score": 0.984
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/fireplace.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 3.1975691318511963
+}

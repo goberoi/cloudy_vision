@@ -1,1 +1,174 @@
-{"status_code": "OK", "status_msg": "All images in request have completed successfully. ", "meta": {"tag": {"timestamp": 1466470333.122561, "model": "general-v1.3", "config": "34fb1111b4d5f67cf1b8665ebc603704"}}, "results": [{"docid": 238710670848009142339191751585074671900, "status_code": "OK", "status_msg": "OK", "local_id": "", "result": {"tag": {"classes": ["toy", "robot", "illustration", "art", "no person", "retro", "fun", "design", "child", "symbol", "play", "sketch", "game", "graphic", "technology", "vector", "character", "color", "plastic", "funny"], "concept_ids": ["ai_pFMkdMDt", "ai_n9zMj1ln", "ai_Dm5GLXnB", "ai_JBPqff8z", "ai_786Zr311", "ai_1p2zMmqb", "ai_V2F286Wn", "ai_cMfj16kJ", "ai_qcLd7fgc", "ai_8rNgfppJ", "ai_d7Khmhzh", "ai_JP8T36Nq", "ai_Trfr4d8h", "ai_QBpcNtdR", "ai_62K34TR4", "ai_20SCBBZ0", "ai_mqq32bXM", "ai_0JbWBDPd", "ai_P2ktCFHk", "ai_QGHBfsBT"], "probs": [0.9786075353622437, 0.9659485816955566, 0.9283038973808289, 0.9273348450660706, 0.9271320700645447, 0.8823248744010925, 0.8694484829902649, 0.8682684898376465, 0.867212176322937, 0.8651672601699829, 0.8532544374465942, 0.8246334791183472, 0.8198139667510986, 0.8171602487564087, 0.8162336349487305, 0.8123369216918945, 0.8054680824279785, 0.7922558188438416, 0.7888417840003967, 0.7692303657531738]}}, "docid_str": "b39600be41d85e5d149e987fc8aa711c"}]}
+{
+    "outputs": [
+        {
+            "created_at": "2017-04-17T19:56:52.580987Z",
+            "data": {
+                "concepts": [
+                    {
+                        "app_id": null,
+                        "id": "ai_pFMkdMDt",
+                        "name": "toy",
+                        "value": 0.97860754
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_n9zMj1ln",
+                        "name": "robot",
+                        "value": 0.9659486
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Dm5GLXnB",
+                        "name": "illustration",
+                        "value": 0.9283039
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_JBPqff8z",
+                        "name": "art",
+                        "value": 0.92733485
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_786Zr311",
+                        "name": "no person",
+                        "value": 0.92713207
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_1p2zMmqb",
+                        "name": "retro",
+                        "value": 0.8823249
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_V2F286Wn",
+                        "name": "fun",
+                        "value": 0.8694485
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_cMfj16kJ",
+                        "name": "design",
+                        "value": 0.8682685
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_qcLd7fgc",
+                        "name": "child",
+                        "value": 0.8672122
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_8rNgfppJ",
+                        "name": "symbol",
+                        "value": 0.86516726
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_d7Khmhzh",
+                        "name": "play",
+                        "value": 0.85325444
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_JP8T36Nq",
+                        "name": "sketch",
+                        "value": 0.8246335
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Trfr4d8h",
+                        "name": "game",
+                        "value": 0.81981397
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_QBpcNtdR",
+                        "name": "graphic",
+                        "value": 0.81716025
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_62K34TR4",
+                        "name": "technology",
+                        "value": 0.81623363
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_20SCBBZ0",
+                        "name": "vector",
+                        "value": 0.8123369
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_mqq32bXM",
+                        "name": "character",
+                        "value": 0.8054681
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_0JbWBDPd",
+                        "name": "color",
+                        "value": 0.7922558
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_P2ktCFHk",
+                        "name": "plastic",
+                        "value": 0.7888418
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_QGHBfsBT",
+                        "name": "funny",
+                        "value": 0.76923037
+                    }
+                ]
+            },
+            "id": "aa8f44b131ed46c6b072a648c8aeb1b5",
+            "input": {
+                "data": {
+                    "image": {
+                        "url": "https://s3.amazonaws.com/clarifai-api/img/prod/fd575814cd924ce384de96d58a0656a4/a6fd14522c684caaaa822f900358ac31.jpeg"
+                    }
+                },
+                "id": "fe2c57808b254b3c9c8062d7037f36a6"
+            },
+            "model": {
+                "app_id": null,
+                "created_at": "2016-03-09T17:11:39.608845Z",
+                "id": "aaa03c23b3724a16a56b629203edc62c",
+                "model_version": {
+                    "active_concept_count": 9171,
+                    "created_at": "2016-07-13T01:19:12.147644Z",
+                    "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                    "metrics_status": {
+                        "code": 21302,
+                        "description": "Model is not yet evaluated."
+                    },
+                    "multiclass_metrics": {},
+                    "status": {
+                        "code": 21100,
+                        "description": "Model trained successfully"
+                    }
+                },
+                "name": "general-v1.3",
+                "output_info": {
+                    "message": "Show output_info with: GET /models/{model_id}/output_info",
+                    "type": "concept",
+                    "type_ext": "concept"
+                }
+            },
+            "status": {
+                "code": 10000,
+                "description": "Ok"
+            }
+        }
+    ],
+    "response_time": 3.724946975708008,
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    }
+}

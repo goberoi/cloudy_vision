@@ -1,1 +1,174 @@
-{"status_code": "OK", "status_msg": "All images in request have completed successfully. ", "meta": {"tag": {"timestamp": 1466470020.550293, "model": "general-v1.3", "config": "34fb1111b4d5f67cf1b8665ebc603704"}}, "results": [{"docid": 199116981989132716764676643479509930678, "status_code": "OK", "status_msg": "OK", "local_id": "", "result": {"tag": {"classes": ["portrait", "people", "adult", "wear", "man", "safety", "helmet", "one", "veil", "industry", "lid", "expression", "outdoors", "architect", "construction worker", "hardhat", "vehicle", "dig", "security", "eyewear"], "concept_ids": ["ai_TJ9wFfK5", "ai_l8TKp2h5", "ai_VPmHr5bm", "ai_86sS08Pw", "ai_dxSG2s86", "ai_kKszJrhP", "ai_rTb5BWJ1", "ai_SVshtN54", "ai_L83krFdq", "ai_ggQlMG6W", "ai_dPSZc2sM", "ai_cTv1BBXG", "ai_Zmhsv0Ch", "ai_nzMStjVC", "ai_pXsc64N0", "ai_kk7lvjQc", "ai_WTrlNkqM", "ai_0SjPGHZF", "ai_JSwdLWWG", "ai_J5tkrb20"], "probs": [0.992666482925415, 0.9877222776412964, 0.985131561756134, 0.9827268123626709, 0.9823445081710815, 0.9800063371658325, 0.9779337644577026, 0.9730019569396973, 0.9729486703872681, 0.9715373516082764, 0.9660740494728088, 0.936926007270813, 0.9315357208251953, 0.9304674863815308, 0.9269422292709351, 0.8986992835998535, 0.8823985457420349, 0.8469181060791016, 0.836046040058136, 0.8349798917770386]}}, "docid_str": "95cc892a8258fac5b8b1dfad9db612b6"}]}
+{
+    "outputs": [
+        {
+            "created_at": "2017-04-17T20:02:53.171029Z",
+            "data": {
+                "concepts": [
+                    {
+                        "app_id": null,
+                        "id": "ai_TJ9wFfK5",
+                        "name": "portrait",
+                        "value": 0.9926665
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_l8TKp2h5",
+                        "name": "people",
+                        "value": 0.9877223
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_VPmHr5bm",
+                        "name": "adult",
+                        "value": 0.98513156
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_86sS08Pw",
+                        "name": "wear",
+                        "value": 0.9827268
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_dxSG2s86",
+                        "name": "man",
+                        "value": 0.9823445
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_kKszJrhP",
+                        "name": "safety",
+                        "value": 0.98000634
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_rTb5BWJ1",
+                        "name": "helmet",
+                        "value": 0.97793376
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_SVshtN54",
+                        "name": "one",
+                        "value": 0.97300196
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_L83krFdq",
+                        "name": "veil",
+                        "value": 0.9729487
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_ggQlMG6W",
+                        "name": "industry",
+                        "value": 0.97153735
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_dPSZc2sM",
+                        "name": "lid",
+                        "value": 0.96607405
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_cTv1BBXG",
+                        "name": "expression",
+                        "value": 0.936926
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Zmhsv0Ch",
+                        "name": "outdoors",
+                        "value": 0.9315357
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_nzMStjVC",
+                        "name": "architect",
+                        "value": 0.9304675
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_pXsc64N0",
+                        "name": "construction worker",
+                        "value": 0.9269422
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_kk7lvjQc",
+                        "name": "hardhat",
+                        "value": 0.8986993
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_WTrlNkqM",
+                        "name": "vehicle",
+                        "value": 0.88239855
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_0SjPGHZF",
+                        "name": "dig",
+                        "value": 0.8469181
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_JSwdLWWG",
+                        "name": "financial security ",
+                        "value": 0.83604604
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_J5tkrb20",
+                        "name": "eyewear",
+                        "value": 0.8349799
+                    }
+                ]
+            },
+            "id": "c985d956d1f444258c908d558b86d5b2",
+            "input": {
+                "data": {
+                    "image": {
+                        "url": "https://s3.amazonaws.com/clarifai-api/img/prod/fd575814cd924ce384de96d58a0656a4/d7bf3e07ca6746539da6bb70500453cd.jpeg"
+                    }
+                },
+                "id": "cbe9c33e88a146edb4846a19fee88ff8"
+            },
+            "model": {
+                "app_id": null,
+                "created_at": "2016-03-09T17:11:39.608845Z",
+                "id": "aaa03c23b3724a16a56b629203edc62c",
+                "model_version": {
+                    "active_concept_count": 9171,
+                    "created_at": "2016-07-13T01:19:12.147644Z",
+                    "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                    "metrics_status": {
+                        "code": 21302,
+                        "description": "Model is not yet evaluated."
+                    },
+                    "multiclass_metrics": {},
+                    "status": {
+                        "code": 21100,
+                        "description": "Model trained successfully"
+                    }
+                },
+                "name": "general-v1.3",
+                "output_info": {
+                    "message": "Show output_info with: GET /models/{model_id}/output_info",
+                    "type": "concept",
+                    "type_ext": "concept"
+                }
+            },
+            "status": {
+                "code": 10000,
+                "description": "Ok"
+            }
+        }
+    ],
+    "response_time": 2.186368942260742,
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    }
+}

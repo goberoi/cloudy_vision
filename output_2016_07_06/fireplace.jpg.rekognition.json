@@ -1,0 +1,46 @@
+{
+    "Labels": [
+        {
+            "Confidence": 83.18724822998047,
+            "Name": "Bread"
+        },
+        {
+            "Confidence": 83.18724822998047,
+            "Name": "Food"
+        },
+        {
+            "Confidence": 78.6812744140625,
+            "Name": "Brick"
+        },
+        {
+            "Confidence": 77.3138427734375,
+            "Name": "Fireplace"
+        },
+        {
+            "Confidence": 77.3138427734375,
+            "Name": "Hearth"
+        },
+        {
+            "Confidence": 53.9683837890625,
+            "Name": "Dog House"
+        },
+        {
+            "Confidence": 53.9683837890625,
+            "Name": "Kennel"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "387",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:50:04 GMT",
+            "x-amzn-requestid": "0b47e0a7-23a7-11e7-99cd-435ed98a30e2"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "0b47e0a7-23a7-11e7-99cd-435ed98a30e2",
+        "RetryAttempts": 0
+    },
+    "response_time": 3.3788890838623047
+}

@@ -1,1 +1,174 @@
-{"status_code": "OK", "status_msg": "All images in request have completed successfully. ", "meta": {"tag": {"timestamp": 1466470223.565141, "model": "general-v1.3", "config": "34fb1111b4d5f67cf1b8665ebc603704"}}, "results": [{"docid": 215637126376266476800767622345355595504, "status_code": "OK", "status_msg": "OK", "local_id": "", "result": {"tag": {"classes": ["car", "vehicle", "transportation system", "travel", "no person", "bus", "road", "traffic", "luggage", "one", "truck", "drive", "business", "accident", "toy", "travel", "travel", "blur", "wheel", "daylight"], "concept_ids": ["ai_LplXDDZ2", "ai_WTrlNkqM", "ai_Xxjc3MhT", "ai_VRmbGVWh", "ai_786Zr311", "ai_ZbGJ3NvW", "ai_TZ3C79C6", "ai_tr0MBp64", "ai_5zxp1Pbd", "ai_SVshtN54", "ai_DPX3d5qs", "ai_hsG8bzf6", "ai_6lhccv44", "ai_w0Drrqn6", "ai_pFMkdMDt", "ai_gLHprZHs", "ai_DFvZTXj3", "ai_l4WckcJN", "ai_gRZHdRD7", "ai_ZrPNDjxN"], "probs": [0.9906097650527954, 0.9905970096588135, 0.9903318881988525, 0.9785175919532776, 0.9695754051208496, 0.9562596082687378, 0.8988893628120422, 0.8968727588653564, 0.8735185265541077, 0.8587629795074463, 0.8544400930404663, 0.8208757638931274, 0.8175309896469116, 0.812362551689148, 0.7937523126602173, 0.7698075771331787, 0.7697272300720215, 0.7686538100242615, 0.7613489627838135, 0.7585288882255554]}}, "docid_str": "a23a332b6626bec3862db1c554928ef0"}]}
+{
+    "outputs": [
+        {
+            "created_at": "2017-04-17T19:47:19.634164Z",
+            "data": {
+                "concepts": [
+                    {
+                        "app_id": null,
+                        "id": "ai_LplXDDZ2",
+                        "name": "car",
+                        "value": 0.99060977
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_WTrlNkqM",
+                        "name": "vehicle",
+                        "value": 0.990597
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Xxjc3MhT",
+                        "name": "transportation system",
+                        "value": 0.9903319
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_VRmbGVWh",
+                        "name": "travel",
+                        "value": 0.9785176
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_786Zr311",
+                        "name": "no person",
+                        "value": 0.9695754
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_ZbGJ3NvW",
+                        "name": "bus",
+                        "value": 0.9562596
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_TZ3C79C6",
+                        "name": "road",
+                        "value": 0.89888936
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_tr0MBp64",
+                        "name": "traffic",
+                        "value": 0.89687276
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_5zxp1Pbd",
+                        "name": "luggage",
+                        "value": 0.8735185
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_SVshtN54",
+                        "name": "one",
+                        "value": 0.858763
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_DPX3d5qs",
+                        "name": "truck",
+                        "value": 0.8544401
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_hsG8bzf6",
+                        "name": "drive",
+                        "value": 0.82087576
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_6lhccv44",
+                        "name": "business",
+                        "value": 0.817531
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_w0Drrqn6",
+                        "name": "accident",
+                        "value": 0.81236255
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_pFMkdMDt",
+                        "name": "toy",
+                        "value": 0.7937523
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_gLHprZHs",
+                        "name": "jaunt",
+                        "value": 0.7698076
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_DFvZTXj3",
+                        "name": "trip (journey)",
+                        "value": 0.76972723
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_l4WckcJN",
+                        "name": "blur",
+                        "value": 0.7686538
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_gRZHdRD7",
+                        "name": "wheel",
+                        "value": 0.76134896
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_ZrPNDjxN",
+                        "name": "daylight",
+                        "value": 0.7585289
+                    }
+                ]
+            },
+            "id": "b3f4dba4d12f4c058c81141da3877496",
+            "input": {
+                "data": {
+                    "image": {
+                        "url": "https://s3.amazonaws.com/clarifai-api/img/prod/fd575814cd924ce384de96d58a0656a4/d369eba8deb74ee89ab55d5e306b458c.jpeg"
+                    }
+                },
+                "id": "c3bac9c7b4444729bce80fa8d9a9210a"
+            },
+            "model": {
+                "app_id": null,
+                "created_at": "2016-03-09T17:11:39.608845Z",
+                "id": "aaa03c23b3724a16a56b629203edc62c",
+                "model_version": {
+                    "active_concept_count": 9171,
+                    "created_at": "2016-07-13T01:19:12.147644Z",
+                    "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                    "metrics_status": {
+                        "code": 21302,
+                        "description": "Model is not yet evaluated."
+                    },
+                    "multiclass_metrics": {},
+                    "status": {
+                        "code": 21100,
+                        "description": "Model trained successfully"
+                    }
+                },
+                "name": "general-v1.3",
+                "output_info": {
+                    "message": "Show output_info with: GET /models/{model_id}/output_info",
+                    "type": "concept",
+                    "type_ext": "concept"
+                }
+            },
+            "status": {
+                "code": 10000,
+                "description": "Ok"
+            }
+        }
+    ],
+    "response_time": 3.25400710105896,
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    }
+}

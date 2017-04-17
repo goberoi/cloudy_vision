@@ -1,0 +1,64 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0d38m",
+          "description": "marathon",
+          "score": 0.98927778
+        },
+        {
+          "mid": "/m/06ntj",
+          "description": "sports",
+          "score": 0.98498869
+        },
+        {
+          "mid": "/m/06h7j",
+          "description": "running",
+          "score": 0.97986805
+        },
+        {
+          "mid": "/m/0c02pp7",
+          "description": "athletics",
+          "score": 0.9789359
+        },
+        {
+          "mid": "/m/01g317",
+          "description": "person",
+          "score": 0.96666646
+        },
+        {
+          "mid": "/m/03qtwd",
+          "description": "crowd",
+          "score": 0.96609306
+        },
+        {
+          "mid": "/m/0m931",
+          "description": "long distance running",
+          "score": 0.94030267
+        },
+        {
+          "mid": "/m/07p82rh",
+          "description": "human action",
+          "score": 0.93973845
+        },
+        {
+          "mid": "/m/0bynt",
+          "description": "track and field athletics",
+          "score": 0.90115666
+        },
+        {
+          "mid": "/m/01445t",
+          "description": "athlete",
+          "score": 0.87630814
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

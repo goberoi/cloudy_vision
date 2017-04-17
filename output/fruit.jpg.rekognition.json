@@ -1,0 +1,54 @@
+{
+    "Labels": [
+        {
+            "Confidence": 94.16451263427734,
+            "Name": "Banana"
+        },
+        {
+            "Confidence": 94.16451263427734,
+            "Name": "Fruit"
+        },
+        {
+            "Confidence": 79.7495346069336,
+            "Name": "Bowl"
+        },
+        {
+            "Confidence": 58.00638198852539,
+            "Name": "Pot"
+        },
+        {
+            "Confidence": 58.00638198852539,
+            "Name": "Pottery"
+        },
+        {
+            "Confidence": 56.634063720703125,
+            "Name": "Citrus Fruit"
+        },
+        {
+            "Confidence": 56.634063720703125,
+            "Name": "Grapefruit"
+        },
+        {
+            "Confidence": 51.571678161621094,
+            "Name": "Pineapple"
+        },
+        {
+            "Confidence": 50.747859954833984,
+            "Name": "Plant"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "498",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:54:33 GMT",
+            "x-amzn-requestid": "ac519db7-23a7-11e7-bb94-6bee98ee2315"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "ac519db7-23a7-11e7-bb94-6bee98ee2315",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.4293270111083984
+}

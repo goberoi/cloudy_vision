@@ -1,1 +1,34 @@
-{"images": [{"image": "input_images/front_door_package crop more.jpg", "classifiers": [{"classes": [], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "shoebox",
+                            "score": 0.798
+                        },
+                        {
+                            "class": "box",
+                            "score": 0.921
+                        },
+                        {
+                            "class": "toy box",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "ultramarine color",
+                            "score": 0.887
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/front_door_package crop more.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 0.9276900291442871
+}

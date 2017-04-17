@@ -1,1 +1,87 @@
-{"categories":[{"name":"others_","score":0.0078125},{"name":"outdoor_","score":0.00390625},{"name":"people_","score":0.7734375}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.01371973380446434,"racyScore":0.021435661241412163},"tags":[{"name":"person","confidence":0.99774026870727539},{"name":"outdoor","confidence":0.96889078617095947}],"description":{"tags":["person","building","outdoor","holding","man","racket","carrying","tennis","woman","sitting","standing","pair","red","game","people","large","food","player","old","street","hat","court","riding"],"captions":[{"text":"a man and a woman holding a tennis racket","confidence":0.0789182701714647}]},"requestId":"38bcf1a9-9eb7-4df7-b58f-51b23056888c","metadata":{"width":349,"height":425,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Grey","dominantColorBackground":"Grey","dominantColors":["Grey","Brown"],"accentColor":"6F3234","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.01371973380446434,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.021435663104057312
+    },
+    "categories": [
+        {
+            "name": "others_",
+            "score": 0.0078125
+        },
+        {
+            "name": "outdoor_",
+            "score": 0.00390625
+        },
+        {
+            "name": "people_",
+            "score": 0.7734375
+        }
+    ],
+    "color": {
+        "accentColor": "6F3234",
+        "dominantColorBackground": "Grey",
+        "dominantColorForeground": "Grey",
+        "dominantColors": [
+            "Grey",
+            "Brown"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.07891830248868005,
+                "text": "a man and a woman holding a tennis racket"
+            }
+        ],
+        "tags": [
+            "person",
+            "building",
+            "outdoor",
+            "holding",
+            "man",
+            "racket",
+            "carrying",
+            "tennis",
+            "woman",
+            "sitting",
+            "standing",
+            "pair",
+            "red",
+            "game",
+            "people",
+            "large",
+            "food",
+            "player",
+            "old",
+            "street",
+            "hat",
+            "court",
+            "riding"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 425,
+        "width": 349
+    },
+    "requestId": "9d82e8c6-a901-48a8-a682-1959e36f4066",
+    "response_time": 2.9371728897094727,
+    "tags": [
+        {
+            "confidence": 0.9977402687072754,
+            "name": "person"
+        },
+        {
+            "confidence": 0.9688907861709595,
+            "name": "outdoor"
+        }
+    ]
+}

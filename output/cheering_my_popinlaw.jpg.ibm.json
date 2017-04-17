@@ -1,1 +1,58 @@
-{"images": [{"image": "input_images/cheering_my_popinlaw.jpg", "classifiers": [{"classes": [{"score": 0.598688, "class": "people", "type_hierarchy": "/people"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "social gathering",
+                            "score": 0.702,
+                            "type_hierarchy": "/person/social gathering"
+                        },
+                        {
+                            "class": "person",
+                            "score": 0.723
+                        },
+                        {
+                            "class": "trumpeter (musician)",
+                            "score": 0.547,
+                            "type_hierarchy": "/person/entertainer/trumpeter (musician)"
+                        },
+                        {
+                            "class": "musician",
+                            "score": 0.547
+                        },
+                        {
+                            "class": "entertainer",
+                            "score": 0.547
+                        },
+                        {
+                            "class": "beverage consumer",
+                            "score": 0.539,
+                            "type_hierarchy": "/person/social gathering/beverage consumer"
+                        },
+                        {
+                            "class": "mouthpiece",
+                            "score": 0.532
+                        },
+                        {
+                            "class": "people",
+                            "score": 0.53,
+                            "type_hierarchy": "/person/people"
+                        },
+                        {
+                            "class": "jade green color",
+                            "score": 0.799
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/cheering_my_popinlaw.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 1.5893819332122803
+}

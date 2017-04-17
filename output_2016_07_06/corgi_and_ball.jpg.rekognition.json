@@ -1,0 +1,66 @@
+{
+    "Labels": [
+        {
+            "Confidence": 88.20215606689453,
+            "Name": "Animal"
+        },
+        {
+            "Confidence": 88.20215606689453,
+            "Name": "Canine"
+        },
+        {
+            "Confidence": 88.20215606689453,
+            "Name": "Dog"
+        },
+        {
+            "Confidence": 88.20215606689453,
+            "Name": "Husky"
+        },
+        {
+            "Confidence": 88.20215606689453,
+            "Name": "Mammal"
+        },
+        {
+            "Confidence": 88.20215606689453,
+            "Name": "Pet"
+        },
+        {
+            "Confidence": 86.99388885498047,
+            "Name": "Hardwood"
+        },
+        {
+            "Confidence": 86.99388885498047,
+            "Name": "Wood"
+        },
+        {
+            "Confidence": 82.81105041503906,
+            "Name": "Collie"
+        },
+        {
+            "Confidence": 62.322662353515625,
+            "Name": "Puppy"
+        },
+        {
+            "Confidence": 54.0085563659668,
+            "Name": "Eskimo Dog"
+        },
+        {
+            "Confidence": 50.69670867919922,
+            "Name": "Terrier"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "632",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:56:56 GMT",
+            "x-amzn-requestid": "016c6bb8-23a8-11e7-a5ce-4f8766116989"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "016c6bb8-23a8-11e7-a5ce-4f8766116989",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.649718999862671
+}

@@ -1,1 +1,76 @@
-{"categories":[{"name":"trans_trainstation","score":0.98828125}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.013014058582484722,"racyScore":0.01406136155128479},"tags":[{"name":"platform","confidence":0.96758860349655151},{"name":"station","confidence":0.85498946905136108},{"name":"subway","confidence":0.4390718936920166}],"description":{"tags":["train","platform","building","station","track","walking","subway","board","pulling","holding","people","man","standing","waiting","luggage","woman","umbrella"],"captions":[{"text":"person waiting at a train station","confidence":0.34189073189542385}]},"requestId":"5fe1d0a6-691c-4c1b-a96e-ad7d22bc8046","metadata":{"width":1500,"height":1155,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Black","dominantColorBackground":"Black","dominantColors":["Black"],"accentColor":"484B83","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.013014059513807297,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.01406136155128479
+    },
+    "categories": [
+        {
+            "name": "trans_trainstation",
+            "score": 0.98828125
+        }
+    ],
+    "color": {
+        "accentColor": "484B83",
+        "dominantColorBackground": "Black",
+        "dominantColorForeground": "Black",
+        "dominantColors": [
+            "Black"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.34189073189542385,
+                "text": "person waiting at a train station"
+            }
+        ],
+        "tags": [
+            "train",
+            "platform",
+            "building",
+            "station",
+            "track",
+            "walking",
+            "subway",
+            "board",
+            "pulling",
+            "holding",
+            "people",
+            "man",
+            "standing",
+            "waiting",
+            "luggage",
+            "woman",
+            "umbrella"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 1155,
+        "width": 1500
+    },
+    "requestId": "17f41967-03f5-482e-81f0-f066b7e734f2",
+    "response_time": 5.151923179626465,
+    "tags": [
+        {
+            "confidence": 0.9675886034965515,
+            "name": "platform"
+        },
+        {
+            "confidence": 0.8549894690513611,
+            "name": "station"
+        },
+        {
+            "confidence": 0.4390718936920166,
+            "name": "subway"
+        }
+    ]
+}

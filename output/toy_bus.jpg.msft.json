@@ -1,1 +1,70 @@
-{"categories":[{"name":"others_","score":0.09375},{"name":"outdoor_","score":0.00390625},{"name":"trans_bus","score":0.66796875}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.0049097379669547081,"racyScore":0.011896751821041107},"tags":[{"name":"yellow","confidence":0.99586176872253418}],"description":{"tags":["yellow","small","sitting","toy","car","laying","parked","bus","bed","street"],"captions":[{"text":"a yellow bus","confidence":0.15303452936689763}]},"requestId":"b21687b4-0d6a-40f0-a6e0-9c11d1f5ace9","metadata":{"width":2448,"height":3264,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Yellow","dominantColorBackground":"Grey","dominantColors":["Grey","White"],"accentColor":"C39D08","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.004909737966954708,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.011896751821041107
+    },
+    "categories": [
+        {
+            "name": "others_",
+            "score": 0.09375
+        },
+        {
+            "name": "outdoor_",
+            "score": 0.00390625
+        },
+        {
+            "name": "trans_bus",
+            "score": 0.66796875
+        }
+    ],
+    "color": {
+        "accentColor": "C39D08",
+        "dominantColorBackground": "Grey",
+        "dominantColorForeground": "Yellow",
+        "dominantColors": [
+            "Grey",
+            "White"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.15303439181762207,
+                "text": "a yellow bus"
+            }
+        ],
+        "tags": [
+            "yellow",
+            "small",
+            "sitting",
+            "toy",
+            "car",
+            "laying",
+            "parked",
+            "bus",
+            "bed",
+            "street"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 3264,
+        "width": 2448
+    },
+    "requestId": "898d2133-e385-4e11-804f-031cbb0bdf5a",
+    "response_time": 3.7578489780426025,
+    "tags": [
+        {
+            "confidence": 0.9958617687225342,
+            "name": "yellow"
+        }
+    ]
+}

@@ -1,29 +1,30 @@
 {
-  "responses": [
-    {
-      "labelAnnotations": [
+    "response_time": 2.0403199195861816,
+    "responses": [
         {
-          "mid": "/m/0215n",
-          "description": "cartoon",
-          "score": 0.88740194
-        },
-        {
-          "mid": "/m/0138tl",
-          "description": "toy",
-          "score": 0.6612646
-        },
-        {
-          "mid": "/m/04ndr",
-          "description": "lego",
-          "score": 0.6143195
+            "labelAnnotations": [
+                {
+                    "description": "blue",
+                    "mid": "/m/01g5v",
+                    "score": 0.8970869
+                },
+                {
+                    "description": "toy",
+                    "mid": "/m/0138tl",
+                    "score": 0.7416073
+                },
+                {
+                    "description": "action figure",
+                    "mid": "/m/017h86",
+                    "score": 0.56764483
+                }
+            ],
+            "safeSearchAnnotation": {
+                "adult": "VERY_UNLIKELY",
+                "medical": "VERY_UNLIKELY",
+                "spoof": "VERY_UNLIKELY",
+                "violence": "VERY_UNLIKELY"
+            }
         }
-      ],
-      "safeSearchAnnotation": {
-        "adult": "VERY_UNLIKELY",
-        "spoof": "VERY_UNLIKELY",
-        "medical": "VERY_UNLIKELY",
-        "violence": "VERY_UNLIKELY"
-      }
-    }
-  ]
+    ]
 }

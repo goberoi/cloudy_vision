@@ -1,0 +1,64 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/019sc",
+          "description": "black",
+          "score": 0.9433071
+        },
+        {
+          "mid": "/m/068hy",
+          "description": "pet",
+          "score": 0.91458976
+        },
+        {
+          "mid": "/m/04rky",
+          "description": "mammal",
+          "score": 0.89301258
+        },
+        {
+          "mid": "/m/0bt9lr",
+          "description": "dog",
+          "score": 0.786489
+        },
+        {
+          "mid": "/m/0cnyhnx",
+          "description": "bull",
+          "score": 0.74681777
+        },
+        {
+          "mid": "/m/0jzz1",
+          "description": "cattle like mammal",
+          "score": 0.7
+        },
+        {
+          "mid": "/m/021mh_",
+          "description": "stuffed toy",
+          "score": 0.621832
+        },
+        {
+          "mid": "/m/01xq0k1",
+          "description": "cattle",
+          "score": 0.58340085
+        },
+        {
+          "mid": "/m/01lrl",
+          "description": "carnivoran",
+          "score": 0.54811484
+        },
+        {
+          "mid": "/m/0bby24z",
+          "description": "moustache",
+          "score": 0.53719604
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

@@ -1,1 +1,174 @@
-{"status_code": "OK", "status_msg": "All images in request have completed successfully. ", "meta": {"tag": {"timestamp": 1466536418.569369, "model": "general-v1.3", "config": "34fb1111b4d5f67cf1b8665ebc603704"}}, "results": [{"docid": 139970995329059238509904040472381741681, "status_code": "OK", "status_msg": "OK", "local_id": "", "result": {"tag": {"classes": ["furniture", "seat", "room", "interior design", "chair", "family", "indoors", "no person", "sofa", "wood", "house", "cushion", "table", "inside", "luxury", "pillow", "home", "rug", "contemporary", "apartment"], "concept_ids": ["ai_c9n7SB25", "ai_xxnGcd42", "ai_pPxqdnP5", "ai_lWJnj5XV", "ai_GzMCzJF9", "ai_j09mzT6j", "ai_Pf2b7clG", "ai_786Zr311", "ai_XfLPtf7R", "ai_zFnPQdgB", "ai_9Dcdh0PK", "ai_9zQjWfGP", "ai_8LWlDfFD", "ai_XNpR6lwb", "ai_7Xg5SQRW", "ai_N8lt4NQt", "ai_x3vjxJsW", "ai_lbNgcptP", "ai_pCnxWJZh", "ai_BJP7PBvG"], "probs": [0.9974900484085083, 0.9867597818374634, 0.9819880127906799, 0.9748895168304443, 0.9699472188949585, 0.969266414642334, 0.9660072922706604, 0.9501603841781616, 0.9493020176887512, 0.9464693069458008, 0.9444237947463989, 0.9379318952560425, 0.9261941909790039, 0.9039591550827026, 0.9009562134742737, 0.8998392820358276, 0.8886730670928955, 0.8803315758705139, 0.8720974326133728, 0.8483023643493652]}}, "docid_str": "694d6ee1478c3246b09fad42e077da71"}]}
+{
+    "outputs": [
+        {
+            "created_at": "2017-04-17T19:59:20.498018Z",
+            "data": {
+                "concepts": [
+                    {
+                        "app_id": null,
+                        "id": "ai_c9n7SB25",
+                        "name": "furniture",
+                        "value": 0.99749005
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_xxnGcd42",
+                        "name": "seat",
+                        "value": 0.9867598
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_pPxqdnP5",
+                        "name": "room",
+                        "value": 0.981988
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_lWJnj5XV",
+                        "name": "interior design",
+                        "value": 0.9748895
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_GzMCzJF9",
+                        "name": "chair",
+                        "value": 0.9699472
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_j09mzT6j",
+                        "name": "family",
+                        "value": 0.9692664
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Pf2b7clG",
+                        "name": "indoors",
+                        "value": 0.9660073
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_786Zr311",
+                        "name": "no person",
+                        "value": 0.9501604
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_XfLPtf7R",
+                        "name": "sofa",
+                        "value": 0.949302
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_zFnPQdgB",
+                        "name": "wood",
+                        "value": 0.9464693
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_9Dcdh0PK",
+                        "name": "house",
+                        "value": 0.9444238
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_9zQjWfGP",
+                        "name": "cushion",
+                        "value": 0.9379319
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_8LWlDfFD",
+                        "name": "table",
+                        "value": 0.9261942
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_XNpR6lwb",
+                        "name": "inside",
+                        "value": 0.90395916
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_7Xg5SQRW",
+                        "name": "luxury",
+                        "value": 0.9009562
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_N8lt4NQt",
+                        "name": "pillow",
+                        "value": 0.8998393
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_x3vjxJsW",
+                        "name": "home",
+                        "value": 0.88867307
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_lbNgcptP",
+                        "name": "rug",
+                        "value": 0.8803316
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_pCnxWJZh",
+                        "name": "contemporary",
+                        "value": 0.87209743
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_BJP7PBvG",
+                        "name": "apartment",
+                        "value": 0.84830236
+                    }
+                ]
+            },
+            "id": "e5b8694f6ab9420a8f47fa23a2caa402",
+            "input": {
+                "data": {
+                    "image": {
+                        "url": "https://s3.amazonaws.com/clarifai-api/img/prod/fd575814cd924ce384de96d58a0656a4/ffef9d44508640218215feae5ccae333.jpeg"
+                    }
+                },
+                "id": "e624baa007114a87b5df2bbb0b5dd67b"
+            },
+            "model": {
+                "app_id": null,
+                "created_at": "2016-03-09T17:11:39.608845Z",
+                "id": "aaa03c23b3724a16a56b629203edc62c",
+                "model_version": {
+                    "active_concept_count": 9171,
+                    "created_at": "2016-07-13T01:19:12.147644Z",
+                    "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                    "metrics_status": {
+                        "code": 21302,
+                        "description": "Model is not yet evaluated."
+                    },
+                    "multiclass_metrics": {},
+                    "status": {
+                        "code": 21100,
+                        "description": "Model trained successfully"
+                    }
+                },
+                "name": "general-v1.3",
+                "output_info": {
+                    "message": "Show output_info with: GET /models/{model_id}/output_info",
+                    "type": "concept",
+                    "type_ext": "concept"
+                }
+            },
+            "status": {
+                "code": 10000,
+                "description": "Ok"
+            }
+        }
+    ],
+    "response_time": 2.98931884765625,
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    }
+}

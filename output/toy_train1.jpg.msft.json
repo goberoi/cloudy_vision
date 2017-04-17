@@ -1,1 +1,75 @@
-{"categories":[{"name":"others_","score":0.02734375},{"name":"text_","score":0.48828125},{"name":"text_sign","score":0.15234375}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.013312646187841892,"racyScore":0.011060822755098343},"tags":[{"name":"LEGO","confidence":0.9558417797088623},{"name":"green","confidence":0.90205323696136475},{"name":"toy","confidence":0.89171916246414185}],"description":{"tags":["thing","toy","green","small","sitting","orange","laying"],"captions":[{"text":"a toy truck","confidence":0.13501439002537993}]},"requestId":"1ebe78be-94a5-4e3c-a332-aaa3b079de71","metadata":{"width":2448,"height":3264,"format":"Jpeg"},"faces":[{"age":56,"gender":"Male","faceRectangle":{"left":2215,"top":1574,"width":88,"height":88}}],"color":{"dominantColorForeground":"Green","dominantColorBackground":"White","dominantColors":["White","Grey"],"accentColor":"B55E16","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.013312646187841892,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.011060822755098343
+    },
+    "categories": [
+        {
+            "name": "others_",
+            "score": 0.02734375
+        },
+        {
+            "name": "text_",
+            "score": 0.48828125
+        },
+        {
+            "name": "text_sign",
+            "score": 0.15234375
+        }
+    ],
+    "color": {
+        "accentColor": "B55E16",
+        "dominantColorBackground": "White",
+        "dominantColorForeground": "Green",
+        "dominantColors": [
+            "White",
+            "Grey"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.135014403234816,
+                "text": "a toy truck"
+            }
+        ],
+        "tags": [
+            "thing",
+            "toy",
+            "green",
+            "small",
+            "sitting",
+            "orange",
+            "laying"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 3264,
+        "width": 2448
+    },
+    "requestId": "a0f3052a-e27d-4715-99d3-4adfb9b670e7",
+    "response_time": 1.813892126083374,
+    "tags": [
+        {
+            "confidence": 0.9558417797088623,
+            "name": "LEGO"
+        },
+        {
+            "confidence": 0.9020532369613647,
+            "name": "green"
+        },
+        {
+            "confidence": 0.8917192220687866,
+            "name": "toy"
+        }
+    ]
+}

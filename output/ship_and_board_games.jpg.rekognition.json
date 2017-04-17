@@ -1,0 +1,54 @@
+{
+    "Labels": [
+        {
+            "Confidence": 88.53427124023438,
+            "Name": "Book"
+        },
+        {
+            "Confidence": 88.53427124023438,
+            "Name": "Text"
+        },
+        {
+            "Confidence": 70.13714599609375,
+            "Name": "Art"
+        },
+        {
+            "Confidence": 51.60315704345703,
+            "Name": "Shop"
+        },
+        {
+            "Confidence": 51.294620513916016,
+            "Name": "Bookcase"
+        },
+        {
+            "Confidence": 51.294620513916016,
+            "Name": "Furniture"
+        },
+        {
+            "Confidence": 51.294620513916016,
+            "Name": "Shelf"
+        },
+        {
+            "Confidence": 50.65065002441406,
+            "Name": "Logo"
+        },
+        {
+            "Confidence": 50.65065002441406,
+            "Name": "Trademark"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "487",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:48:30 GMT",
+            "x-amzn-requestid": "d3b2c08f-23a6-11e7-a455-ef54fd1e7e13"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "d3b2c08f-23a6-11e7-a455-ef54fd1e7e13",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.680561065673828
+}

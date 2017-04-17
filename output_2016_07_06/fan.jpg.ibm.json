@@ -1,0 +1,1 @@
+{"images": [{"image": "input_images/fan.jpg", "classifiers": [{"classes": [{"score": 0.845535, "class": "building"}, {"score": 0.802184, "class": "high-rise", "type_hierarchy": "/buildings/high-rise"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}

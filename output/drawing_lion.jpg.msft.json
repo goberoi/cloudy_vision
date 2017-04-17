@@ -1,1 +1,49 @@
-{"categories":[{"name":"abstract_nonphoto","score":0.9921875}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.038060605525970459,"racyScore":0.052019070833921432},"tags":[],"description":{"tags":["text","drawing"],"captions":[{"text":"a close up of two giraffes near a tree","confidence":0.0043883159135285942}]},"requestId":"ca95077f-d719-4892-aaff-60fab28bebc6","metadata":{"width":1500,"height":1155,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"White","dominantColorBackground":"White","dominantColors":["White","Grey"],"accentColor":"515654","isBWImg":true},"imageType":{"clipArtType":3,"lineDrawingType":1}}
+{
+    "adult": {
+        "adultScore": 0.03806060552597046,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.05201907083392143
+    },
+    "categories": [
+        {
+            "name": "abstract_nonphoto",
+            "score": 0.9921875
+        }
+    ],
+    "color": {
+        "accentColor": "515654",
+        "dominantColorBackground": "White",
+        "dominantColorForeground": "White",
+        "dominantColors": [
+            "White",
+            "Grey"
+        ],
+        "isBWImg": true
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.004388315913528594,
+                "text": "a close up of two giraffes near a tree"
+            }
+        ],
+        "tags": [
+            "text",
+            "drawing"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 3,
+        "lineDrawingType": 1
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 1155,
+        "width": 1500
+    },
+    "requestId": "51d8d754-e185-4683-8645-fa0e45064f26",
+    "response_time": 1.8335089683532715,
+    "tags": []
+}

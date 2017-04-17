@@ -1,0 +1,74 @@
+{
+    "Labels": [
+        {
+            "Confidence": 99.24652862548828,
+            "Name": "People"
+        },
+        {
+            "Confidence": 99.24652862548828,
+            "Name": "Person"
+        },
+        {
+            "Confidence": 99.2383041381836,
+            "Name": "Human"
+        },
+        {
+            "Confidence": 95.49662017822266,
+            "Name": "Alcohol"
+        },
+        {
+            "Confidence": 95.49662017822266,
+            "Name": "Beer"
+        },
+        {
+            "Confidence": 95.49662017822266,
+            "Name": "Beer Bottle"
+        },
+        {
+            "Confidence": 95.49662017822266,
+            "Name": "Beverage"
+        },
+        {
+            "Confidence": 95.49662017822266,
+            "Name": "Bottle"
+        },
+        {
+            "Confidence": 95.49662017822266,
+            "Name": "Drink"
+        },
+        {
+            "Confidence": 73.67005920410156,
+            "Name": "Coke"
+        },
+        {
+            "Confidence": 73.67005920410156,
+            "Name": "Soda"
+        },
+        {
+            "Confidence": 52.50404357910156,
+            "Name": "Face"
+        },
+        {
+            "Confidence": 52.50404357910156,
+            "Name": "Selfie"
+        },
+        {
+            "Confidence": 50.732200622558594,
+            "Name": "Leisure Activities"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "743",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:48:08 GMT",
+            "x-amzn-requestid": "c6f5cc84-23a6-11e7-abe3-8dd629ec7cdb"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "c6f5cc84-23a6-11e7-abe3-8dd629ec7cdb",
+        "RetryAttempts": 0
+    },
+    "response_time": 1.9403069019317627
+}

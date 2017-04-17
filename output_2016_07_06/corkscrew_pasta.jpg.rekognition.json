@@ -1,0 +1,34 @@
+{
+    "Labels": [
+        {
+            "Confidence": 59.96864318847656,
+            "Name": "Corn"
+        },
+        {
+            "Confidence": 59.96864318847656,
+            "Name": "Food"
+        },
+        {
+            "Confidence": 59.96864318847656,
+            "Name": "Grain"
+        },
+        {
+            "Confidence": 59.96864318847656,
+            "Name": "Vegetable"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "241",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:52:06 GMT",
+            "x-amzn-requestid": "5493278a-23a7-11e7-bdb7-918d954c2696"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "5493278a-23a7-11e7-bdb7-918d954c2696",
+        "RetryAttempts": 0
+    },
+    "response_time": 3.0170860290527344
+}

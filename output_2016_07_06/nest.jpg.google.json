@@ -1,0 +1,54 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0k4j",
+          "description": "automobile",
+          "score": 0.93736219
+        },
+        {
+          "mid": "/m/07yv9",
+          "description": "vehicle",
+          "score": 0.90023148
+        },
+        {
+          "mid": "/m/05kc0j",
+          "description": "gauge",
+          "score": 0.79563475
+        },
+        {
+          "mid": "/m/03b6_4",
+          "description": "steering wheel",
+          "score": 0.76957458
+        },
+        {
+          "mid": "/m/02df64",
+          "description": "hood",
+          "score": 0.60951513
+        },
+        {
+          "mid": "/m/012mq4",
+          "description": "sports car",
+          "score": 0.5807727
+        },
+        {
+          "mid": "/m/01wk9c",
+          "description": "emblem",
+          "score": 0.53588158
+        },
+        {
+          "mid": "/m/0ctrp",
+          "description": "sport utility vehicle",
+          "score": 0.50837857
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

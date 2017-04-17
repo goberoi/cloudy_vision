@@ -1,0 +1,38 @@
+{
+    "Labels": [
+        {
+            "Confidence": 51.44000244140625,
+            "Name": "Engine"
+        },
+        {
+            "Confidence": 51.44000244140625,
+            "Name": "Machine"
+        },
+        {
+            "Confidence": 51.44000244140625,
+            "Name": "Motor"
+        },
+        {
+            "Confidence": 50.82728958129883,
+            "Name": "Art"
+        },
+        {
+            "Confidence": 50.82728958129883,
+            "Name": "Modern Art"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "293",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:53:44 GMT",
+            "x-amzn-requestid": "8f763a5a-23a7-11e7-b2fc-c521c58d2076"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "8f763a5a-23a7-11e7-b2fc-c521c58d2076",
+        "RetryAttempts": 0
+    },
+    "response_time": 1.2553319931030273
+}

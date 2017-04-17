@@ -1,1 +1,69 @@
-{"categories":[{"name":"others_","score":0.12109375}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.20045995712280273,"racyScore":0.0931844636797905},"tags":[],"description":{"tags":["sitting","building","box","table","front","sidewalk","cat","black","bench","toilet","door","room","sink","wooden","white","street","standing","blue","laying","kitchen","tub"],"captions":[{"text":"a bench in front of a box","confidence":0.21429079448681695}]},"requestId":"dbb6a808-2490-4a81-bcc9-367edcf157e1","metadata":{"width":892,"height":592,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Grey","dominantColorBackground":"Brown","dominantColors":["Grey","Brown","Black"],"accentColor":"2C7E9F","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.20045995712280273,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.0931844636797905
+    },
+    "categories": [
+        {
+            "name": "others_",
+            "score": 0.12109375
+        }
+    ],
+    "color": {
+        "accentColor": "2C7E9F",
+        "dominantColorBackground": "Brown",
+        "dominantColorForeground": "Grey",
+        "dominantColors": [
+            "Grey",
+            "Brown",
+            "Black"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.2142907506752527,
+                "text": "a bench in front of a box"
+            }
+        ],
+        "tags": [
+            "sitting",
+            "building",
+            "box",
+            "table",
+            "front",
+            "sidewalk",
+            "cat",
+            "black",
+            "bench",
+            "toilet",
+            "door",
+            "room",
+            "sink",
+            "wooden",
+            "white",
+            "street",
+            "standing",
+            "blue",
+            "laying",
+            "kitchen",
+            "tub"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 592,
+        "width": 892
+    },
+    "requestId": "ead5823d-2ab0-4437-bd6e-a2fbc96bb795",
+    "response_time": 2.603600025177002,
+    "tags": []
+}

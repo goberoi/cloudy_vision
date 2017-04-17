@@ -1,51 +1,47 @@
 {
-  "responses": [
-    {
-      "logoAnnotations": [
+    "response_time": 1.5512170791625977,
+    "responses": [
         {
-          "mid": "/g/1q66547rv",
-          "description": "Lasertag Darmstadt",
-          "score": 0.18160439,
-          "boundingPoly": {
-            "vertices": [
-              {
-                "x": 1362,
-                "y": 2418
-              },
-              {
-                "x": 2009,
-                "y": 2418
-              },
-              {
-                "x": 2009,
-                "y": 2776
-              },
-              {
-                "x": 1362,
-                "y": 2776
-              }
-            ]
-          }
+            "labelAnnotations": [
+                {
+                    "description": "toy",
+                    "mid": "/m/0138tl",
+                    "score": 0.6928717
+                }
+            ],
+            "logoAnnotations": [
+                {
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 1362,
+                                "y": 2418
+                            },
+                            {
+                                "x": 2009,
+                                "y": 2418
+                            },
+                            {
+                                "x": 2009,
+                                "y": 2776
+                            },
+                            {
+                                "x": 1362,
+                                "y": 2776
+                            }
+                        ]
+                    },
+                    "description": "Lasertag Darmstadt",
+                    "mid": "/g/1q66547rv",
+                    "score": 0.18160439
+                }
+            ],
+            "safeSearchAnnotation": {
+                "adult": "VERY_UNLIKELY",
+                "medical": "VERY_UNLIKELY",
+                "spoof": "VERY_UNLIKELY",
+                "violence": "VERY_UNLIKELY"
+            }
         }
-      ],
-      "labelAnnotations": [
-        {
-          "mid": "/m/0138tl",
-          "description": "toy",
-          "score": 0.62550771
-        },
-        {
-          "mid": "/m/0404d",
-          "description": "jewellery",
-          "score": 0.5870114
-        }
-      ],
-      "safeSearchAnnotation": {
-        "adult": "VERY_UNLIKELY",
-        "spoof": "VERY_UNLIKELY",
-        "medical": "VERY_UNLIKELY",
-        "violence": "VERY_UNLIKELY"
-      }
-    }
-  ]
+    ]
 }

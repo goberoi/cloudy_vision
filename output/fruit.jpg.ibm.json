@@ -1,1 +1,35 @@
-{"images": [{"image": "input_images/fruit.jpg", "classifiers": [{"classes": [{"score": 0.598688, "class": "food"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "banana",
+                            "score": 0.832,
+                            "type_hierarchy": "/fruit/banana"
+                        },
+                        {
+                            "class": "fruit",
+                            "score": 0.847
+                        },
+                        {
+                            "class": "lemon yellow color",
+                            "score": 0.934
+                        },
+                        {
+                            "class": "yellow color",
+                            "score": 0.803
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/fruit.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 3.4961109161376953
+}

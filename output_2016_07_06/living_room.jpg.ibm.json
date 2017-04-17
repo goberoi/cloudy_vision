@@ -1,0 +1,1 @@
+{"images": [{"image": "input_images/living_room.jpg", "classifiers": [{"classes": [{"score": 0.354344, "class": "kitchen", "type_hierarchy": "/products/services/facilities/rooms/kitchen"}, {"score": 0.268941, "class": "hotel", "type_hierarchy": "/products/services/accommodations/hotel"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}

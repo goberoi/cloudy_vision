@@ -1,0 +1,86 @@
+{
+    "Labels": [
+        {
+            "Confidence": 71.22386932373047,
+            "Name": "Art"
+        },
+        {
+            "Confidence": 71.22386932373047,
+            "Name": "Carpet"
+        },
+        {
+            "Confidence": 71.22386932373047,
+            "Name": "Tapestry"
+        },
+        {
+            "Confidence": 55.10528564453125,
+            "Name": "Brochure"
+        },
+        {
+            "Confidence": 55.10528564453125,
+            "Name": "Flyer"
+        },
+        {
+            "Confidence": 55.10528564453125,
+            "Name": "Paper"
+        },
+        {
+            "Confidence": 55.10528564453125,
+            "Name": "Poster"
+        },
+        {
+            "Confidence": 52.091835021972656,
+            "Name": "Ancient Egypt"
+        },
+        {
+            "Confidence": 51.26710510253906,
+            "Name": "Cushion"
+        },
+        {
+            "Confidence": 51.26710510253906,
+            "Name": "Home Decor"
+        },
+        {
+            "Confidence": 51.26710510253906,
+            "Name": "Pillow"
+        },
+        {
+            "Confidence": 50.97843551635742,
+            "Name": "Angus"
+        },
+        {
+            "Confidence": 50.97843551635742,
+            "Name": "Animal"
+        },
+        {
+            "Confidence": 50.97843551635742,
+            "Name": "Bull"
+        },
+        {
+            "Confidence": 50.97843551635742,
+            "Name": "Mammal"
+        },
+        {
+            "Confidence": 50.843299865722656,
+            "Name": "Emblem"
+        },
+        {
+            "Confidence": 50.843299865722656,
+            "Name": "Logo"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "889",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:54:07 GMT",
+            "x-amzn-requestid": "9c5e3620-23a7-11e7-a6b7-9f6e9803a147"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "9c5e3620-23a7-11e7-a6b7-9f6e9803a147",
+        "RetryAttempts": 0
+    },
+    "response_time": 3.187035083770752
+}

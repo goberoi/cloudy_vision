@@ -1,0 +1,38 @@
+{
+    "Labels": [
+        {
+            "Confidence": 54.38799285888672,
+            "Name": "Drum"
+        },
+        {
+            "Confidence": 54.38799285888672,
+            "Name": "Musical Instrument"
+        },
+        {
+            "Confidence": 54.38799285888672,
+            "Name": "Percussion"
+        },
+        {
+            "Confidence": 51.10987854003906,
+            "Name": "Can"
+        },
+        {
+            "Confidence": 51.10987854003906,
+            "Name": "Tin"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "300",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:57:22 GMT",
+            "x-amzn-requestid": "1090c384-23a8-11e7-b181-d55082e0559d"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "1090c384-23a8-11e7-b181-d55082e0559d",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.6158299446105957
+}

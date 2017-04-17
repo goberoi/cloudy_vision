@@ -1,0 +1,70 @@
+{
+    "Labels": [
+        {
+            "Confidence": 65.82359313964844,
+            "Name": "Toy"
+        },
+        {
+            "Confidence": 60.797794342041016,
+            "Name": "Automobile"
+        },
+        {
+            "Confidence": 60.797794342041016,
+            "Name": "Car"
+        },
+        {
+            "Confidence": 60.797794342041016,
+            "Name": "Vehicle"
+        },
+        {
+            "Confidence": 59.035770416259766,
+            "Name": "Bus"
+        },
+        {
+            "Confidence": 59.035770416259766,
+            "Name": "School Bus"
+        },
+        {
+            "Confidence": 58.61286544799805,
+            "Name": "Paper"
+        },
+        {
+            "Confidence": 56.57403564453125,
+            "Name": "Cushion"
+        },
+        {
+            "Confidence": 56.57403564453125,
+            "Name": "Home Decor"
+        },
+        {
+            "Confidence": 56.57403564453125,
+            "Name": "Pillow"
+        },
+        {
+            "Confidence": 53.29191589355469,
+            "Name": "Caravan"
+        },
+        {
+            "Confidence": 53.29191589355469,
+            "Name": "Van"
+        },
+        {
+            "Confidence": 52.05304718017578,
+            "Name": "Ambulance"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "694",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:46:57 GMT",
+            "x-amzn-requestid": "9c428d88-23a6-11e7-88fb-2bf42a9b7932"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "9c428d88-23a6-11e7-88fb-2bf42a9b7932",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.510256052017212
+}

@@ -1,64 +1,60 @@
 {
-  "responses": [
-    {
-      "labelAnnotations": [
+    "response_time": 1.699512004852295,
+    "responses": [
         {
-          "mid": "/m/019sc",
-          "description": "black",
-          "score": 0.9433071
-        },
-        {
-          "mid": "/m/068hy",
-          "description": "pet",
-          "score": 0.91458976
-        },
-        {
-          "mid": "/m/04rky",
-          "description": "mammal",
-          "score": 0.89301258
-        },
-        {
-          "mid": "/m/0bt9lr",
-          "description": "dog",
-          "score": 0.786489
-        },
-        {
-          "mid": "/m/0cnyhnx",
-          "description": "bull",
-          "score": 0.74681777
-        },
-        {
-          "mid": "/m/0jzz1",
-          "description": "cattle like mammal",
-          "score": 0.7
-        },
-        {
-          "mid": "/m/021mh_",
-          "description": "stuffed toy",
-          "score": 0.621832
-        },
-        {
-          "mid": "/m/01xq0k1",
-          "description": "cattle",
-          "score": 0.58340085
-        },
-        {
-          "mid": "/m/01lrl",
-          "description": "carnivoran",
-          "score": 0.54811484
-        },
-        {
-          "mid": "/m/0bby24z",
-          "description": "moustache",
-          "score": 0.53719604
+            "labelAnnotations": [
+                {
+                    "description": "dog",
+                    "mid": "/m/0bt9lr",
+                    "score": 0.90879333
+                },
+                {
+                    "description": "stuffed toy",
+                    "mid": "/m/021mh_",
+                    "score": 0.8197658
+                },
+                {
+                    "description": "moustache",
+                    "mid": "/m/0bby24z",
+                    "score": 0.6330954
+                },
+                {
+                    "description": "figurine",
+                    "mid": "/m/01xmqj",
+                    "score": 0.59836286
+                },
+                {
+                    "description": "textile",
+                    "mid": "/m/0dnr7",
+                    "score": 0.5788823
+                },
+                {
+                    "description": "dog like mammal",
+                    "mid": "/m/01z5f",
+                    "score": 0.5604588
+                },
+                {
+                    "description": "toy",
+                    "mid": "/m/0138tl",
+                    "score": 0.53497016
+                },
+                {
+                    "description": "material",
+                    "mid": "/m/01l0y0",
+                    "score": 0.53255886
+                },
+                {
+                    "description": "ceramic",
+                    "mid": "/m/01x5q",
+                    "score": 0.5095784
+                }
+            ],
+            "safeSearchAnnotation": {
+                "adult": "VERY_UNLIKELY",
+                "medical": "VERY_UNLIKELY",
+                "spoof": "UNLIKELY",
+                "violence": "VERY_UNLIKELY"
+            }
         }
-      ],
-      "safeSearchAnnotation": {
-        "adult": "VERY_UNLIKELY",
-        "spoof": "UNLIKELY",
-        "medical": "VERY_UNLIKELY",
-        "violence": "VERY_UNLIKELY"
-      }
-    }
-  ]
+    ]
 }

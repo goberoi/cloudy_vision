@@ -1,1 +1,174 @@
-{"status_code": "OK", "status_msg": "All images in request have completed successfully. ", "meta": {"tag": {"timestamp": 1466791538.250199, "model": "general-v1.3", "config": "34fb1111b4d5f67cf1b8665ebc603704"}}, "results": [{"docid": 138413294506116698843968245989093021364, "status_code": "OK", "status_msg": "OK", "local_id": "", "result": {"tag": {"classes": ["banana", "fruit", "no person", "food", "apple", "grow", "wood", "color", "still life", "agriculture", "fall", "pasture", "market", "vegetable", "health", "nutrition", "leaf", "group", "abundance", "healthcare"], "concept_ids": ["ai_dKGC0m6d", "ai_Zn6HkfM3", "ai_786Zr311", "ai_3PlgVmlN", "ai_xcBmQX0h", "ai_VRrpDkps", "ai_zFnPQdgB", "ai_0JbWBDPd", "ai_5Kp5FMJw", "ai_ZsprRgCn", "ai_LmFtHz7q", "ai_mzK38Fr0", "ai_dlrW3K9W", "ai_LpcgM7r5", "ai_mZ2tl6cW", "ai_nl2sV1Hm", "ai_wBCrHPDb", "ai_bmls4LpL", "ai_pcq1ztKj", "ai_Smd3xNdn"], "probs": [0.9944003224372864, 0.9940646886825562, 0.9911421537399292, 0.9909286499023438, 0.9863005876541138, 0.9680394530296326, 0.9315131902694702, 0.9218958616256714, 0.9173465967178345, 0.916118860244751, 0.90639328956604, 0.8930012583732605, 0.890397310256958, 0.8843265771865845, 0.8456825017929077, 0.8435893058776855, 0.8430602550506592, 0.8194903135299683, 0.816954493522644, 0.8067970275878906]}}, "docid_str": "68216e4cc78c3b2b051c828915a216b4"}]}
+{
+    "outputs": [
+        {
+            "created_at": "2017-04-17T19:54:55.588407Z",
+            "data": {
+                "concepts": [
+                    {
+                        "app_id": null,
+                        "id": "ai_dKGC0m6d",
+                        "name": "banana",
+                        "value": 0.9944003
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Zn6HkfM3",
+                        "name": "fruit",
+                        "value": 0.9940647
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_786Zr311",
+                        "name": "no person",
+                        "value": 0.99114215
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_3PlgVmlN",
+                        "name": "food",
+                        "value": 0.99092865
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_xcBmQX0h",
+                        "name": "apple",
+                        "value": 0.9863006
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_VRrpDkps",
+                        "name": "grow",
+                        "value": 0.96803945
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_zFnPQdgB",
+                        "name": "wood",
+                        "value": 0.9315132
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_0JbWBDPd",
+                        "name": "color",
+                        "value": 0.92189586
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_5Kp5FMJw",
+                        "name": "still life",
+                        "value": 0.9173466
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_ZsprRgCn",
+                        "name": "farming",
+                        "value": 0.91611886
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_LmFtHz7q",
+                        "name": "fall",
+                        "value": 0.9063933
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_mzK38Fr0",
+                        "name": "pasture",
+                        "value": 0.89300126
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_dlrW3K9W",
+                        "name": "market",
+                        "value": 0.8903973
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_LpcgM7r5",
+                        "name": "vegetable",
+                        "value": 0.8843266
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_mZ2tl6cW",
+                        "name": "health",
+                        "value": 0.8456825
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_nl2sV1Hm",
+                        "name": "nutrition",
+                        "value": 0.8435893
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_wBCrHPDb",
+                        "name": "leaf",
+                        "value": 0.84306026
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_bmls4LpL",
+                        "name": "group",
+                        "value": 0.8194903
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_pcq1ztKj",
+                        "name": "abundance",
+                        "value": 0.8169545
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Smd3xNdn",
+                        "name": "healthcare",
+                        "value": 0.806797
+                    }
+                ]
+            },
+            "id": "cb92ef8bac144b62abc99a10d65fe484",
+            "input": {
+                "data": {
+                    "image": {
+                        "url": "https://s3.amazonaws.com/clarifai-api/img/prod/fd575814cd924ce384de96d58a0656a4/d2e78ee58b1041269a0ddd98451c438e.jpeg"
+                    }
+                },
+                "id": "d8e4a2e2ea8b4b2fac538f10a2965cd5"
+            },
+            "model": {
+                "app_id": null,
+                "created_at": "2016-03-09T17:11:39.608845Z",
+                "id": "aaa03c23b3724a16a56b629203edc62c",
+                "model_version": {
+                    "active_concept_count": 9171,
+                    "created_at": "2016-07-13T01:19:12.147644Z",
+                    "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                    "metrics_status": {
+                        "code": 21302,
+                        "description": "Model is not yet evaluated."
+                    },
+                    "multiclass_metrics": {},
+                    "status": {
+                        "code": 21100,
+                        "description": "Model trained successfully"
+                    }
+                },
+                "name": "general-v1.3",
+                "output_info": {
+                    "message": "Show output_info with: GET /models/{model_id}/output_info",
+                    "type": "concept",
+                    "type_ext": "concept"
+                }
+            },
+            "status": {
+                "code": 10000,
+                "description": "Ok"
+            }
+        }
+    ],
+    "response_time": 2.921381950378418,
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "Labels": [
+        {
+            "Confidence": 82.66559600830078,
+            "Name": "Bed"
+        },
+        {
+            "Confidence": 82.66559600830078,
+            "Name": "Bedroom"
+        },
+        {
+            "Confidence": 82.66559600830078,
+            "Name": "Furniture"
+        },
+        {
+            "Confidence": 56.59656524658203,
+            "Name": "Indoors"
+        },
+        {
+            "Confidence": 56.59656524658203,
+            "Name": "Room"
+        },
+        {
+            "Confidence": 53.108821868896484,
+            "Name": "Interior Design"
+        },
+        {
+            "Confidence": 50.66016387939453,
+            "Name": "Cushion"
+        },
+        {
+            "Confidence": 50.66016387939453,
+            "Name": "Home Decor"
+        },
+        {
+            "Confidence": 50.66016387939453,
+            "Name": "Pillow"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "503",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:58:59 GMT",
+            "x-amzn-requestid": "4a74b65a-23a8-11e7-be8b-150defa36d10"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "4a74b65a-23a8-11e7-be8b-150defa36d10",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.5573761463165283
+}

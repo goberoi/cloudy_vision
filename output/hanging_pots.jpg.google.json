@@ -1,19 +1,45 @@
 {
-  "responses": [
-    {
-      "labelAnnotations": [
+    "response_time": 1.6341071128845215,
+    "responses": [
         {
-          "mid": "/m/017_cz",
-          "description": "major appliance",
-          "score": 0.57400292
+            "labelAnnotations": [
+                {
+                    "description": "man made object",
+                    "mid": "/m/0ch75fj",
+                    "score": 0.92117774
+                },
+                {
+                    "description": "lighting",
+                    "mid": "/m/019sc6",
+                    "score": 0.6580932
+                },
+                {
+                    "description": "wood",
+                    "mid": "/m/083vt",
+                    "score": 0.639005
+                },
+                {
+                    "description": "drum",
+                    "mid": "/m/026t6",
+                    "score": 0.5869732
+                },
+                {
+                    "description": "furniture",
+                    "mid": "/m/0c_jw",
+                    "score": 0.58526915
+                },
+                {
+                    "description": "musical instrument",
+                    "mid": "/m/04szw",
+                    "score": 0.5104867
+                }
+            ],
+            "safeSearchAnnotation": {
+                "adult": "VERY_UNLIKELY",
+                "medical": "UNLIKELY",
+                "spoof": "VERY_UNLIKELY",
+                "violence": "VERY_UNLIKELY"
+            }
         }
-      ],
-      "safeSearchAnnotation": {
-        "adult": "VERY_UNLIKELY",
-        "spoof": "VERY_UNLIKELY",
-        "medical": "UNLIKELY",
-        "violence": "VERY_UNLIKELY"
-      }
-    }
-  ]
+    ]
 }

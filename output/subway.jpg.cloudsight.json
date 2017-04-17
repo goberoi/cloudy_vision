@@ -1,1 +1,8 @@
-{"url": "//d1spq65clhrg1f.cloudfront.net/uploads/image_request/image/74/74022/74022605/subway.jpg", "status": "completed", "token": "CEC7HtcyuysKSKngxEHeKA", "name": "people walking near subway", "ttl": 54.0}
+{
+    "name": "people walking in a train station",
+    "response_time": 5.076898097991943,
+    "status": "completed",
+    "token": "eXuBh66aW98-fw532UUHxQ",
+    "ttl": 54.0,
+    "url": "http://assets.cloudsight.ai/uploads/image_request/image/215/215934/215934397/subway.jpg"
+}

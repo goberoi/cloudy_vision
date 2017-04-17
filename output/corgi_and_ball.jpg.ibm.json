@@ -1,1 +1,43 @@
-{"images": [{"image": "input_images/corgi_and_ball.jpg", "classifiers": [{"classes": [{"score": 1.0, "class": "animal", "type_hierarchy": "/animals"}, {"score": 0.999999, "class": "mammal", "type_hierarchy": "/animals/mammal"}, {"score": 0.710949, "class": "dog", "type_hierarchy": "/animals/pets/dog"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "Pembroke Welsh corgi",
+                            "score": 0.995,
+                            "type_hierarchy": "/domestic animal/dog/Pembroke Welsh corgi"
+                        },
+                        {
+                            "class": "dog",
+                            "score": 0.995
+                        },
+                        {
+                            "class": "domestic animal",
+                            "score": 0.995
+                        },
+                        {
+                            "class": "animal",
+                            "score": 0.995
+                        },
+                        {
+                            "class": "tan color",
+                            "score": 0.937
+                        },
+                        {
+                            "class": "light brown color",
+                            "score": 0.828
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/corgi_and_ball.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 2.939730167388916
+}

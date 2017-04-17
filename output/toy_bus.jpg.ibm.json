@@ -1,1 +1,62 @@
-{"images": [{"image": "input_images/toy_bus.jpg", "classifiers": [{"classes": [{"score": 0.858149, "class": "car", "type_hierarchy": "/vehicles/car"}, {"score": 0.845535, "class": "bus", "type_hierarchy": "/vehicles/motor vehicles/automobiles/bus"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "race car",
+                            "score": 0.709,
+                            "type_hierarchy": "/vehicle/race car"
+                        },
+                        {
+                            "class": "car",
+                            "score": 0.855
+                        },
+                        {
+                            "class": "vehicle",
+                            "score": 0.862
+                        },
+                        {
+                            "class": "school bus",
+                            "score": 0.615
+                        },
+                        {
+                            "class": "ambulance",
+                            "score": 0.585,
+                            "type_hierarchy": "/vehicle/car/ambulance"
+                        },
+                        {
+                            "class": "auto racing",
+                            "score": 0.559,
+                            "type_hierarchy": "/sport/auto racing"
+                        },
+                        {
+                            "class": "racing",
+                            "score": 0.573
+                        },
+                        {
+                            "class": "sport",
+                            "score": 0.573
+                        },
+                        {
+                            "class": "taxi",
+                            "score": 0.53,
+                            "type_hierarchy": "/vehicle/car/taxi"
+                        },
+                        {
+                            "class": "yellow color",
+                            "score": 0.994
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/toy_bus.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 3.13210391998291
+}

@@ -1,1 +1,75 @@
-{"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.12620072066783905,"racyScore":0.16220387816429138},"tags":[{"name":"fruit","confidence":0.70899820327758789,"hint":"food"},{"name":"banana","confidence":0.46284157037734985,"hint":"food"},{"name":"fresh","confidence":0.1034904420375824}],"description":{"tags":["banana","fruit","table","sitting","food","bowl","top","oranges","counter","apple","plate","wooden","yellow","drawn","holding","group","kitchen","blender"],"captions":[{"text":"a banana sitting next to a bowl of fruit","confidence":0.44525456305635486}]},"requestId":"48d9296e-37c2-469f-842a-44fc0ff422cb","metadata":{"width":2448,"height":3264,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Black","dominantColorBackground":"Black","dominantColors":["Black","Brown","Yellow"],"accentColor":"C59506","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.12620072066783905,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.16220387816429138
+    },
+    "color": {
+        "accentColor": "C59506",
+        "dominantColorBackground": "Black",
+        "dominantColorForeground": "Black",
+        "dominantColors": [
+            "Black",
+            "Brown",
+            "Yellow"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.44525456305635486,
+                "text": "a banana sitting next to a bowl of fruit"
+            }
+        ],
+        "tags": [
+            "banana",
+            "fruit",
+            "table",
+            "sitting",
+            "food",
+            "bowl",
+            "top",
+            "oranges",
+            "counter",
+            "apple",
+            "plate",
+            "wooden",
+            "yellow",
+            "drawn",
+            "holding",
+            "group",
+            "kitchen",
+            "blender"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 3264,
+        "width": 2448
+    },
+    "requestId": "1e79e532-8e12-4ad3-9978-35568c03803a",
+    "response_time": 3.3731088638305664,
+    "tags": [
+        {
+            "confidence": 0.7089982032775879,
+            "hint": "food",
+            "name": "fruit"
+        },
+        {
+            "confidence": 0.46284157037734985,
+            "hint": "food",
+            "name": "banana"
+        },
+        {
+            "confidence": 0.1034904420375824,
+            "name": "fresh"
+        }
+    ]
+}

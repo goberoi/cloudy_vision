@@ -1,0 +1,54 @@
+{
+    "Labels": [
+        {
+            "Confidence": 64.46578216552734,
+            "Name": "Art"
+        },
+        {
+            "Confidence": 64.46578216552734,
+            "Name": "Drawing"
+        },
+        {
+            "Confidence": 56.00066375732422,
+            "Name": "Doodle"
+        },
+        {
+            "Confidence": 52.117801666259766,
+            "Name": "Flyer"
+        },
+        {
+            "Confidence": 52.117801666259766,
+            "Name": "Poster"
+        },
+        {
+            "Confidence": 50.804054260253906,
+            "Name": "Paper"
+        },
+        {
+            "Confidence": 50.520790100097656,
+            "Name": "Cushion"
+        },
+        {
+            "Confidence": 50.520790100097656,
+            "Name": "Home Decor"
+        },
+        {
+            "Confidence": 50.520790100097656,
+            "Name": "Pillow"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "495",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 20:01:04 GMT",
+            "x-amzn-requestid": "95333b90-23a8-11e7-a326-31acbcc7ee32"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "95333b90-23a8-11e7-a326-31acbcc7ee32",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.6016268730163574
+}

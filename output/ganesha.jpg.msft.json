@@ -1,1 +1,66 @@
-{"categories":[{"name":"object_sculpture","score":0.65625}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.084844022989273071,"racyScore":0.060446009039878845},"tags":[{"name":"wall","confidence":0.98233991861343384}],"description":{"tags":["indoor","sitting","top","table","brown","large","bear","cake","old","white","red","room","stacked","stuffed"],"captions":[{"text":"a stuffed animal","confidence":0.22257342114364656}]},"requestId":"17677eda-c9cf-4af2-958b-8a89298739e5","metadata":{"width":3264,"height":2448,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Brown","dominantColorBackground":"White","dominantColors":["White","Brown"],"accentColor":"80442E","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.08484402298927307,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.060446012765169144
+    },
+    "categories": [
+        {
+            "name": "object_sculpture",
+            "score": 0.65625
+        }
+    ],
+    "color": {
+        "accentColor": "80442E",
+        "dominantColorBackground": "White",
+        "dominantColorForeground": "Brown",
+        "dominantColors": [
+            "White",
+            "Brown"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.2225734256778677,
+                "text": "a stuffed animal"
+            }
+        ],
+        "tags": [
+            "indoor",
+            "sitting",
+            "top",
+            "table",
+            "brown",
+            "large",
+            "bear",
+            "cake",
+            "old",
+            "white",
+            "red",
+            "room",
+            "stacked",
+            "stuffed"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 2448,
+        "width": 3264
+    },
+    "requestId": "955a6289-bb39-44fa-82b2-24434281c158",
+    "response_time": 1.5774400234222412,
+    "tags": [
+        {
+            "confidence": 0.9823399186134338,
+            "name": "wall"
+        }
+    ]
+}

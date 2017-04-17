@@ -1,1 +1,48 @@
-{"images": [{"image": "input_images/instagram_webwright11_sushi.jpg", "classifiers": [{"classes": [{"score": 0.858149, "class": "food"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "antipasto",
+                            "score": 0.584,
+                            "type_hierarchy": "/food/nutrition/appetizer/antipasto"
+                        },
+                        {
+                            "class": "appetizer",
+                            "score": 0.643
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.772
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.797
+                        },
+                        {
+                            "class": "smorgasbord",
+                            "score": 0.53,
+                            "type_hierarchy": "/food/nutrition/meal/smorgasbord"
+                        },
+                        {
+                            "class": "meal",
+                            "score": 0.551
+                        },
+                        {
+                            "class": "orange color",
+                            "score": 0.982
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/instagram_webwright11_sushi.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 1.1937100887298584
+}

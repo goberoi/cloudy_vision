@@ -1,1 +1,79 @@
-{"categories":[{"name":"abstract_","score":0.0078125},{"name":"drink_","score":0.640625},{"name":"others_","score":0.01171875},{"name":"outdoor_","score":0.00390625}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.037174496799707413,"racyScore":0.026310643181204796},"tags":[{"name":"porch","confidence":0.37266072630882263}],"description":{"tags":["building","sitting","table","small","cat","black","room","bench","wooden","standing","toilet","white","living","laying","bed"],"captions":[{"text":"a cat sitting on top of a wooden bench","confidence":0.089422080188520048}]},"requestId":"2d1de658-efb8-445f-925b-e0a94a1240da","metadata":{"width":2448,"height":3264,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Grey","dominantColorBackground":"Grey","dominantColors":["Grey","White"],"accentColor":"5F4130","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.03717449679970741,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.026310643181204796
+    },
+    "categories": [
+        {
+            "name": "abstract_",
+            "score": 0.0078125
+        },
+        {
+            "name": "drink_",
+            "score": 0.640625
+        },
+        {
+            "name": "others_",
+            "score": 0.01171875
+        },
+        {
+            "name": "outdoor_",
+            "score": 0.00390625
+        }
+    ],
+    "color": {
+        "accentColor": "5F4130",
+        "dominantColorBackground": "Grey",
+        "dominantColorForeground": "Grey",
+        "dominantColors": [
+            "Grey",
+            "White"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.08942210932426269,
+                "text": "a cat sitting on top of a wooden bench"
+            }
+        ],
+        "tags": [
+            "building",
+            "sitting",
+            "table",
+            "small",
+            "cat",
+            "black",
+            "room",
+            "bench",
+            "wooden",
+            "standing",
+            "toilet",
+            "white",
+            "living",
+            "laying",
+            "bed"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 3264,
+        "width": 2448
+    },
+    "requestId": "f0840adc-6688-4925-81a1-6943ffaa8272",
+    "response_time": 4.207796096801758,
+    "tags": [
+        {
+            "confidence": 0.37266048789024353,
+            "name": "porch"
+        }
+    ]
+}

@@ -1,1 +1,40 @@
-{"images": [{"image": "input_images/toy_train1.jpg", "classifiers": [{"classes": [], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "toy",
+                            "score": 0.879,
+                            "type_hierarchy": "/device/toy"
+                        },
+                        {
+                            "class": "device",
+                            "score": 0.909
+                        },
+                        {
+                            "class": "pedometer",
+                            "score": 0.53,
+                            "type_hierarchy": "/device/pedometer"
+                        },
+                        {
+                            "class": "green color",
+                            "score": 0.836
+                        },
+                        {
+                            "class": "olive green color",
+                            "score": 0.765
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/toy_train1.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 3.9019999504089355
+}

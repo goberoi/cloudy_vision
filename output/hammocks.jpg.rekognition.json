@@ -1,0 +1,26 @@
+{
+    "Labels": [
+        {
+            "Confidence": 98.82617950439453,
+            "Name": "Furniture"
+        },
+        {
+            "Confidence": 98.82617950439453,
+            "Name": "Hammock"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "149",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:56:02 GMT",
+            "x-amzn-requestid": "e13e337a-23a7-11e7-b5ef-799a1b93e0f5"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "e13e337a-23a7-11e7-b5ef-799a1b93e0f5",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.9314820766448975
+}

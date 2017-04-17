@@ -1,0 +1,1 @@
+{"images": [{"image": "input_images/toy_robot.jpg", "error": {"error_id": "input_error", "description": "Image size limit exceeded (3357574 bytes > 2097152 bytes [2 MiB])."}}], "images_processed": 1}

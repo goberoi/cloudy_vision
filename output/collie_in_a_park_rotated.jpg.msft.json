@@ -1,1 +1,77 @@
-{"categories":[{"name":"outdoor_grass","score":0.38671875}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.044109884649515152,"racyScore":0.034864567220211029},"tags":[{"name":"grass","confidence":0.99536103010177612},{"name":"cat","confidence":0.87575393915176392},{"name":"green","confidence":0.71582484245300293}],"description":{"tags":["grass","cat","green","yellow","laying","frisbee","black","top","water","playing","pond","dog","bird","field","air","white","standing"],"captions":[{"text":"a cat playing with a yellow frisbee","confidence":0.46454827072218363}]},"requestId":"b4f54d4e-c73d-4e57-9501-de41b0e5cc93","metadata":{"width":1200,"height":1600,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Green","dominantColorBackground":"Green","dominantColors":["Green","White"],"accentColor":"9CA229","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.04410988464951515,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.03486456722021103
+    },
+    "categories": [
+        {
+            "name": "outdoor_grass",
+            "score": 0.38671875
+        }
+    ],
+    "color": {
+        "accentColor": "9CA229",
+        "dominantColorBackground": "Green",
+        "dominantColorForeground": "Green",
+        "dominantColors": [
+            "Green",
+            "White"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.46454827349939776,
+                "text": "a cat playing with a yellow frisbee"
+            }
+        ],
+        "tags": [
+            "grass",
+            "cat",
+            "green",
+            "yellow",
+            "laying",
+            "frisbee",
+            "black",
+            "top",
+            "water",
+            "playing",
+            "pond",
+            "dog",
+            "bird",
+            "field",
+            "air",
+            "white",
+            "standing"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 1600,
+        "width": 1200
+    },
+    "requestId": "87dd0247-29d1-4673-b8e4-22330287e640",
+    "response_time": 2.726593017578125,
+    "tags": [
+        {
+            "confidence": 0.9953610301017761,
+            "name": "grass"
+        },
+        {
+            "confidence": 0.8757537603378296,
+            "name": "cat"
+        },
+        {
+            "confidence": 0.7158247828483582,
+            "name": "green"
+        }
+    ]
+}

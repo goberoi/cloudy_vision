@@ -1,1 +1,65 @@
-{"images": [{"image": "input_images/toy_spaceship.jpg", "classifiers": [{"classes": [{"score": 0.331812, "class": "toy", "type_hierarchy": "/products/toy"}, {"score": 0.28905, "class": "bottle", "type_hierarchy": "/products/containers/bottle"}, {"score": 0.268941, "class": "blue", "type_hierarchy": "/colors/blue"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "hovercraft",
+                            "score": 0.672,
+                            "type_hierarchy": "/vehicle/hovercraft"
+                        },
+                        {
+                            "class": "craft",
+                            "score": 0.673
+                        },
+                        {
+                            "class": "vehicle",
+                            "score": 0.673
+                        },
+                        {
+                            "class": "joystick",
+                            "score": 0.634,
+                            "type_hierarchy": "/lever/joystick"
+                        },
+                        {
+                            "class": "lever",
+                            "score": 0.634
+                        },
+                        {
+                            "class": "alarm clock",
+                            "score": 0.53,
+                            "type_hierarchy": "/device/timepiece/alarm clock"
+                        },
+                        {
+                            "class": "clock",
+                            "score": 0.532
+                        },
+                        {
+                            "class": "timepiece",
+                            "score": 0.533
+                        },
+                        {
+                            "class": "device",
+                            "score": 0.534
+                        },
+                        {
+                            "class": "ultramarine color",
+                            "score": 0.724
+                        },
+                        {
+                            "class": "green color",
+                            "score": 0.585
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/toy_spaceship.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 9.014842987060547
+}

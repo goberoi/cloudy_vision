@@ -1,1 +1,60 @@
-{"images": [{"image": "input_images/mona_lisa.jpg", "classifiers": [{"classes": [{"score": 1.0, "class": "person", "type_hierarchy": "/people"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "painting",
+                            "score": 0.564
+                        },
+                        {
+                            "class": "oil paint",
+                            "score": 0.531,
+                            "type_hierarchy": "/coating/oil paint"
+                        },
+                        {
+                            "class": "paint",
+                            "score": 0.531
+                        },
+                        {
+                            "class": "coating",
+                            "score": 0.533
+                        },
+                        {
+                            "class": "young lady (heroine)",
+                            "score": 0.53,
+                            "type_hierarchy": "/person/female/woman/young lady (heroine)"
+                        },
+                        {
+                            "class": "woman",
+                            "score": 0.574
+                        },
+                        {
+                            "class": "female",
+                            "score": 0.581
+                        },
+                        {
+                            "class": "person",
+                            "score": 0.583
+                        },
+                        {
+                            "class": "reddish orange color",
+                            "score": 0.737
+                        },
+                        {
+                            "class": "maroon color",
+                            "score": 0.643
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/mona_lisa.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 1.1988060474395752
+}

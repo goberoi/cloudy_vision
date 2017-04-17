@@ -1,0 +1,22 @@
+{
+    "Labels": [
+        {
+            "Confidence": 97.55558776855469,
+            "Name": "Crowd"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "95",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:53:21 GMT",
+            "x-amzn-requestid": "818f6b39-23a7-11e7-ae66-e16f23ca9e5f"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "818f6b39-23a7-11e7-ae66-e16f23ca9e5f",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.181117057800293
+}

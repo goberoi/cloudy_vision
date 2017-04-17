@@ -1,0 +1,42 @@
+{
+    "Labels": [
+        {
+            "Confidence": 63.501590728759766,
+            "Name": "Dish"
+        },
+        {
+            "Confidence": 63.501590728759766,
+            "Name": "Food"
+        },
+        {
+            "Confidence": 63.501590728759766,
+            "Name": "Plate"
+        },
+        {
+            "Confidence": 53.5618896484375,
+            "Name": "Accessories"
+        },
+        {
+            "Confidence": 50.578182220458984,
+            "Name": "Porcelain"
+        },
+        {
+            "Confidence": 50.578182220458984,
+            "Name": "Saucer"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "348",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 20:01:29 GMT",
+            "x-amzn-requestid": "a3f21a63-23a8-11e7-9c47-53f293b1ab45"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "a3f21a63-23a8-11e7-9c47-53f293b1ab45",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.7142770290374756
+}

@@ -1,0 +1,34 @@
+{
+    "Labels": [
+        {
+            "Confidence": 96.70397186279297,
+            "Name": "Logo"
+        },
+        {
+            "Confidence": 96.70397186279297,
+            "Name": "Trademark"
+        },
+        {
+            "Confidence": 58.10525894165039,
+            "Name": "Badge"
+        },
+        {
+            "Confidence": 58.10525894165039,
+            "Name": "Emblem"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_90",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "244",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:50:29 GMT",
+            "x-amzn-requestid": "1b0b5f5a-23a7-11e7-8ccb-fb88f7f24370"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "1b0b5f5a-23a7-11e7-8ccb-fb88f7f24370",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.220371961593628
+}

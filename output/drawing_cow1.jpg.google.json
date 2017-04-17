@@ -1,24 +1,40 @@
 {
-  "responses": [
-    {
-      "labelAnnotations": [
+    "response_time": 2.1909708976745605,
+    "responses": [
         {
-          "mid": "/m/017rnr",
-          "description": "amusement ride",
-          "score": 0.91666669
-        },
-        {
-          "mid": "/m/01kr8f",
-          "description": "illustration",
-          "score": 0.68430126
+            "labelAnnotations": [
+                {
+                    "description": "mural",
+                    "mid": "/m/04rd7",
+                    "score": 0.7887049
+                },
+                {
+                    "description": "art",
+                    "mid": "/m/0jjw",
+                    "score": 0.6998644
+                },
+                {
+                    "description": "cattle like mammal",
+                    "mid": "/m/0jzz1",
+                    "score": 0.5981547
+                },
+                {
+                    "description": "painting",
+                    "mid": "/m/05qdh",
+                    "score": 0.57275116
+                },
+                {
+                    "description": "illustration",
+                    "mid": "/m/01kr8f",
+                    "score": 0.5546354
+                }
+            ],
+            "safeSearchAnnotation": {
+                "adult": "VERY_UNLIKELY",
+                "medical": "VERY_UNLIKELY",
+                "spoof": "VERY_UNLIKELY",
+                "violence": "UNLIKELY"
+            }
         }
-      ],
-      "safeSearchAnnotation": {
-        "adult": "VERY_UNLIKELY",
-        "spoof": "VERY_UNLIKELY",
-        "medical": "VERY_UNLIKELY",
-        "violence": "UNLIKELY"
-      }
-    }
-  ]
+    ]
 }

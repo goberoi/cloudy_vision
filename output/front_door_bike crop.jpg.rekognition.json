@@ -1,0 +1,34 @@
+{
+    "Labels": [
+        {
+            "Confidence": 96.17361450195312,
+            "Name": "Bicycle"
+        },
+        {
+            "Confidence": 96.17361450195312,
+            "Name": "Bike"
+        },
+        {
+            "Confidence": 96.17361450195312,
+            "Name": "Vehicle"
+        },
+        {
+            "Confidence": 50.545127868652344,
+            "Name": "Mountain Bike"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "251",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:59:43 GMT",
+            "x-amzn-requestid": "661c54a5-23a8-11e7-ab37-55115860e09a"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "661c54a5-23a8-11e7-ab37-55115860e09a",
+        "RetryAttempts": 0
+    },
+    "response_time": 0.7805540561676025
+}

@@ -1,1 +1,8 @@
-{"url": "//d1spq65clhrg1f.cloudfront.net/uploads/image_request/image/74/74022/74022240/mona_lisa.jpg", "status": "completed", "token": "tjowdUK5U95uP6Kzv1T6fg", "name": "monaliza painting", "ttl": 53.0}
+{
+    "name": "Mona Lisa painting",
+    "response_time": 5.097771883010864,
+    "status": "completed",
+    "token": "CjuZKdk0-rRdWyH07yZZyg",
+    "ttl": 54.0,
+    "url": "http://assets.cloudsight.ai/uploads/image_request/image/215/215928/215928084/mona_lisa.jpg"
+}

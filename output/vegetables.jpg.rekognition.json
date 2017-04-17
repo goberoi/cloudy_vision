@@ -1,0 +1,50 @@
+{
+    "Labels": [
+        {
+            "Confidence": 89.90339660644531,
+            "Name": "Garlic"
+        },
+        {
+            "Confidence": 89.90339660644531,
+            "Name": "Plant"
+        },
+        {
+            "Confidence": 51.44940185546875,
+            "Name": "Food"
+        },
+        {
+            "Confidence": 50.62079620361328,
+            "Name": "Furniture"
+        },
+        {
+            "Confidence": 50.596229553222656,
+            "Name": "Onion"
+        },
+        {
+            "Confidence": 50.596229553222656,
+            "Name": "Produce"
+        },
+        {
+            "Confidence": 50.596229553222656,
+            "Name": "Shallot"
+        },
+        {
+            "Confidence": 50.596229553222656,
+            "Name": "Vegetable"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "447",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:51:42 GMT",
+            "x-amzn-requestid": "45b686b6-23a7-11e7-b7a5-c188bca6da97"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "45b686b6-23a7-11e7-b7a5-c188bca6da97",
+        "RetryAttempts": 0
+    },
+    "response_time": 3.528923988342285
+}

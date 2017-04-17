@@ -1,0 +1,29 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0215n",
+          "description": "cartoon",
+          "score": 0.88740194
+        },
+        {
+          "mid": "/m/0138tl",
+          "description": "toy",
+          "score": 0.6612646
+        },
+        {
+          "mid": "/m/04ndr",
+          "description": "lego",
+          "score": 0.6143195
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

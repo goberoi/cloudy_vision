@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06ht1",
+          "description": "room",
+          "score": 0.87619007
+        },
+        {
+          "mid": "/m/0n68_",
+          "description": "structure",
+          "score": 0.82271004
+        },
+        {
+          "mid": "/m/017_cz",
+          "description": "major appliance",
+          "score": 0.70221442
+        },
+        {
+          "mid": "/m/01224j",
+          "description": "hearth",
+          "score": 0.57031631
+        },
+        {
+          "mid": "/m/041x_j",
+          "description": "public toilet",
+          "score": 0.537096
+        },
+        {
+          "mid": "/m/02pkr5",
+          "description": "plumbing fixture",
+          "score": 0.50141925
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

@@ -1,1 +1,34 @@
-{"images": [{"image": "input_images/drawing_lion.jpg", "classifiers": [{"classes": [{"score": 0.401312, "class": "sketch", "type_hierarchy": "/products/images/sketch"}, {"score": 0.354344, "class": "drawing"}, {"score": 0.268941, "class": "illustration", "type_hierarchy": "/products/materials/illustration"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "pen-and-ink",
+                            "score": 0.935
+                        },
+                        {
+                            "class": "study",
+                            "score": 0.869
+                        },
+                        {
+                            "class": "rose color",
+                            "score": 0.771
+                        },
+                        {
+                            "class": "gray color",
+                            "score": 0.666
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/drawing_lion.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 1.3764150142669678
+}

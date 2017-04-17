@@ -1,0 +1,49 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/02wtjj",
+          "description": "stone carving",
+          "score": 0.9859733
+        },
+        {
+          "mid": "/m/013_1c",
+          "description": "statue",
+          "score": 0.92419422
+        },
+        {
+          "mid": "/m/06msq",
+          "description": "sculpture",
+          "score": 0.89339185
+        },
+        {
+          "mid": "/m/0jwzhtg",
+          "description": "carving",
+          "score": 0.88788956
+        },
+        {
+          "mid": "/m/0jjw",
+          "description": "art",
+          "score": 0.82721561
+        },
+        {
+          "mid": "/m/02ljgl",
+          "description": "monument",
+          "score": 0.71589363
+        },
+        {
+          "mid": "/m/07bxq",
+          "description": "tourism",
+          "score": 0.67973816
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

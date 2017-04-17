@@ -1,0 +1,38 @@
+{
+    "Labels": [
+        {
+            "Confidence": 93.466064453125,
+            "Name": "Animal"
+        },
+        {
+            "Confidence": 93.466064453125,
+            "Name": "Cattle"
+        },
+        {
+            "Confidence": 93.466064453125,
+            "Name": "Cow"
+        },
+        {
+            "Confidence": 93.466064453125,
+            "Name": "Dairy Cow"
+        },
+        {
+            "Confidence": 93.466064453125,
+            "Name": "Mammal"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "282",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:52:32 GMT",
+            "x-amzn-requestid": "63c9cf0a-23a7-11e7-a6b7-9f6e9803a147"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "63c9cf0a-23a7-11e7-a6b7-9f6e9803a147",
+        "RetryAttempts": 0
+    },
+    "response_time": 3.2469289302825928
+}

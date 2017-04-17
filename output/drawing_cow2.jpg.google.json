@@ -1,24 +1,30 @@
 {
-  "responses": [
-    {
-      "labelAnnotations": [
+    "response_time": 1.5404438972473145,
+    "responses": [
         {
-          "mid": "/m/0215n",
-          "description": "cartoon",
-          "score": 0.91108841
-        },
-        {
-          "mid": "/m/01kr8f",
-          "description": "illustration",
-          "score": 0.60994959
+            "labelAnnotations": [
+                {
+                    "description": "cartoon",
+                    "mid": "/m/0215n",
+                    "score": 0.8973638
+                },
+                {
+                    "description": "illustration",
+                    "mid": "/m/01kr8f",
+                    "score": 0.55590326
+                },
+                {
+                    "description": "drawing",
+                    "mid": "/m/02csf",
+                    "score": 0.51095384
+                }
+            ],
+            "safeSearchAnnotation": {
+                "adult": "UNLIKELY",
+                "medical": "VERY_UNLIKELY",
+                "spoof": "POSSIBLE",
+                "violence": "VERY_UNLIKELY"
+            }
         }
-      ],
-      "safeSearchAnnotation": {
-        "adult": "UNLIKELY",
-        "spoof": "POSSIBLE",
-        "medical": "VERY_UNLIKELY",
-        "violence": "VERY_UNLIKELY"
-      }
-    }
-  ]
+    ]
 }

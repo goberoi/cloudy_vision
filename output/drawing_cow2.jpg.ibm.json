@@ -1,1 +1,38 @@
-{"images": [{"image": "input_images/drawing_cow2.jpg", "classifiers": [{"classes": [{"score": 0.689974, "class": "illustration", "type_hierarchy": "/products/materials/illustration"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "artwork",
+                            "score": 0.86
+                        },
+                        {
+                            "class": "puzzle",
+                            "score": 0.58
+                        },
+                        {
+                            "class": "jigsaw puzzle",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "pale yellow color",
+                            "score": 0.835
+                        },
+                        {
+                            "class": "olive green color",
+                            "score": 0.819
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/drawing_cow2.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 3.075021982192993
+}

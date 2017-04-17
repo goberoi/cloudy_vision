@@ -1,1 +1,73 @@
-{"images": [{"image": "input_images/nest.jpg", "classifiers": [{"classes": [], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "eight ball (pool game)",
+                            "score": 0.751
+                        },
+                        {
+                            "class": "ball",
+                            "score": 0.752
+                        },
+                        {
+                            "class": "wall clock",
+                            "score": 0.554,
+                            "type_hierarchy": "/device/timepiece/wall clock"
+                        },
+                        {
+                            "class": "clock",
+                            "score": 0.575
+                        },
+                        {
+                            "class": "timepiece",
+                            "score": 0.586
+                        },
+                        {
+                            "class": "device",
+                            "score": 0.757
+                        },
+                        {
+                            "class": "push button",
+                            "score": 0.541,
+                            "type_hierarchy": "/device/controller/electric switch/push button"
+                        },
+                        {
+                            "class": "electric switch",
+                            "score": 0.544
+                        },
+                        {
+                            "class": "controller",
+                            "score": 0.546
+                        },
+                        {
+                            "class": "fuel gauge",
+                            "score": 0.53,
+                            "type_hierarchy": "/device/indicator/fuel gauge"
+                        },
+                        {
+                            "class": "indicator",
+                            "score": 0.537
+                        },
+                        {
+                            "class": "maroon color",
+                            "score": 0.823
+                        },
+                        {
+                            "class": "dark red color",
+                            "score": 0.761
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/nest.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 3.523052930831909
+}

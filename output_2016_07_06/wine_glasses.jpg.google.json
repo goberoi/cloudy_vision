@@ -1,0 +1,44 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/06ht1",
+          "description": "room",
+          "score": 0.79505444
+        },
+        {
+          "mid": "/m/02rfdq",
+          "description": "interior design",
+          "score": 0.78450894
+        },
+        {
+          "mid": "/m/019sc6",
+          "description": "lighting",
+          "score": 0.668573
+        },
+        {
+          "mid": "/m/047rwq3",
+          "description": "centrepiece",
+          "score": 0.66325474
+        },
+        {
+          "mid": "/m/0c9ph5",
+          "description": "flower",
+          "score": 0.65490818
+        },
+        {
+          "mid": "/m/0krfg",
+          "description": "meal",
+          "score": 0.64153945
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

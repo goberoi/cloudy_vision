@@ -1,0 +1,54 @@
+{
+    "Labels": [
+        {
+            "Confidence": 96.9150161743164,
+            "Name": "Plant"
+        },
+        {
+            "Confidence": 96.9150161743164,
+            "Name": "Potted Plant"
+        },
+        {
+            "Confidence": 93.0911636352539,
+            "Name": "Binoculars"
+        },
+        {
+            "Confidence": 69.23857116699219,
+            "Name": "Pot"
+        },
+        {
+            "Confidence": 69.23857116699219,
+            "Name": "Pottery"
+        },
+        {
+            "Confidence": 64.55453491210938,
+            "Name": "Cup"
+        },
+        {
+            "Confidence": 50.938541412353516,
+            "Name": "Outdoors"
+        },
+        {
+            "Confidence": 50.50651550292969,
+            "Name": "Maple"
+        },
+        {
+            "Confidence": 50.50651550292969,
+            "Name": "Maple Leaf"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "495",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:52:58 GMT",
+            "x-amzn-requestid": "736ca569-23a7-11e7-a4cd-9722eef32817"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "736ca569-23a7-11e7-a4cd-9722eef32817",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.7579338550567627
+}

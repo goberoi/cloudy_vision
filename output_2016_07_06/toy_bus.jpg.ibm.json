@@ -1,0 +1,1 @@
+{"images": [{"image": "input_images/toy_bus.jpg", "classifiers": [{"classes": [{"score": 0.858149, "class": "car", "type_hierarchy": "/vehicles/car"}, {"score": 0.845535, "class": "bus", "type_hierarchy": "/vehicles/motor vehicles/automobiles/bus"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}

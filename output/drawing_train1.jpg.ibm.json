@@ -1,1 +1,53 @@
-{"images": [{"image": "input_images/drawing_train1.jpg", "classifiers": [{"classes": [{"score": 0.645656, "class": "vehicle", "type_hierarchy": "/vehicles"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "tank engine",
+                            "score": 0.77,
+                            "type_hierarchy": "/vehicle/locomotive/tank engine"
+                        },
+                        {
+                            "class": "locomotive",
+                            "score": 0.866
+                        },
+                        {
+                            "class": "vehicle",
+                            "score": 0.866
+                        },
+                        {
+                            "class": "toy",
+                            "score": 0.545,
+                            "type_hierarchy": "/device/toy"
+                        },
+                        {
+                            "class": "device",
+                            "score": 0.546
+                        },
+                        {
+                            "class": "choo-choo train",
+                            "score": 0.53,
+                            "type_hierarchy": "/vehicle/locomotive/choo-choo train"
+                        },
+                        {
+                            "class": "ultramarine color",
+                            "score": 0.755
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.742
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/drawing_train1.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 2.731726884841919
+}

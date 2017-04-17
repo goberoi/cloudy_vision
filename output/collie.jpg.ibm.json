@@ -1,1 +1,70 @@
-{"images": [{"image": "input_images/collie.jpg", "classifiers": [{"classes": [{"score": 0.999797, "class": "animal", "type_hierarchy": "/animals"}, {"score": 0.999254, "class": "mammal", "type_hierarchy": "/animals/mammal"}, {"score": 0.710949, "class": "dog", "type_hierarchy": "/animals/pets/dog"}, {"score": 0.622459, "class": "cat", "type_hierarchy": "/animals/pets/cat"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "malamute dog",
+                            "score": 0.777,
+                            "type_hierarchy": "/domestic animal/malamute dog"
+                        },
+                        {
+                            "class": "dog",
+                            "score": 0.929
+                        },
+                        {
+                            "class": "domestic animal",
+                            "score": 0.93
+                        },
+                        {
+                            "class": "animal",
+                            "score": 0.93
+                        },
+                        {
+                            "class": "collie dog",
+                            "score": 0.706,
+                            "type_hierarchy": "/domestic animal/shepherd dog/collie dog"
+                        },
+                        {
+                            "class": "shepherd dog",
+                            "score": 0.824
+                        },
+                        {
+                            "class": "German shepherd dog",
+                            "score": 0.531,
+                            "type_hierarchy": "/domestic animal/German shepherd dog"
+                        },
+                        {
+                            "class": "Frisbee",
+                            "score": 0.53,
+                            "type_hierarchy": "/device/circle/Frisbee"
+                        },
+                        {
+                            "class": "circle",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "device",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "green color",
+                            "score": 0.919
+                        },
+                        {
+                            "class": "azure color",
+                            "score": 0.842
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/collie.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 1.8450729846954346
+}

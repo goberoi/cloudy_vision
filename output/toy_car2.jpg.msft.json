@@ -1,1 +1,76 @@
-{"categories":[{"name":"others_","score":0.1484375},{"name":"outdoor_","score":0.00390625}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.030057415366172791,"racyScore":0.01776178739964962},"tags":[{"name":"indoor","confidence":0.97532474994659424},{"name":"red","confidence":0.94456368684768677}],"description":{"tags":["indoor","red","sitting","small","top","toy","looking","black","remote","white","bed","table","control","wearing","laptop","hydrant"],"captions":[{"text":"a small toy is sitting on a couch","confidence":0.15113141854973849}]},"requestId":"15e05ce7-1f64-4550-a10d-80c5bf9917fa","metadata":{"width":2448,"height":3264,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Red","dominantColorBackground":"Grey","dominantColors":["Grey","White"],"accentColor":"0F3164","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.03005741722881794,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.01776178739964962
+    },
+    "categories": [
+        {
+            "name": "others_",
+            "score": 0.1484375
+        },
+        {
+            "name": "outdoor_",
+            "score": 0.00390625
+        }
+    ],
+    "color": {
+        "accentColor": "0F3164",
+        "dominantColorBackground": "Grey",
+        "dominantColorForeground": "Red",
+        "dominantColors": [
+            "Grey",
+            "White"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.1511313834399065,
+                "text": "a small toy is sitting on a couch"
+            }
+        ],
+        "tags": [
+            "indoor",
+            "red",
+            "sitting",
+            "small",
+            "top",
+            "toy",
+            "looking",
+            "black",
+            "remote",
+            "white",
+            "bed",
+            "table",
+            "control",
+            "wearing",
+            "laptop",
+            "hydrant"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 3264,
+        "width": 2448
+    },
+    "requestId": "41be48f9-f872-41e9-9cef-e92fb81b5a2c",
+    "response_time": 2.560112953186035,
+    "tags": [
+        {
+            "confidence": 0.9753247499465942,
+            "name": "indoor"
+        },
+        {
+            "confidence": 0.9445636868476868,
+            "name": "red"
+        }
+    ]
+}

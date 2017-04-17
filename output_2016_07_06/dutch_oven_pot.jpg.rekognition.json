@@ -1,0 +1,54 @@
+{
+    "Labels": [
+        {
+            "Confidence": 98.17283630371094,
+            "Name": "Pot"
+        },
+        {
+            "Confidence": 98.17283630371094,
+            "Name": "Pottery"
+        },
+        {
+            "Confidence": 59.927852630615234,
+            "Name": "Dining Table"
+        },
+        {
+            "Confidence": 59.927852630615234,
+            "Name": "Furniture"
+        },
+        {
+            "Confidence": 59.927852630615234,
+            "Name": "Table"
+        },
+        {
+            "Confidence": 55.230587005615234,
+            "Name": "Tabletop"
+        },
+        {
+            "Confidence": 53.479576110839844,
+            "Name": "Porcelain"
+        },
+        {
+            "Confidence": 53.479576110839844,
+            "Name": "Saucer"
+        },
+        {
+            "Confidence": 51.969600677490234,
+            "Name": "Bowl"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "504",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:50:55 GMT",
+            "x-amzn-requestid": "2a02b39e-23a7-11e7-a321-5f783298561b"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "2a02b39e-23a7-11e7-a321-5f783298561b",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.399677038192749
+}

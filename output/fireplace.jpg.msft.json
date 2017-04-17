@@ -1,1 +1,98 @@
-{"categories":[{"name":"abstract_","score":0.0078125},{"name":"building_doorwindows","score":0.13671875},{"name":"others_","score":0.0078125},{"name":"outdoor_","score":0.00390625}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.00572357838973403,"racyScore":0.012711673974990845},"tags":[{"name":"indoor","confidence":0.90564048290252686},{"name":"tiled","confidence":0.57841640710830688},{"name":"tile","confidence":0.35698172450065613},{"name":"kitchen appliance","confidence":0.1456727534532547}],"description":{"tags":["indoor","tiled","building","sitting","small","tile","green","fireplace","black","room","oven","table","sink","brick","white","fire","dirty","kitchen","cage","stove","toilet","tub"],"captions":[{"text":"a stove top oven next to a brick wall","confidence":0.11534152347225259}]},"requestId":"514e6400-e5e8-4789-803b-468440cc143f","metadata":{"width":3264,"height":2448,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Black","dominantColorBackground":"Brown","dominantColors":["Brown","Black"],"accentColor":"864064","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.00572357838973403,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.012711673974990845
+    },
+    "categories": [
+        {
+            "name": "abstract_",
+            "score": 0.0078125
+        },
+        {
+            "name": "building_doorwindows",
+            "score": 0.13671875
+        },
+        {
+            "name": "others_",
+            "score": 0.0078125
+        },
+        {
+            "name": "outdoor_",
+            "score": 0.00390625
+        }
+    ],
+    "color": {
+        "accentColor": "864064",
+        "dominantColorBackground": "Brown",
+        "dominantColorForeground": "Black",
+        "dominantColors": [
+            "Brown",
+            "Black"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.1153415634704727,
+                "text": "a stove top oven next to a brick wall"
+            }
+        ],
+        "tags": [
+            "indoor",
+            "tiled",
+            "building",
+            "sitting",
+            "small",
+            "tile",
+            "green",
+            "fireplace",
+            "black",
+            "room",
+            "oven",
+            "table",
+            "sink",
+            "brick",
+            "white",
+            "fire",
+            "dirty",
+            "kitchen",
+            "cage",
+            "stove",
+            "toilet",
+            "tub"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 2448,
+        "width": 3264
+    },
+    "requestId": "4bccf0ed-d352-41b0-958d-0a6383c75beb",
+    "response_time": 3.0499989986419678,
+    "tags": [
+        {
+            "confidence": 0.9056404829025269,
+            "name": "indoor"
+        },
+        {
+            "confidence": 0.5784165263175964,
+            "name": "tiled"
+        },
+        {
+            "confidence": 0.3569817841053009,
+            "name": "tile"
+        },
+        {
+            "confidence": 0.1456727683544159,
+            "name": "kitchen appliance"
+        }
+    ]
+}

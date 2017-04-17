@@ -1,1 +1,119 @@
-{"categories":[{"name":"outdoor_","score":0.00390625},{"name":"people_","score":0.62109375}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.093452244997024536,"racyScore":0.14237678050994873},"tags":[{"name":"person","confidence":0.99998950958251953},{"name":"wine","confidence":0.9912031888961792},{"name":"glasses","confidence":0.98094785213470459},{"name":"smiling","confidence":0.83975481986999512},{"name":"food","confidence":0.75298011302948},{"name":"posing","confidence":0.69427162408828735}],"description":{"tags":["person","wine","glasses","holding","smiling","man","table","food","woman","posing","camera","drinking","hand","standing","glass","sitting","red","young","large","wearing","plate","people","pizza"],"captions":[{"text":"a man and a woman smiling and holding wine glasses","confidence":0.64298529875790544}]},"requestId":"c5452686-d3d4-4367-84a2-7d5435a1656f","metadata":{"width":1080,"height":720,"format":"Jpeg"},"faces":[{"age":32,"gender":"Male","faceRectangle":{"left":27,"top":162,"width":259,"height":259}},{"age":57,"gender":"Male","faceRectangle":{"left":821,"top":289,"width":209,"height":209}}],"color":{"dominantColorForeground":"Grey","dominantColorBackground":"Grey","dominantColors":["Grey"],"accentColor":"0669C5","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.09345224499702454,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.14237678050994873
+    },
+    "categories": [
+        {
+            "name": "outdoor_",
+            "score": 0.00390625
+        },
+        {
+            "name": "people_",
+            "score": 0.62109375
+        }
+    ],
+    "color": {
+        "accentColor": "0669C5",
+        "dominantColorBackground": "Grey",
+        "dominantColorForeground": "Grey",
+        "dominantColors": [
+            "Grey"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.6429852513722805,
+                "text": "a man and a woman smiling and holding wine glasses"
+            }
+        ],
+        "tags": [
+            "person",
+            "wine",
+            "glasses",
+            "holding",
+            "smiling",
+            "man",
+            "table",
+            "food",
+            "woman",
+            "posing",
+            "camera",
+            "drinking",
+            "hand",
+            "standing",
+            "glass",
+            "sitting",
+            "red",
+            "young",
+            "large",
+            "wearing",
+            "plate",
+            "people",
+            "pizza"
+        ]
+    },
+    "faces": [
+        {
+            "age": 32,
+            "faceRectangle": {
+                "height": 250,
+                "left": 36,
+                "top": 168,
+                "width": 250
+            },
+            "gender": "Male"
+        },
+        {
+            "age": 58,
+            "faceRectangle": {
+                "height": 207,
+                "left": 823,
+                "top": 289,
+                "width": 207
+            },
+            "gender": "Male"
+        }
+    ],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 720,
+        "width": 1080
+    },
+    "requestId": "85b55eda-4c3c-4baa-afd6-e7e88912a3e5",
+    "response_time": 3.0889101028442383,
+    "tags": [
+        {
+            "confidence": 0.9999895095825195,
+            "name": "person"
+        },
+        {
+            "confidence": 0.9912031888961792,
+            "name": "wine"
+        },
+        {
+            "confidence": 0.9809478521347046,
+            "name": "glasses"
+        },
+        {
+            "confidence": 0.8397547006607056,
+            "name": "smiling"
+        },
+        {
+            "confidence": 0.75298011302948,
+            "name": "food"
+        },
+        {
+            "confidence": 0.6942715048789978,
+            "name": "posing"
+        }
+    ]
+}

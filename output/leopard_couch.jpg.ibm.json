@@ -1,1 +1,65 @@
-{"images": [{"image": "input_images/leopard_couch.jpg", "classifiers": [{"classes": [], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "couch",
+                            "score": 0.607,
+                            "type_hierarchy": "/furniture/bed/couch"
+                        },
+                        {
+                            "class": "bed",
+                            "score": 0.629
+                        },
+                        {
+                            "class": "furniture",
+                            "score": 0.79
+                        },
+                        {
+                            "class": "love seat",
+                            "score": 0.553,
+                            "type_hierarchy": "/furniture/sofa/love seat"
+                        },
+                        {
+                            "class": "sofa",
+                            "score": 0.674
+                        },
+                        {
+                            "class": "seat",
+                            "score": 0.691
+                        },
+                        {
+                            "class": "covered couch",
+                            "score": 0.545
+                        },
+                        {
+                            "class": "upholstery",
+                            "score": 0.544
+                        },
+                        {
+                            "class": "settee",
+                            "score": 0.534,
+                            "type_hierarchy": "/furniture/seat/sofa/settee"
+                        },
+                        {
+                            "class": "furnishing",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "sage green color",
+                            "score": 0.998
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/leopard_couch.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 3.3851449489593506
+}

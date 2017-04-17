@@ -1,1 +1,81 @@
-{"categories":[{"name":"abstract_","score":0.0078125},{"name":"abstract_shape","score":0.10546875},{"name":"others_","score":0.01171875},{"name":"outdoor_","score":0.00390625}],"adult":{"isAdultContent":false,"isRacyContent":false,"adultScore":0.027578776702284813,"racyScore":0.024132126942276955},"tags":[{"name":"stone","confidence":0.26779088377952576}],"description":{"tags":["building","bicycle","table","sitting","stone","room","wooden","bench","counter","living","kitchen","white","board","laying","standing","cat"],"captions":[{"text":"a bicycle leaning against a wall","confidence":0.224673495387545}]},"requestId":"50ccf11c-459b-4524-a256-2ce42a9b6082","metadata":{"width":2448,"height":3264,"format":"Jpeg"},"faces":[],"color":{"dominantColorForeground":"Grey","dominantColorBackground":"Grey","dominantColors":["Grey","Brown","White"],"accentColor":"623827","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0}}
+{
+    "adult": {
+        "adultScore": 0.027578776702284813,
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "racyScore": 0.024132126942276955
+    },
+    "categories": [
+        {
+            "name": "abstract_",
+            "score": 0.0078125
+        },
+        {
+            "name": "abstract_shape",
+            "score": 0.10546875
+        },
+        {
+            "name": "others_",
+            "score": 0.01171875
+        },
+        {
+            "name": "outdoor_",
+            "score": 0.00390625
+        }
+    ],
+    "color": {
+        "accentColor": "623827",
+        "dominantColorBackground": "Grey",
+        "dominantColorForeground": "Grey",
+        "dominantColors": [
+            "Grey",
+            "Brown",
+            "White"
+        ],
+        "isBWImg": false
+    },
+    "description": {
+        "captions": [
+            {
+                "confidence": 0.22467354089003866,
+                "text": "a bicycle leaning against a wall"
+            }
+        ],
+        "tags": [
+            "building",
+            "bicycle",
+            "table",
+            "sitting",
+            "stone",
+            "room",
+            "wooden",
+            "bench",
+            "counter",
+            "living",
+            "kitchen",
+            "white",
+            "board",
+            "laying",
+            "standing",
+            "cat"
+        ]
+    },
+    "faces": [],
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "metadata": {
+        "format": "Jpeg",
+        "height": 3264,
+        "width": 2448
+    },
+    "requestId": "3d0f5427-d431-4f35-88dd-b831bd85ca6e",
+    "response_time": 2.6634891033172607,
+    "tags": [
+        {
+            "confidence": 0.2677907645702362,
+            "name": "stone"
+        }
+    ]
+}

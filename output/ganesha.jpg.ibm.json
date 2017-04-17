@@ -1,1 +1,39 @@
-{"images": [{"image": "input_images/ganesha.jpg", "classifiers": [{"classes": [], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "woodcarving",
+                            "score": 0.856,
+                            "type_hierarchy": "/figure/sculpture/woodcarving"
+                        },
+                        {
+                            "class": "sculpture",
+                            "score": 0.95
+                        },
+                        {
+                            "class": "figure",
+                            "score": 0.95
+                        },
+                        {
+                            "class": "artifact",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "chocolate color",
+                            "score": 0.999
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/ganesha.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 2.738960027694702
+}

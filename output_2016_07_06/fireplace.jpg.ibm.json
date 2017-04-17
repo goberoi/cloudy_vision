@@ -1,0 +1,1 @@
+{"images": [{"image": "input_images/fireplace.jpg", "classifiers": [{"classes": [{"score": 0.331812, "class": "building"}, {"score": 0.310026, "class": "door", "type_hierarchy": "/products/door"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}

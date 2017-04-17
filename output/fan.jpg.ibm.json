@@ -1,1 +1,53 @@
-{"images": [{"image": "input_images/fan.jpg", "classifiers": [{"classes": [{"score": 0.845535, "class": "building"}, {"score": 0.802184, "class": "high-rise", "type_hierarchy": "/buildings/high-rise"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "space heater",
+                            "score": 0.884,
+                            "type_hierarchy": "/device/space heater"
+                        },
+                        {
+                            "class": "device",
+                            "score": 0.929
+                        },
+                        {
+                            "class": "microphone",
+                            "score": 0.587,
+                            "type_hierarchy": "/electrical device/microphone"
+                        },
+                        {
+                            "class": "electrical device",
+                            "score": 0.587
+                        },
+                        {
+                            "class": "vacuum cleaner",
+                            "score": 0.53,
+                            "type_hierarchy": "/appliance/vacuum cleaner"
+                        },
+                        {
+                            "class": "appliance",
+                            "score": 0.531
+                        },
+                        {
+                            "class": "charcoal color",
+                            "score": 0.889
+                        },
+                        {
+                            "class": "ash grey color",
+                            "score": 0.539
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/fan.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 3.052700996398926
+}

@@ -1,1 +1,38 @@
-{"images": [{"image": "input_images/subway.jpg", "classifiers": [{"classes": [{"score": 0.598688, "class": "train"}, {"score": 0.574443, "class": "station", "type_hierarchy": "/places/landmarks/station"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "subway train",
+                            "score": 0.92
+                        },
+                        {
+                            "class": "train",
+                            "score": 0.927
+                        },
+                        {
+                            "class": "station",
+                            "score": 0.574
+                        },
+                        {
+                            "class": "gray color",
+                            "score": 0.724
+                        },
+                        {
+                            "class": "coal black color",
+                            "score": 0.612
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/subway.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 1.313201904296875
+}

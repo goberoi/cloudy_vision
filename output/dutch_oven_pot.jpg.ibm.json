@@ -1,1 +1,48 @@
-{"images": [{"image": "input_images/dutch_oven_pot.jpg", "classifiers": [{"classes": [{"score": 0.689974, "class": "dish", "type_hierarchy": "/accessories/utensils/dish"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classes": [
+                        {
+                            "class": "cocotte (casserole)",
+                            "score": 0.895,
+                            "type_hierarchy": "/dish/cocotte (casserole)"
+                        },
+                        {
+                            "class": "dish",
+                            "score": 0.948
+                        },
+                        {
+                            "class": "sugar bowl",
+                            "score": 0.664,
+                            "type_hierarchy": "/dish/sugar bowl"
+                        },
+                        {
+                            "class": "teapot",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "pot",
+                            "score": 0.697
+                        },
+                        {
+                            "class": "jade green color",
+                            "score": 0.862
+                        },
+                        {
+                            "class": "greenish blue color",
+                            "score": 0.76
+                        }
+                    ],
+                    "classifier_id": "default",
+                    "name": "default"
+                }
+            ],
+            "image": "input_images/dutch_oven_pot.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 2.9384121894836426
+}

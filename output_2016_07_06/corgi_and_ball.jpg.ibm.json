@@ -1,0 +1,1 @@
+{"images": [{"image": "input_images/corgi_and_ball.jpg", "classifiers": [{"classes": [{"score": 1.0, "class": "animal", "type_hierarchy": "/animals"}, {"score": 0.999999, "class": "mammal", "type_hierarchy": "/animals/mammal"}, {"score": 0.710949, "class": "dog", "type_hierarchy": "/animals/pets/dog"}], "classifier_id": "default", "name": "default"}]}], "images_processed": 1}

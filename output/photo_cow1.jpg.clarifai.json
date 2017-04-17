@@ -1,1 +1,174 @@
-{"status_code": "OK", "status_msg": "All images in request have completed successfully. ", "meta": {"tag": {"timestamp": 1466470193.321836, "model": "general-v1.3", "config": "34fb1111b4d5f67cf1b8665ebc603704"}}, "results": [{"docid": 121407667925192802572187031005537581901, "status_code": "OK", "status_msg": "OK", "local_id": "", "result": {"tag": {"classes": ["cow", "milk", "pasture", "beef", "livestock", "cattle", "agriculture", "farm", "mammal", "grass", "rural", "farmland", "dairy", "animal", "calf", "field", "no person", "hayfield", "pastoral", "bull"], "concept_ids": ["ai_TFbXW6lw", "ai_cHsR7RS8", "ai_mzK38Fr0", "ai_FHQmKwZ1", "ai_Hg55M3Cz", "ai_jF5n8hL2", "ai_vndpqmsl", "ai_6k2Wc1Mc", "ai_N6BnC4br", "ai_mp9KG5QH", "ai_R6dzMxKV", "ai_LqV9sXQB", "ai_wz5LQ2h1", "ai_SzsXMB1w", "ai_pvHNj05T", "ai_W1zlPRs1", "ai_786Zr311", "ai_9k62PDS6", "ai_N7Zf599t", "ai_kNTsf6kP"], "probs": [0.999617338180542, 0.9949270486831665, 0.9944552183151245, 0.9927346706390381, 0.9926274418830872, 0.9918297529220581, 0.9903761744499207, 0.9903521537780762, 0.9898676872253418, 0.987594723701477, 0.9833612442016602, 0.9812434911727905, 0.9782699346542358, 0.9778274297714233, 0.9642356038093567, 0.9588460922241211, 0.9566413164138794, 0.9550925493240356, 0.9427411556243896, 0.9426721930503845]}}, "docid_str": "5b56442d1fb38d8e62c9f218a3bd3b4d"}]}
+{
+    "outputs": [
+        {
+            "created_at": "2017-04-17T19:52:54.497987Z",
+            "data": {
+                "concepts": [
+                    {
+                        "app_id": null,
+                        "id": "ai_TFbXW6lw",
+                        "name": "cow",
+                        "value": 0.99961734
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_cHsR7RS8",
+                        "name": "milk",
+                        "value": 0.99492705
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_mzK38Fr0",
+                        "name": "pasture",
+                        "value": 0.9944552
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_FHQmKwZ1",
+                        "name": "beef cattle",
+                        "value": 0.9927347
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_Hg55M3Cz",
+                        "name": "livestock",
+                        "value": 0.99262744
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_jF5n8hL2",
+                        "name": "cattle",
+                        "value": 0.99182975
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_vndpqmsl",
+                        "name": "agriculture",
+                        "value": 0.9903762
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_6k2Wc1Mc",
+                        "name": "farm",
+                        "value": 0.99035215
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_N6BnC4br",
+                        "name": "mammal",
+                        "value": 0.9898677
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_mp9KG5QH",
+                        "name": "grass",
+                        "value": 0.9875947
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_R6dzMxKV",
+                        "name": "rural",
+                        "value": 0.98336124
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_LqV9sXQB",
+                        "name": "farmland",
+                        "value": 0.9812435
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_wz5LQ2h1",
+                        "name": "dairy",
+                        "value": 0.97826993
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_SzsXMB1w",
+                        "name": "animal",
+                        "value": 0.9778274
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_pvHNj05T",
+                        "name": "calf",
+                        "value": 0.9642356
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_W1zlPRs1",
+                        "name": "field",
+                        "value": 0.9588461
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_786Zr311",
+                        "name": "no person",
+                        "value": 0.9566413
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_9k62PDS6",
+                        "name": "hayfield",
+                        "value": 0.95509255
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_N7Zf599t",
+                        "name": "pastoral",
+                        "value": 0.94274116
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_kNTsf6kP",
+                        "name": "bull",
+                        "value": 0.9426722
+                    }
+                ]
+            },
+            "id": "f7df61fb3956428c82abc89a3ccbbed0",
+            "input": {
+                "data": {
+                    "image": {
+                        "url": "https://s3.amazonaws.com/clarifai-api/img/prod/fd575814cd924ce384de96d58a0656a4/cbecb38bf4204177b85df9810582702e.jpeg"
+                    }
+                },
+                "id": "ec2fa85ac35d4a9d89713a0ce2060021"
+            },
+            "model": {
+                "app_id": null,
+                "created_at": "2016-03-09T17:11:39.608845Z",
+                "id": "aaa03c23b3724a16a56b629203edc62c",
+                "model_version": {
+                    "active_concept_count": 9171,
+                    "created_at": "2016-07-13T01:19:12.147644Z",
+                    "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                    "metrics_status": {
+                        "code": 21302,
+                        "description": "Model is not yet evaluated."
+                    },
+                    "multiclass_metrics": {},
+                    "status": {
+                        "code": 21100,
+                        "description": "Model trained successfully"
+                    }
+                },
+                "name": "general-v1.3",
+                "output_info": {
+                    "message": "Show output_info with: GET /models/{model_id}/output_info",
+                    "type": "concept",
+                    "type_ext": "concept"
+                }
+            },
+            "status": {
+                "code": 10000,
+                "description": "Ok"
+            }
+        }
+    ],
+    "response_time": 3.3454220294952393,
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    }
+}

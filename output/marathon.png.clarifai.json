@@ -1,1 +1,174 @@
-{"status_code": "OK", "status_msg": "All images in request have completed successfully. ", "meta": {"tag": {"timestamp": 1466485777.947126, "model": "general-v1.3", "config": "34fb1111b4d5f67cf1b8665ebc603704"}}, "results": [{"docid": 128445994078180206855713805112263021042, "status_code": "OK", "status_msg": "OK", "local_id": "", "result": {"tag": {"classes": ["people", "competition", "many", "crowd", "city", "festival", "man", "action", "street", "group", "race", "athlete", "road", "marathon", "group", "race", "adult", "track and field", "tourist", "tourism"], "concept_ids": ["ai_l8TKp2h5", "ai_7WNVdPhm", "ai_MljhkW17", "ai_dJ15S9s6", "ai_WBQfVV0p", "ai_13NdwKqz", "ai_dxSG2s86", "ai_lrTHSPdB", "ai_GjVpxXrs", "ai_bmls4LpL", "ai_fC2xJzJL", "ai_fhqpCCSD", "ai_TZ3C79C6", "ai_VzncZ62D", "ai_sd6DKdXp", "ai_5WW7fH4K", "ai_VPmHr5bm", "ai_jK0hvjBt", "ai_2w0dzpC8", "ai_nfd9DXhN"], "probs": [0.9835423231124878, 0.9773060083389282, 0.9598922729492188, 0.9592714309692383, 0.951225757598877, 0.9480037689208984, 0.9354467391967773, 0.931442141532898, 0.9187911152839661, 0.9180647730827332, 0.8992990255355835, 0.8978769779205322, 0.8922420144081116, 0.8880013227462769, 0.8844698071479797, 0.8701944351196289, 0.8526395559310913, 0.8496558666229248, 0.83965003490448, 0.8355412483215332]}}, "docid_str": "60a1cc729183ab36ca91b2c7530791f2"}]}
+{
+    "outputs": [
+        {
+            "created_at": "2017-04-17T19:53:41.767945Z",
+            "data": {
+                "concepts": [
+                    {
+                        "app_id": null,
+                        "id": "ai_l8TKp2h5",
+                        "name": "people",
+                        "value": 0.9835423
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_7WNVdPhm",
+                        "name": "competition",
+                        "value": 0.977306
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_MljhkW17",
+                        "name": "many",
+                        "value": 0.9598923
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_dJ15S9s6",
+                        "name": "crowd",
+                        "value": 0.95927143
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_WBQfVV0p",
+                        "name": "city",
+                        "value": 0.95122576
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_13NdwKqz",
+                        "name": "festival",
+                        "value": 0.94800377
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_dxSG2s86",
+                        "name": "man",
+                        "value": 0.93544674
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_lrTHSPdB",
+                        "name": "action",
+                        "value": 0.93144214
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_GjVpxXrs",
+                        "name": "street",
+                        "value": 0.9187911
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_bmls4LpL",
+                        "name": "group",
+                        "value": 0.9180648
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_fC2xJzJL",
+                        "name": "race (competition)",
+                        "value": 0.899299
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_fhqpCCSD",
+                        "name": "athlete",
+                        "value": 0.897877
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_TZ3C79C6",
+                        "name": "road",
+                        "value": 0.892242
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_VzncZ62D",
+                        "name": "marathon",
+                        "value": 0.8880013
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_sd6DKdXp",
+                        "name": "group together",
+                        "value": 0.8844698
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_5WW7fH4K",
+                        "name": "race",
+                        "value": 0.87019444
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_VPmHr5bm",
+                        "name": "adult",
+                        "value": 0.85263956
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_jK0hvjBt",
+                        "name": "track and field",
+                        "value": 0.84965587
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_2w0dzpC8",
+                        "name": "tourist",
+                        "value": 0.83965003
+                    },
+                    {
+                        "app_id": null,
+                        "id": "ai_nfd9DXhN",
+                        "name": "tourism",
+                        "value": 0.83554125
+                    }
+                ]
+            },
+            "id": "fcb6e9ec780540fe8a3e69373b961109",
+            "input": {
+                "data": {
+                    "image": {
+                        "url": "https://s3.amazonaws.com/clarifai-api/img/prod/fd575814cd924ce384de96d58a0656a4/b7c0bb113b08447083db1801bf1ef022.png"
+                    }
+                },
+                "id": "b8752788bd3e4599b4c9da0d7b2329ca"
+            },
+            "model": {
+                "app_id": null,
+                "created_at": "2016-03-09T17:11:39.608845Z",
+                "id": "aaa03c23b3724a16a56b629203edc62c",
+                "model_version": {
+                    "active_concept_count": 9171,
+                    "created_at": "2016-07-13T01:19:12.147644Z",
+                    "id": "aa9ca48295b37401f8af92ad1af0d91d",
+                    "metrics_status": {
+                        "code": 21302,
+                        "description": "Model is not yet evaluated."
+                    },
+                    "multiclass_metrics": {},
+                    "status": {
+                        "code": 21100,
+                        "description": "Model trained successfully"
+                    }
+                },
+                "name": "general-v1.3",
+                "output_info": {
+                    "message": "Show output_info with: GET /models/{model_id}/output_info",
+                    "type": "concept",
+                    "type_ext": "concept"
+                }
+            },
+            "status": {
+                "code": 10000,
+                "description": "Ok"
+            }
+        }
+    ],
+    "response_time": 2.5273098945617676,
+    "status": {
+        "code": 10000,
+        "description": "Ok"
+    }
+}

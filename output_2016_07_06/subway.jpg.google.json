@@ -1,0 +1,49 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/07bsy",
+          "description": "transport",
+          "score": 0.976063
+        },
+        {
+          "mid": "/m/0py27",
+          "description": "train station",
+          "score": 0.89808339
+        },
+        {
+          "mid": "/m/0195fx",
+          "description": "rapid transit",
+          "score": 0.87610495
+        },
+        {
+          "mid": "/m/01p3xl",
+          "description": "metro station",
+          "score": 0.7306298
+        },
+        {
+          "mid": "/m/0b_hy9",
+          "description": "subway",
+          "score": 0.65715444
+        },
+        {
+          "mid": "/m/05zdp",
+          "description": "public transport",
+          "score": 0.65353149
+        },
+        {
+          "mid": "/m/0fr81",
+          "description": "tgv",
+          "score": 0.63063949
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

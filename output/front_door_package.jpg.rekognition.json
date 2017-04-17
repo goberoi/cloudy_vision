@@ -1,0 +1,78 @@
+{
+    "Labels": [
+        {
+            "Confidence": 89.54203796386719,
+            "Name": "Flagstone"
+        },
+        {
+            "Confidence": 74.91112518310547,
+            "Name": "Backyard"
+        },
+        {
+            "Confidence": 74.91112518310547,
+            "Name": "Yard"
+        },
+        {
+            "Confidence": 71.3606948852539,
+            "Name": "Pebble"
+        },
+        {
+            "Confidence": 63.65358352661133,
+            "Name": "Indoors"
+        },
+        {
+            "Confidence": 63.65358352661133,
+            "Name": "Interior Design"
+        },
+        {
+            "Confidence": 63.65358352661133,
+            "Name": "Room"
+        },
+        {
+            "Confidence": 55.365745544433594,
+            "Name": "Garden"
+        },
+        {
+            "Confidence": 55.365745544433594,
+            "Name": "Gardening"
+        },
+        {
+            "Confidence": 54.52155303955078,
+            "Name": "Plant"
+        },
+        {
+            "Confidence": 54.52155303955078,
+            "Name": "Tree"
+        },
+        {
+            "Confidence": 53.26449966430664,
+            "Name": "Furniture"
+        },
+        {
+            "Confidence": 52.91815948486328,
+            "Name": "Apartment"
+        },
+        {
+            "Confidence": 52.91815948486328,
+            "Name": "Housing"
+        },
+        {
+            "Confidence": 50.73051452636719,
+            "Name": "Arbour"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "801",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:46:31 GMT",
+            "x-amzn-requestid": "8caf9559-23a6-11e7-88fb-2bf42a9b7932"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "8caf9559-23a6-11e7-88fb-2bf42a9b7932",
+        "RetryAttempts": 0
+    },
+    "response_time": 2.7168610095977783
+}

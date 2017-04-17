@@ -1,0 +1,54 @@
+{
+  "responses": [
+    {
+      "labelAnnotations": [
+        {
+          "mid": "/m/0c_jw",
+          "description": "furniture",
+          "score": 0.87305427
+        },
+        {
+          "mid": "/m/04bcr3",
+          "description": "table",
+          "score": 0.75815105
+        },
+        {
+          "mid": "/m/06ht1",
+          "description": "room",
+          "score": 0.72586268
+        },
+        {
+          "mid": "/m/020ys5",
+          "description": "condominium",
+          "score": 0.68397015
+        },
+        {
+          "mid": "/m/01mzpv",
+          "description": "chair",
+          "score": 0.67743725
+        },
+        {
+          "mid": "/m/0l7_8",
+          "description": "floor",
+          "score": 0.58478945
+        },
+        {
+          "mid": "/m/01y8xw",
+          "description": "villa",
+          "score": 0.57941508
+        },
+        {
+          "mid": "/m/01nblt",
+          "description": "apartment",
+          "score": 0.528563
+        }
+      ],
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}

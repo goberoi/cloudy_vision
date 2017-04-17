@@ -1,1 +1,14 @@
-{"images": [{"image": "input_images/photo_cow1.jpg", "error": {"error_id": "input_error", "description": "Image size limit exceeded (3932108 bytes > 2097152 bytes [2 MiB])."}}], "images_processed": 1}
+{
+    "custom_classes": 0,
+    "images": [
+        {
+            "error": {
+                "description": "Image size limit exceeded (3932108 bytes > 2097152 bytes [2 MiB]).",
+                "error_id": "input_error"
+            },
+            "image": "input_images/photo_cow1.jpg"
+        }
+    ],
+    "images_processed": 1,
+    "response_time": 2.673175096511841
+}

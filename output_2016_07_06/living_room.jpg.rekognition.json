@@ -1,0 +1,106 @@
+{
+    "Labels": [
+        {
+            "Confidence": 97.66873168945312,
+            "Name": "Couch"
+        },
+        {
+            "Confidence": 97.66873168945312,
+            "Name": "Furniture"
+        },
+        {
+            "Confidence": 96.24796295166016,
+            "Name": "Chair"
+        },
+        {
+            "Confidence": 85.11992645263672,
+            "Name": "White Board"
+        },
+        {
+            "Confidence": 83.20877075195312,
+            "Name": "Bench"
+        },
+        {
+            "Confidence": 81.1447982788086,
+            "Name": "Fence"
+        },
+        {
+            "Confidence": 81.1447982788086,
+            "Name": "Wall"
+        },
+        {
+            "Confidence": 70.03728485107422,
+            "Name": "Apartment"
+        },
+        {
+            "Confidence": 70.03728485107422,
+            "Name": "Housing"
+        },
+        {
+            "Confidence": 70.03728485107422,
+            "Name": "Indoors"
+        },
+        {
+            "Confidence": 70.03728485107422,
+            "Name": "Room"
+        },
+        {
+            "Confidence": 61.082054138183594,
+            "Name": "Coffee Table"
+        },
+        {
+            "Confidence": 61.082054138183594,
+            "Name": "Table"
+        },
+        {
+            "Confidence": 54.76105880737305,
+            "Name": "Interior Design"
+        },
+        {
+            "Confidence": 54.67361068725586,
+            "Name": "Dock"
+        },
+        {
+            "Confidence": 54.67361068725586,
+            "Name": "Landing"
+        },
+        {
+            "Confidence": 54.67361068725586,
+            "Name": "Pier"
+        },
+        {
+            "Confidence": 53.03467559814453,
+            "Name": "Living Room"
+        },
+        {
+            "Confidence": 52.46096420288086,
+            "Name": "Hardwood"
+        },
+        {
+            "Confidence": 52.46096420288086,
+            "Name": "Wood"
+        },
+        {
+            "Confidence": 52.42377471923828,
+            "Name": "Paper"
+        },
+        {
+            "Confidence": 50.819217681884766,
+            "Name": "Dining Room"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "1151",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 19:47:22 GMT",
+            "x-amzn-requestid": "abc64318-23a6-11e7-a321-5f783298561b"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "abc64318-23a6-11e7-a321-5f783298561b",
+        "RetryAttempts": 0
+    },
+    "response_time": 1.5024981498718262
+}

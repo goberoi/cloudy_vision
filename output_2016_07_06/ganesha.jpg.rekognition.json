@@ -1,0 +1,50 @@
+{
+    "Labels": [
+        {
+            "Confidence": 92.58328247070312,
+            "Name": "Banister"
+        },
+        {
+            "Confidence": 92.58328247070312,
+            "Name": "Handrail"
+        },
+        {
+            "Confidence": 77.83226013183594,
+            "Name": "Ancient Egypt"
+        },
+        {
+            "Confidence": 75.84446716308594,
+            "Name": "Birthday Cake"
+        },
+        {
+            "Confidence": 75.84446716308594,
+            "Name": "Cake"
+        },
+        {
+            "Confidence": 75.84446716308594,
+            "Name": "Dessert"
+        },
+        {
+            "Confidence": 75.84446716308594,
+            "Name": "Food"
+        },
+        {
+            "Confidence": 52.47344970703125,
+            "Name": "Furniture"
+        }
+    ],
+    "OrientationCorrection": "ROTATE_0",
+    "ResponseMetadata": {
+        "HTTPHeaders": {
+            "connection": "keep-alive",
+            "content-length": "457",
+            "content-type": "application/x-amz-json-1.1",
+            "date": "Mon, 17 Apr 2017 20:00:03 GMT",
+            "x-amzn-requestid": "718d8f8e-23a8-11e7-aa9f-0fc7d9c29967"
+        },
+        "HTTPStatusCode": 200,
+        "RequestId": "718d8f8e-23a8-11e7-aa9f-0fc7d9c29967",
+        "RetryAttempts": 0
+    },
+    "response_time": 1.5006189346313477
+}
