@@ -242,6 +242,9 @@ def process_all_images():
     # Compute global statistics for each vendor
     vendor_stats = vendor_statistics(image_results)
 
+    # Sort image_results output by filename (so that future runs produce comparable output)
+    image_results.sort(key=lambda image_result: image_result['output_image_filepath'])
+
     # Render HTML file with all results.
     output_html = render_from_template(
         '.',
