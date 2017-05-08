@@ -14,7 +14,7 @@ import vendors.clarifai_
 import vendors.ibm
 import vendors.cloudsight_
 import vendors.rekognition
-
+import vendors.imagga
 
 SETTINGS = None
 def settings(name):
@@ -36,8 +36,8 @@ def settings(name):
                 'msft' : vendors.microsoft,
                 'clarifai' : vendors.clarifai_,
                 'ibm' : vendors.ibm,
-                'cloudsight' : vendors.cloudsight_,
                 'rekognition' : vendors.rekognition,
+				'imagga' : vendors.imagga
             },
             'resize': True,
             'statistics': [
