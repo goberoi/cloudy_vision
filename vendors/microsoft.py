@@ -1,17 +1,26 @@
 import json
 import requests
 
+
 def call_vision_api(image_filename, api_keys):
     api_key = api_keys['microsoft']
-    post_url = "https://api.projectoxford.ai/vision/v1.0/analyze?visualFeatures=Categories,Tags,Description,Faces,ImageType,Color,Adult&subscription-key=" + api_key
+    post_url = "https://api.projectoxford.ai/vision/v1.0/analyze?"\
+               "visualFeatures=Categories,Tags,Description,Faces,"\
+               "ImageType,Color,Adult&subscription-key=" + api_key
 
     image_data = open(image_filename, 'rb').read()
-    result = requests.post(post_url, data=image_data, headers={'Content-Type': 'application/octet-stream'})
+    with open(image_filename, 'rb') as f:
+        image_data = f.read()
+
+    headers = {'Content-Type': 'application/octet-stream'}
+    result = requests.post(post_url, data=image_data, headers=headers)
     result.raise_for_status()
 
     return json.loads(result.text)
 
-# Return a dictionary of features to their scored values (represented as lists of tuples).
+
+# Return a dictionary of features to their scored values
+# (represented as lists of tuples).
 # Scored values must be sorted in descending order.
 #
 # {
@@ -28,12 +37,12 @@ def call_vision_api(image_filename, api_keys):
 #
 def get_standardized_result(api_result):
     output = {
-        'tags' : [],
-        'captions' : [],
-#        'categories' : [],
-#        'adult' : [],
-#        'image_types' : []
-#        'tags_without_score' : {}
+        'tags': [],
+        'captions': [],
+        # 'categories': [],
+        # 'adult': [],
+        # 'image_types': [],
+        # 'tags_without_score': {}
     }
 
     for tag_data in api_result['tags']:
@@ -42,14 +51,14 @@ def get_standardized_result(api_result):
     for caption in api_result['description']['captions']:
         output['captions'].append((caption['text'], caption['confidence']))
 
-#    for category in api_result['categories']:
-#        output['categories'].append(([category['name'], category['score']))
+    # for category in api_result['categories']:
+    #     output['categories'].append(([category['name'], category['score']))
 
-#    output['adult'] = api_result['adult']
+    # output['adult'] = api_result['adult']
 
-#    for tag in api_result['description']['tags']:
-#        output['tags_without_score'][tag] = 'n/a'
+    # for tag in api_result['description']['tags']:
+    #     output['tags_without_score'][tag] = 'n/a'
 
-#    output['image_types'] = api_result['imageType']
+    # output['image_types'] = api_result['imageType']
 
     return output

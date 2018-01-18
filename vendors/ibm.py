@@ -1,5 +1,6 @@
 from watson_developer_cloud import VisualRecognitionV3
 
+
 def call_vision_api(image_filename, api_keys):
     api_key = api_keys['ibm']
 
@@ -15,7 +16,7 @@ def call_vision_api(image_filename, api_keys):
 
 def get_standardized_result(api_result):
     output = {
-        'tags' : [],
+        'tags': [],
     }
 
     api_result = api_result["images"][0]
