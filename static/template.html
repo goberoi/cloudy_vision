@@ -76,7 +76,7 @@
                 </span>
             </td>
           </tr>
-          {% for feature_name, feature_results in vendor['standardized_result'].iteritems() %}
+          {% for feature_name, feature_results in vendor['standardized_result'].items() %}
           <tr>
               <td class="result_name">
                   {{ vendor['vendor_name'] }}_{{ feature_name }}
@@ -135,7 +135,7 @@
                 On time taken, and number of tags returned. Note that Cloudsight returns captions, not a list of tags, so those counts appear as zero.
             </p>
             <table class="u-full-width">
-                {% for vendor, stats in vendor_stats.iteritems() %}
+                {% for vendor, stats in vendor_stats.items() %}
                 {% if loop.first %}
                 <tr class="raw_json">
                     <td class="result_name">Vendor</td>

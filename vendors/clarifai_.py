@@ -23,6 +23,6 @@ def get_standardized_result(api_result):
         tag_names.append(concept['name'])
         tag_scores.append(concept['value'])
 
-    output['tags'] = zip(tag_names, tag_scores)
+    output['tags'] = list(zip(tag_names, tag_scores))
 
     return output
