@@ -3,7 +3,7 @@ from clarifai.rest import Image as ClImage
 
 
 def call_vision_api(image_filename, api_keys):
-    app = ClarifaiApp()
+    app = ClarifaiApp(api_key=api_keys['clarifai']['api_key'])
     model = app.models.get('general-v1.3')
     image = ClImage(file_obj=open(image_filename, 'rb'))
     result = model.predict([image])
@@ -23,6 +23,6 @@ def get_standardized_result(api_result):
         tag_names.append(concept['name'])
         tag_scores.append(concept['value'])
 
-    output['tags'] = zip(tag_names, tag_scores)
+    output['tags'] = list(zip(tag_names, tag_scores))
 
     return output
