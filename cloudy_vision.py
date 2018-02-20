@@ -4,8 +4,6 @@ import datetime
 import json
 import numpy as np
 import os
-import pprint
-import shutil
 import time
 import re
 import vendors.google
@@ -15,8 +13,9 @@ import vendors.ibm
 import vendors.cloudsight_
 import vendors.rekognition
 
-
 SETTINGS = None
+
+
 def settings(name):
     """Fetch a settings parameter."""
 
@@ -26,18 +25,18 @@ def settings(name):
 
         # Change this dict to suit your taste.
         SETTINGS = {
-            'api_keys_filepath' : './api_keys.json',
-            'input_images_dir' : 'input_images',
-            'output_dir' : 'output',
-            'static_dir' : 'static',
-            'output_image_height' : 200,
-            'vendors' : {
-                'google' : vendors.google,
-                'msft' : vendors.microsoft,
-                'clarifai' : vendors.clarifai_,
-                'ibm' : vendors.ibm,
-                'cloudsight' : vendors.cloudsight_,
-                'rekognition' : vendors.rekognition,
+            'api_keys_filepath': './api_keys.json',
+            'input_images_dir': 'input_images',
+            'output_dir': 'output',
+            'static_dir': 'static',
+            'output_image_height': 200,
+            'vendors': {
+                'google': vendors.google,
+                'msft': vendors.microsoft,
+                'clarifai': vendors.clarifai_,
+                'ibm': vendors.ibm,
+                'cloudsight': vendors.cloudsight_,
+                'rekognition': vendors.rekognition,
             },
             'resize': True,
             'statistics': [
@@ -159,34 +158,40 @@ def process_all_images():
 
         # Create an output object for the image
         image_result = {
-            'input_image_filepath' : filepath,
-            'output_image_filepath' : filename,
-            'vendors' : [],
-            'image_tags' : image_tags,
+            'input_image_filepath': filepath,
+            'output_image_filepath': filename,
+            'vendors': [],
+            'image_tags': image_tags,
         }
         image_results.append(image_result)
 
         # If there's no output file, then resize or copy the input file over
         output_image_filepath = os.path.join(settings('output_dir'), filename)
         if not(os.path.isfile(output_image_filepath)):
-            log_status(filepath, "", "writing output image in %s" % output_image_filepath)
+            log_status(
+                filepath, "",
+                "writing output image in %s" % output_image_filepath)
             if settings('resize'):
                 resize_and_save(filepath, output_image_filepath)
             else:
                 copyfile(filepath, output_image_filepath)
 
         # Walk through all vendor APIs to call.
-        for vendor_name, vendor_module in sorted(settings('vendors').iteritems(), reverse=True):
+        for vendor_name, vendor_module in sorted(
+                settings('vendors').iteritems(), reverse=True):
 
             # Figure out filename to store and retrive cached JSON results.
             output_json_filename = filename + "." + vendor_name + ".json"
-            output_json_path = os.path.join(settings('output_dir'), output_json_filename)
+            output_json_path = os.path.join(
+                settings('output_dir'), output_json_filename)
 
             # Check if the call is already cached.
             if os.path.isfile(output_json_path):
 
-                # If so, read the result from the .json file stored in the output dir.
-                log_status(filepath, vendor_name, "skipping API call, already cached")
+                # If so, read the result from the .json file stored
+                # in the output dir.
+                log_status(filepath, vendor_name,
+                           "skipping API call, already cached")
                 with open(output_json_path, 'r') as infile:
                     api_result = json.loads(infile.read())
 
@@ -195,24 +200,30 @@ def process_all_images():
                 # If not, make the API call for this particular vendor.
                 log_status(filepath, vendor_name, "calling API")
                 api_call_start = time.time()
-                api_result = vendor_module.call_vision_api(filepath, settings('api_keys'))
+                api_result = vendor_module.call_vision_api(
+                    filepath, settings('api_keys'))
                 api_result['response_time'] = time.time() - api_call_start
 
                 # And cache the result in a .json file
-                log_status(filepath, vendor_name, "success, storing result in %s" % output_json_path)
+                log_status(filepath, vendor_name,
+                           "success, storing result in %s" % output_json_path)
                 with open(output_json_path, 'w') as outfile:
-                    api_result_str = json.dumps(api_result, sort_keys=True, indent=4, separators=(',', ': '))
+                    api_result_str = json.dumps(
+                        api_result, sort_keys=True, indent=4,
+                        separators=(',', ': '))
                     outfile.write(api_result_str)
 
                 # Sleep so we avoid hitting throttling limits
                 time.sleep(1)
 
             # Parse the JSON result we fetched (via API call or from cache)
-            standardized_result = vendor_module.get_standardized_result(api_result)
+            standardized_result = vendor_module.get_standardized_result(
+                api_result)
 
             # Sort tags if found
             if 'tags' in standardized_result:
-                standardized_result['tags'].sort(key=lambda tup: tup[1], reverse=True)
+                standardized_result['tags'].sort(
+                    key=lambda tup: tup[1], reverse=True)
 
             # If expected tags are provided, calculate accuracy
             tags_count = 0
@@ -222,28 +233,32 @@ def process_all_images():
                 tags_count = len(standardized_result['tags'])
 
                 if settings('tagged_images'):
-                    matching_tags = find_matching_tags(image_tags, standardized_result)
+                    matching_tags = find_matching_tags(
+                        image_tags, standardized_result)
 
                     if len(matching_tags) > 0:
-                        matching_confidence = sum([t[1] for t in matching_tags]) / len(matching_tags)
+                        matching_confidence = sum(
+                            [t[1] for t in matching_tags]) / len(matching_tags)
 
             image_result['vendors'].append({
-                'api_result' : api_result,
-                'vendor_name' : vendor_name,
-                'standardized_result' : standardized_result,
-                'output_json_filename' : output_json_filename,
-                'response_time' : api_result['response_time'],
-                'tags_count' : tags_count,
-                'matching_tags' : matching_tags,
-                'matching_tags_count' : len(matching_tags),
-                'matching_confidence' : matching_confidence,
+                'api_result': api_result,
+                'vendor_name': vendor_name,
+                'standardized_result': standardized_result,
+                'output_json_filename': output_json_filename,
+                'response_time': api_result['response_time'],
+                'tags_count': tags_count,
+                'matching_tags': matching_tags,
+                'matching_tags_count': len(matching_tags),
+                'matching_confidence': matching_confidence,
             })
 
     # Compute global statistics for each vendor
     vendor_stats = vendor_statistics(image_results)
 
-    # Sort image_results output by filename (so that future runs produce comparable output)
-    image_results.sort(key=lambda image_result: image_result['output_image_filepath'])
+    # Sort image_results output by filename
+    # (so that future runs produce comparable output)
+    image_results.sort(
+        key=lambda image_result: image_result['output_image_filepath'])
 
     # Render HTML file with all results.
     output_html = render_from_template(
