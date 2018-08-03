@@ -30,9 +30,6 @@ Run a corpus of images through multiple computer vision API vendors. View image 
 
 The keys should not be placed in the api_keys.json file but in ~/.aws/credentials and ~/.aws/config. See http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-config-files
 
-### Note for Clarifai
-
-The keys should not be placed in the api_keys.json file but in ~/.clarifai/config. See https://github.com/Clarifai/clarifai-python#setup
 
 ## Desired Tags
 

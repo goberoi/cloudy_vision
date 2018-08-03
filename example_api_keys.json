@@ -2,6 +2,7 @@
     "google" : "YOUR KEY HERE",
     "microsoft" : "YOUR KEY HERE",
     "ibm" : "YOUR KEY HERE",
+    "clarifai": "YOUR KEY HERE",
     "cloudsight" : {
         "api_key" : "YOUR KEY HERE",
         "api_secret" : "YOUR SECRET HERE"

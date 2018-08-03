@@ -3,7 +3,7 @@ from clarifai.rest import Image as ClImage
 
 
 def call_vision_api(image_filename, api_keys):
-    app = ClarifaiApp()
+    app = ClarifaiApp(api_key=api_keys['clarifai'])
     model = app.models.get('general-v1.3')
     image = ClImage(file_obj=open(image_filename, 'rb'))
     result = model.predict([image])
