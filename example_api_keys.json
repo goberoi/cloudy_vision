@@ -1,6 +1,9 @@
 {
     "google" : "YOUR KEY HERE",
-    "microsoft" : "YOUR KEY HERE",
+    "microsoft" : {
+      "location": "YOUR LOCATION HERE (eg. canadacentral, westus2...)",
+      "api_key": "YOUR KEY HERE"
+    },
     "ibm" : "YOUR KEY HERE",
     "clarifai": "YOUR KEY HERE",
     "cloudsight" : {

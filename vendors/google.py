@@ -78,7 +78,7 @@ def get_standardized_result(api_result):
     if 'imagePropertiesAnnotation' in api_result and 'dominantColors' in api_result['imagePropertiesAnnotation']:
         output['colors'] = []
         for color_annotation in api_result['imagePropertiesAnnotation']['dominantColors']['colors']:
-            color = "{0:x}".format(int(color_annotation['color']['red'])) + "{0:x}".format(int(color_annotation['color']['green'])) + "{0:x}".format(int(color_annotation['color']['blue']))
+            color = "#{0:x}".format(int(color_annotation['color']['red'])) + "{0:x}".format(int(color_annotation['color']['green'])) + "{0:x}".format(int(color_annotation['color']['blue']))
             output['colors'].append((color, color_annotation['score']))
 
     return output
