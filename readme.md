@@ -15,7 +15,7 @@ Run a corpus of images through multiple computer vision API vendors. View image 
 1. Optionally match the tags returned with your desired tags to test accuracy.
 1. Calculate stats around response times, number of tags returned, etc.
 1. Create a scaled copy of the original image with height 200px.
-1. Generate output.html to show all the images and labeling results in an easy to consume manner.
+1. Generate output.html and output.tsv to show all the images and labeling results in an easy to consume manner.
 
 ## Usage
 

@@ -90,6 +90,44 @@ def render_from_template(directory, template_name, **kwargs):
     return template.render(**kwargs)
 
 
+def stringify_result(r):
+    s = r[0]
+    if r[1]:
+        s += "(%.2f)" % r[1]
+    if len(r) > 2 and r[2]:
+        s += "(" + r[2] + ")"
+    return s
+
+def render_tsv_report(image_results, vendor_stats, report_date):
+    # Building the report header (first row) based on the info from the
+    # first image result
+    header = "File" + "\t"
+    if 'image_tags' in image_results[0] and len(image_results[0]['image_tags']) > 0:
+        header += "Image tags" + "\t"
+    for vendor in image_results[0]['vendors']:
+        for feature_name, feature_results in vendor['standardized_result'].iteritems():
+            header += vendor['vendor_name'] + "_" + feature_name + "\t"
+    header += "\n"
+
+    ## Building the report body
+    report = ""
+    for image_result in image_results:
+        report += image_result['output_image_filepath'] + "\t"
+        if 'image_tags' in image_results[0] and len(image_results[0]['image_tags']) > 0:
+            # because the column was included or not based on the first image, we
+            # need to do this check first in order to keep the report columns aligned
+            if 'image_tags' in image_result and len(image_result['image_tags']) > 0:
+                report += ', '.join(image_result['image_tags']) + "\t"
+            else:
+                report += "\t"
+        for vendor in image_result['vendors']:
+            for feature_name, feature_results in vendor['standardized_result'].iteritems():
+                report += ', '.join(map(lambda r: stringify_result(r), feature_results)) + "\t"
+        report += "\n"
+
+    return header + report
+
+
 def vendor_statistics(image_results):
     vendor_stats = {}
 
@@ -259,6 +297,17 @@ def process_all_images():
     with open(output_html_filepath, 'w') as output_html_file:
         output_html_file.write(output_html.encode('utf-8'))
 
+    # Create TSV report with all results
+    output_tsv = render_tsv_report(
+        image_results,
+        vendor_stats,
+        datetime.datetime.today()
+    )
+
+    # Write TSV output
+    output_tsv_filepath = os.path.join(settings('output_dir'), 'output.tsv')
+    with open(output_tsv_filepath, 'w') as output_tsv_file:
+        output_tsv_file.write(output_tsv.encode('utf-8'))
 
 if __name__ == "__main__":
     process_all_images()
