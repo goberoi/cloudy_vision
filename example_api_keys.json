@@ -1,7 +1,15 @@
 {
     "google" : "YOUR KEY HERE",
-    "microsoft" : "YOUR KEY HERE",
-    "ibm" : "YOUR KEY HERE",
+    "microsoft" : {
+      "location": "YOUR LOCATION HERE (eg. canadacentral, westus2...)",
+      "api_key": "YOUR KEY HERE",
+    },
+    "ibm" : {
+        "api_key": "YOUR KEY HERE",
+        "url": "https://gateway.watsonplatform.net/visual-recognition/api",
+        "language": "en"
+      },
+    "clarifai": "YOUR KEY HERE",
     "cloudsight" : {
         "api_key" : "YOUR KEY HERE",
         "api_secret" : "YOUR SECRET HERE"

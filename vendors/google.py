@@ -41,6 +41,10 @@ def call_vision_api(image_filename, api_keys):
               "type": "SAFE_SEARCH_DETECTION",
               "maxResults": 10
             },
+            {
+              "type": "IMAGE_PROPERTIES",
+              "maxResults": 10
+            },
           ]
         }
       ]
@@ -70,5 +74,11 @@ def get_standardized_result(api_result):
         output['logo_tags'] = []
         for annotation in api_result['logoAnnotations']:
             output['logo_tags'].append((annotation['description'], annotation['score']))
+
+    if 'imagePropertiesAnnotation' in api_result and 'dominantColors' in api_result['imagePropertiesAnnotation']:
+        output['colors'] = []
+        for color_annotation in api_result['imagePropertiesAnnotation']['dominantColors']['colors']:
+            color = "#{0:x}".format(int(color_annotation['color'].get('red') or 0)) + "{0:x}".format(int(color_annotation['color'].get('green') or 0)) + "{0:x}".format(int(color_annotation['color'].get('blue') or 0))
+            output['colors'].append((color, color_annotation['score']))
 
     return output

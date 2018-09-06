@@ -84,10 +84,24 @@
               <td class="result_values">
                   {% for result in feature_results %}
                   {% set score = result[1] %}
+                  {% set annotation = result[2] %}
+
+                  {% if feature_name == 'colors' %}
+                  <span class="result">
+                  {% else %}
                   <span class="result" style="opacity: {{ score }}">
-                      {{ result[0] }}
+                  {% endif %}
+                      {% if feature_name == 'colors' %}
+                        <span style="background-color: {{ result[0] }};">{{ result[0] }}</span>
+                      {% else %}
+                        {{ result[0] }}
+                      {% endif %}
+
                       {% if score is not none %}
-                      <span class="score">({{ ("%.2f" % score).lstrip('0') }})</span>
+                        <span class="score">({{ ("%.2f" % score).lstrip('0') }})</span>
+                      {% endif %}
+                      {% if annotation %}
+                        <span>({{ annotation }})</span>
                       {% endif %}
                       {% if not loop.last %}
                       ,
@@ -128,7 +142,7 @@
     {% endfor %}
 
     {% if vendor_stats|length > 0 %}
-    <div class="row" id="statistics">    
+    <div class="row" id="statistics">
         <div class="twelve columns result">
             <h4>Stats</h4>
             <p>
